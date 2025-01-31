@@ -1,12 +1,8 @@
 ---
 title: Host on GitHub Pages
 description: Host your site on GitHub Pages with continuous deployment using project, user, or organization pages.
-categories: [hosting and deployment]
-keywords: [hosting]
-menu:
-  docs:
-    parent: hosting-and-deployment
-toc: true
+categories: []
+keywords: []
 aliases: [/tutorials/github-pages-blog/]
 ---
 
@@ -36,34 +32,40 @@ See the [GitHub Pages documentation] to understand the requirements for reposito
 
 ## Procedure
 
-Step 1
-: Create a GitHub repository.
+### Step 1
 
-Step 2
-: Push your local repository to GitHub.
+Create a GitHub repository.
 
-Step 3
-: Visit your GitHub repository. From the main menu choose **Settings**&nbsp;>&nbsp;**Pages**. In the center of your screen you will see this:
+### Step 2
+
+Push your local repository to GitHub.
+
+### Step 3
+
+Visit your GitHub repository. From the main menu choose **Settings**&nbsp;>&nbsp;**Pages**. In the center of your screen you will see this:
 
 ![screen capture](gh-pages-1.png)
 {style="max-width: 280px"}
 
-Step 4
-: Change the **Source** to `GitHub Actions`. The change is immediate; you do not have to press a Save button.
+### Step 4
+
+Change the **Source** to `GitHub Actions`. The change is immediate; you do not have to press a Save button.
 
 ![screen capture](gh-pages-2.png)
 {style="max-width: 280px"}
 
-Step 5
-: Create a file named `hugo.yaml` in a directory named `.github/workflows`.
+### Step 5
+
+Create a file named `hugo.yaml` in a directory named `.github/workflows`.
 
 ```text
 mkdir -p .github/workflows
 touch hugo.yaml
 ```
 
-Step 6
-: Copy and paste the YAML below into the file you created. Change the branch name and Hugo version as needed.
+### Step 6
+
+Copy and paste the YAML below into the file you created. Change the branch name and Hugo version as needed.
 
 {{< code file=.github/workflows/hugo.yaml copy=true >}}
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
@@ -100,7 +102,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.141.0
+      HUGO_VERSION: 0.144.2
     steps:
       - name: Install Hugo CLI
         run: |
@@ -146,8 +148,9 @@ jobs:
         uses: actions/deploy-pages@v4
 {{< /code >}}
 
-Step 7
-: Commit and push the change to your GitHub repository.
+### Step 7
+
+Commit and push the change to your GitHub repository.
 
 ```sh
 git add -A
@@ -155,20 +158,23 @@ git commit -m "Create hugo.yaml"
 git push
 ```
 
-Step 8
-: From GitHub's main menu, choose **Actions**. You will see something like this:
+### Step 8
+
+From GitHub's main menu, choose **Actions**. You will see something like this:
 
 ![screen capture](gh-pages-3.png)
 {style="max-width: 350px"}
 
-Step 9
-: When GitHub has finished building and deploying your site, the color of the status indicator will change to green.
+### Step 9
+
+When GitHub has finished building and deploying your site, the color of the status indicator will change to green.
 
 ![screen capture](gh-pages-4.png)
 {style="max-width: 350px"}
 
-Step 10
-: Click on the commit message as shown above. You will see this:
+### Step 10
+
+Click on the commit message as shown above. You will see this:
 
 ![screen capture](gh-pages-5.png)
 {style="max-width: 611px"}

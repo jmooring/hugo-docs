@@ -13,7 +13,6 @@ action:
   returnType: string
   signatures: [os.Getenv VARIABLE]
 aliases: [/functions/getenv]
-toc: true
 ---
 
 ## Security

@@ -1,14 +1,9 @@
 ---
 title: Content view templates
 description: Hugo can render alternative views of your content, useful in list and summary views.
-categories: [templates]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: templates
-    weight: 120
-weight: 120
-toc: true
+weight: 110
 aliases: [/templates/views/]
 ---
 

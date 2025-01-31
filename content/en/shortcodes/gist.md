@@ -1,13 +1,8 @@
 ---
 title: Gist
 description: Embed a GitHub Gist in your content using the gist shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
 expiryDate: 2027-02-01 # deprecated 2025-02-01 in v0.143.0
 ---
 

@@ -1,14 +1,9 @@
 ---
 title: Basic usage
-description: Hugo's command line interface (CLI) is fully featured but simple to use, even for those with limited experience working from the command line.
-categories: [getting started]
-keywords: [usage,livereload,command,flags]
-menu:
-  docs:
-    parent: getting-started
-    weight: 30
-weight: 30
-toc: true
+description: Use the command line interface (CLI) to perform basic tasks.
+categories: []
+keywords: []
+weight: 20
 aliases: [/overview/usage/,/extras/livereload/,/doc/usage/,/usage/]
 ---
 
@@ -71,7 +66,7 @@ Hugo allows you to set `draft`, `date`, `publishDate`, and `expiryDate` in the [
 Hugo publishes descendants of draft, future, and expired [node](g) pages. To prevent publication of these descendants, use the [`cascade`] front matter field to cascade [build options] to the descendant pages.
 
 [build options]: /content-management/build-options/
-[`cascade`]: /content-management/front-matter/#cascade-field
+[`cascade`]: /content-management/front-matter/#cascade
 {{< /note >}}
 
 You can override the default behavior when running `hugo` or `hugo server` with command line flags:
@@ -163,7 +158,7 @@ Learn more in the [hosting and deployment] section.
 [`--destination`]: /commands/hugo/#options
 [`hugo server`]: /commands/hugo_server/
 [`hugo`]: /commands/hugo/
-[`publishDir`]: /getting-started/configuration/#publishdir
+[`publishDir`]: /configuration/all/#publishdir
 [AWS Amplify]: https://aws.amazon.com/amplify/
 [CloudCannon]: https://cloudcannon.com/
 [Cloudflare Pages]: https://pages.cloudflare.com/

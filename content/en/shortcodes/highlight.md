@@ -1,14 +1,8 @@
 ---
 title: Highlight
 description: Insert syntax-highlighted code into your content using the highlight shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
-toc: true
 ---
 
 {{< note >}}
@@ -50,13 +44,13 @@ LANG
 OPTIONS
 : (`string`) Zero or more space-separated key-value pairs wrapped in quotation marks. Set default values for each option in your [site configuration]. The key names are case-insensitive.
 
-[site configuration]: /getting-started/configuration-markup#highlight
-[supported languages]: /content-management/syntax-highlighting/#list-of-chroma-highlighting-languages
+[site configuration]: /configuration/markup/#highlight
+[supported languages]: /content-management/syntax-highlighting/#languages
 
 ## Example
 
 ```text
-{{</* highlight go "linenos=inline, hl_Lines=3 6-8, style=emacs" */>}}
+{{</* highlight go "linenos=inline, hl_lines=3 6-8, style=emacs" */>}}
 package main
 
 import "fmt"
@@ -97,7 +91,7 @@ Given the verbosity of the example above, if you need to frequently highlight in
 
 {{< code file=layouts/shortcodes/hl.html >}}
 {{ $code := .Inner | strings.TrimSpace }}
-{{ $lang := or (.Get 0) "go"  }}
+{{ $lang := or (.Get 0) "go" }}
 {{ $opts := dict "hl_inline" true "noClasses" true }}
 {{ transform.Highlight $code $lang $opts }}
 {{< /code >}}
@@ -114,4 +108,4 @@ This is some {{< hl >}}fmt.Println("inline"){{< /hl >}} code.
 
 Pass the options when calling the shortcode. You can set their default values in your [site configuration].
 
-{{% include "functions/_common/highlighting-options" %}}
+{{% include "_common/syntax-highlighting-options.md" %}}

@@ -1,13 +1,8 @@
 ---
 title: Ref
 description: Insert a permalink to the given page reference using the ref shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
 ---
 
 {{< note >}}
@@ -42,6 +37,8 @@ Rendered:
 <a href="https://example.org/posts/post-1/#foo">Post 1</a>
 <a href="https://example.org/posts/post-1/#foo">Post 1</a>
 ```
+
+{{% include "_common/ref-and-relref-error-handling.md" %}}
 
 {{< note >}}
 Always use [Markdown notation] notation when calling this shortcode.

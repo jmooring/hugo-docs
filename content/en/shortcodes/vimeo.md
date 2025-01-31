@@ -1,14 +1,8 @@
 ---
 title: Vimeo
 description: Embed a Vimeo video in your content using the vimeo shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
-toc: true
 ---
 
 {{< note >}}

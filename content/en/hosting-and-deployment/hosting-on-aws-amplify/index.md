@@ -1,12 +1,8 @@
 ---
 title: Host on AWS Amplify
 description: Host your site on AWS Amplify with continuous deployment.
-categories: [hosting and deployment]
-keywords: [hosting]
-menu:
-  docs:
-    parent: hosting-and-deployment
-toc: true
+categories: []
+keywords: []
 ---
 
 ## Prerequisites
@@ -30,24 +26,26 @@ Please complete the following tasks before continuing:
 
 This procedure will enable continuous deployment from a GitHub repository. The procedure is essentially the same if you are using GitLab or Bitbucket.
 
-Step 1
-: Create a file named `amplify.yml` in the root of your project.
+### Step 1
+
+Create a file named `amplify.yml` in the root of your project.
 
 ```sh
 touch amplify.yml
 ```
 
-Step 2
-: Copy and paste the YAML below into the file you created. Change the application versions and time zone as needed.
+### Step 2
+
+Copy and paste the YAML below into the file you created. Change the application versions and time zone as needed.
 
 {{< code file=amplify.yml copy=true >}}
 version: 1
 env:
   variables:
     # Application versions
-    DART_SASS_VERSION: 1.81.0
+    DART_SASS_VERSION: 1.85.0
     GO_VERSION: 1.23.3
-    HUGO_VERSION: 0.139.3
+    HUGO_VERSION: 0.144.2
     # Time zone
     TZ: America/Los_Angeles
     # Cache
@@ -100,8 +98,9 @@ frontend:
       - ${NPM_CONFIG_CACHE}/**/*
 {{< /code >}}
 
-Step 3
-: Commit and push the change to your GitHub repository.
+### Step 3
+
+Commit and push the change to your GitHub repository.
 
 ```sh
 git add -A
@@ -109,43 +108,52 @@ git commit -m "Create amplify.yml"
 git push
 ```
 
-Step 4
-: Log in to your AWS account, navigate to the [Amplify Console], then press the  **Deploy an app** button.
+### Step 4
+
+Log in to your AWS account, navigate to the [Amplify Console], then press the  **Deploy an app** button.
 
 [Amplify Console]: https://console.aws.amazon.com/amplify/apps
 
-Step 5
-: Choose a source code provider, then press the **Next** button.
+### Step 5
+
+Choose a source code provider, then press the **Next** button.
 
   ![screen capture](amplify-step-05.png)
 
-Step 6
-: Authorize AWS Amplify to access your GitHub account.
+### Step 6
+
+Authorize AWS Amplify to access your GitHub account.
 
   ![screen capture](amplify-step-06.png)
 
-Step 7
-: Select your personal account or relevant organization.
+### Step 7
+
+Select your personal account or relevant organization.
 
   ![screen capture](amplify-step-07.png)
 
-Step 8
-: Authorize access to one or more repositories.
+### Step 8
+
+Authorize access to one or more repositories.
 
   ![screen capture](amplify-step-08.png)
 
-Step 9
-: Select a repository and branch, then press the **Next** button.
+### Step 9
+
+Select a repository and branch, then press the **Next** button.
 
   ![screen capture](amplify-step-09.png)
 
-Step 10
-: On the "App settings" page, scroll to the bottom then press the **Next** button. Amplify reads the `amplify.yml` file you created in Steps 1-3 instead of using the values on this page.
+### Step 10
 
-Step 11
-: On the "Review" page, scroll to the bottom then press the **Save and deploy** button.
+On the "App settings" page, scroll to the bottom then press the **Next** button. Amplify reads the `amplify.yml` file you created in Steps 1-3 instead of using the values on this page.
 
-Step 12
-: When your site has finished deploying, press the **Visit deployed URL** button to view your published site.
+### Step 11
+
+On the "Review" page, scroll to the bottom then press the **Save and deploy** button.
+
+### Step 12
+
+When your site has finished deploying, press the **Visit deployed URL** button to view your published site.
 
   ![screen capture](amplify-step-11.png)

@@ -7,7 +7,6 @@ action:
   related: []
   returnType: page.SiteConfig
   signatures: [SITE.Config]
-toc: true
 ---
 
 The `Config` method on a `Site` object provides access to a subset of the site configuration, specifically the `services` and `privacy` keys.

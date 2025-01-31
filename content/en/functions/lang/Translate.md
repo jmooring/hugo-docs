@@ -8,7 +8,6 @@ action:
   related: []
   returnType: string
   signatures: ['lang.Translate KEY [CONTEXT]']
-toc: true
 aliases: [/functions/i18n]
 ---
 
@@ -16,7 +15,7 @@ The `lang.Translate` function returns the value associated with given key as def
 
 If the key is not found in the translation table for the current language, the `lang.Translate` function falls back to the translation table for the [`defaultContentLanguage`].
 
-[`defaultContentLanguage`]: /getting-started/configuration/#defaultcontentlanguage
+[`defaultContentLanguage`]: /configuration/all/#defaultcontentlanguage
 
 If the key is not found in the translation table for the `defaultContentLanguage`, the `lang.Translate` function returns an empty string.
 
@@ -26,7 +25,7 @@ To list missing and fallback translations, use the `--printI18nWarnings` flag wh
 To render placeholders for missing and fallback translations, set 
 [`enableMissingTranslationPlaceholders`] to `true` in your site configuration.
 
-[`enableMissingTranslationPlaceholders`]: /getting-started/configuration/#enablemissingtranslationplaceholders
+[`enableMissingTranslationPlaceholders`]: /configuration/all/#enablemissingtranslationplaceholders
 {{< /note >}}
 
 ## Translation tables

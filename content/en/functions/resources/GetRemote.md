@@ -217,7 +217,7 @@ Override the cache key by setting a `key` in the options map. Use this approach 
 {{ $resource := resources.GetRemote $url $opts }}
 ```
 
-[configure file caches]: /getting-started/configuration/#configure-file-caches
+[configure file caches]: /configuration/caches/
 
 ## Security
 

@@ -1,12 +1,8 @@
 ---
 title: Host on Netlify
 description: Host your site on Netlify with continuous deployment.
-categories: [hosting and deployment]
-keywords: [hosting]
-menu:
-  docs:
-    parent: hosting-and-deployment
-toc: true
+categories: []
+keywords: []
 ---
 
 ## Prerequisites
@@ -30,70 +26,83 @@ Please complete the following tasks before continuing:
 
 This procedure will enable continuous deployment from a GitHub repository. The procedure is essentially the same if you are using GitLab or Bitbucket.
 
-Step 1
-: Log in to your Netlify account, navigate to the Sites page, press the **Add new site** button, and choose "Import an existing project" from the dropdown menu.
+### Step 1
 
-Step 2
-: Select your deployment method.
+Log in to your Netlify account, navigate to the Sites page, press the **Add new site** button, and choose "Import an existing project" from the dropdown menu.
+
+### Step 2
+
+Select your deployment method.
 
   ![screen capture](netlify-step-02.png)
 
-Step 3
-: Authorize Netlify to connect with your GitHub account by pressing the **Authorize Netlify** button.
+### Step 3
 
-  ![screen capture](netlify-step-03.png)
+Authorize Netlify to connect with your GitHub account by pressing the **Authorize Netlify** button.
 
-Step 4
-: Press the **Configure Netlify on GitHub** button.
+![screen capture](netlify-step-03.png)
 
-  ![screen capture](netlify-step-04.png)
+### Step 4
 
-Step 5
-: Install the Netlify app by selecting your GitHub account.
+Press the **Configure Netlify on GitHub** button.
 
-  ![screen capture](netlify-step-05.png)
+![screen capture](netlify-step-04.png)
 
-Step 6
-: Press the **Install** button.
+### Step 5
 
-  ![screen capture](netlify-step-06.png)
+Install the Netlify app by selecting your GitHub account.
 
-Step 7
-: Click on the site's repository from the list.
+![screen capture](netlify-step-05.png)
 
-  ![screen capture](netlify-step-07.png)
+### Step 6
 
-Step 8
-: Set the site name and branch from which to deploy.
+Press the **Install** button.
 
-  ![screen capture](netlify-step-08.png)
+![screen capture](netlify-step-06.png)
 
-Step 9
-: Define the build settings, press the **Add environment variables** button, then press the **New variable** button.
+### Step 7
 
-  ![screen capture](netlify-step-09.png)
+Click on the site's repository from the list.
 
-Step 10
-: Create a new environment variable named `HUGO_VERSION` and set the value to the [latest version].
+![screen capture](netlify-step-07.png)
+
+### Step 8
+
+Set the site name and branch from which to deploy.
+
+![screen capture](netlify-step-08.png)
+
+### Step 9
+
+Define the build settings, press the **Add environment variables** button, then press the **New variable** button.
+
+![screen capture](netlify-step-09.png)
+
+### Step 10
+
+Create a new environment variable named `HUGO_VERSION` and set the value to the [latest version].
 
 [latest version]: https://github.com/gohugoio/hugo/releases/latest
 
-  ![screen capture](netlify-step-10.png)
+![screen capture](netlify-step-10.png)
 
-Step 11
-: Press the "Deploy my new site" button at the bottom of the page.
+### Step 11
 
-  ![screen capture](netlify-step-11.png)
+Press the "Deploy my new site" button at the bottom of the page.
 
-Step 12
-: At the bottom of the screen, wait for the deploy to complete, then click on the deploy log entry.
+![screen capture](netlify-step-11.png)
 
-  ![screen capture](netlify-step-12.png)
+### Step 12
 
-Step 13
-: Press the **Open production deploy** button to view the live site.
+At the bottom of the screen, wait for the deploy to complete, then click on the deploy log entry.
 
-  ![screen capture](netlify-step-13.png)
+![screen capture](netlify-step-12.png)
+
+### Step 13
+
+Press the **Open production deploy** button to view the live site.
+
+![screen capture](netlify-step-13.png)
 
 ## Configuration file
 
@@ -103,7 +112,7 @@ Create a new file named netlify.toml in the root of your project directory. In i
 
 {{< code file=netlify.toml >}}
 [build.environment]
-HUGO_VERSION = "0.141.0"
+HUGO_VERSION = "0.144.2"
 NODE_VERSION = "22"
 TZ = "America/Los_Angeles"
 
@@ -116,8 +125,8 @@ If your site requires Dart Sass to transpile Sass to CSS, the configuration file
 
 {{< code file=netlify.toml >}}
 [build.environment]
-HUGO_VERSION = "0.141.0"
-DART_SASS_VERSION = "1.83.4"
+HUGO_VERSION = "0.144.2"
+DART_SASS_VERSION = "1.85.0"
 NODE_VERSION = "22"
 TZ = "America/Los_Angeles"
 

@@ -10,4 +10,4 @@ action:
   signatures: [MENUENTRY.Post]
 ---
 
-{{% include "methods/menu-entry/_common/pre-post.md" %}}
+{{% include "/_common/menu-entries/pre-and-post.md" %}}

@@ -1,12 +1,8 @@
 ---
 title: Host on GitLab Pages
 description: GitLab makes it easy to build, deploy, and host your Hugo website via their free GitLab Pages service, which provides native support for Hugo.
-categories: [hosting and deployment]
-keywords: [hosting,gitlab]
-menu:
-  docs:
-    parent: hosting-and-deployment
-toc: true
+categories: []
+keywords: []
 aliases: [/tutorials/hosting-on-gitlab/]
 ---
 
@@ -19,7 +15,7 @@ aliases: [/tutorials/hosting-on-gitlab/]
 
 ## BaseURL
 
-The `baseURL` in your [site configuration](/getting-started/configuration/) must reflect the full URL of your GitLab pages repository if you are using the default GitLab Pages URL (e.g., `https://<YourUsername>.gitlab.io/<your-hugo-site>/`) and not a custom domain.
+The `baseURL` in your [site configuration](/configuration/) must reflect the full URL of your GitLab pages repository if you are using the default GitLab Pages URL (e.g., `https://<YourUsername>.gitlab.io/<your-hugo-site>/`) and not a custom domain.
 
 ## Configure GitLab CI/CD
 
@@ -27,11 +23,11 @@ Define your [CI/CD](https://docs.gitlab.com/ee/ci/quick_start/) jobs by creating
 
 {{< code file=.gitlab-ci.yml copy=true >}}
 variables:
-  DART_SASS_VERSION: 1.81.1
+  DART_SASS_VERSION: 1.85.0
   GIT_DEPTH: 0
   GIT_STRATEGY: clone
   GIT_SUBMODULE_STRATEGY: recursive
-  HUGO_VERSION: 0.140.2
+  HUGO_VERSION: 0.144.2
   NODE_VERSION: 23.x
   TZ: America/Los_Angeles
 image:

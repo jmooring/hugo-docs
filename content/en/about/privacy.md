@@ -2,16 +2,10 @@
 title: Privacy
 linkTitle: Privacy
 description: Configure your site to help comply with regional privacy regulations.
-categories: [about]
-keywords: ["GDPR", "Privacy", "Data Protection"]
-menu:
-  docs:
-    parent: about
-    weight: 40
-weight: 40
-toc: true
+categories: []
+keywords: []
+weight: 30
 aliases: [/gdpr/,/about/hugo-and-gdpr/]
-toc: true
 ---
 
 ## Responsibility

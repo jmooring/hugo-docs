@@ -1,14 +1,9 @@
 ---
 title: Quick start
-description: Learn to create a Hugo site in minutes.
-categories: [getting started]
-keywords: [quick start,usage]
-menu:
-  docs:
-    parent: getting-started
-    weight: 20
-weight: 20
-toc: true
+description: Create a Hugo site in minutes.
+categories: []
+keywords: []
+weight: 10
 aliases: [/quickstart/,/overview/quickstart/]
 minVersion: v0.128.0
 ---
@@ -142,7 +137,7 @@ This is **bold** text, and this is *emphasized* text.
 Visit the [Hugo](https://gohugo.io) website!
 ```
 
-Save the file, then start Hugo’s development server to view the site. You can run either of the following commands to include draft content.
+Save the file, then start Hugo's development server to view the site. You can run either of the following commands to include draft content.
 
 ```text
 hugo server --buildDrafts
@@ -229,4 +224,4 @@ For other resources to help you learn Hugo, including books and video tutorials,
 [Install Hugo]: /installation/
 [Requesting Help]: https://discourse.gohugo.io/t/requesting-help/9132
 [Requesting Help]: https://discourse.gohugo.io/t/requesting-help/9132
-[site configuration]: /getting-started/configuration/
+[site configuration]: /configuration/

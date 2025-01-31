@@ -1,14 +1,8 @@
 ---
 title: Taxonomies
 description: Hugo includes support for user-defined taxonomies.
-categories: [content management]
-keywords: [taxonomies,metadata,front matter,terms]
-menu:
-  docs:
-    parent: content-management
-    weight: 150
-weight: 150
-toc: true
+categories: []
+keywords: []
 aliases: [/taxonomies/overview/,/taxonomies/usage/,/indexes/overview/,/doc/indexes/,/extras/indexes]
 ---
 
@@ -89,8 +83,6 @@ If you do not want Hugo to create any taxonomies, set `disableKinds` in your [si
 disableKinds = ["taxonomy","term"]
 {{</ code-toggle >}}
 
-{{% include "content-management/_common/page-kinds.md" %}}
-
 ### Default destinations
 
 When taxonomies are used---and [taxonomy templates] are provided---Hugo will automatically create both a page listing all the taxonomy's terms and individual pages with lists of content associated with each term. For example, a `categories` taxonomy declared in your configuration and used in your content front matter will create the following pages:
@@ -148,7 +140,7 @@ The following show a piece of content that has a weight of 22, which can be used
 
 ### Example: taxonomic `weight`
 
-{{< code-toggle >}}
+{{< code-toggle file=hugo >}}
 title = "foo"
 tags = [ "a", "b", "c" ]
 tags_weight = 22
@@ -172,4 +164,4 @@ wikipedia: "https://en.wikipedia.org/wiki/Bruce_Willis"
 [documentation on archetypes]: /content-management/archetypes/
 [front matter]: /content-management/front-matter/
 [taxonomy templates]: /templates/types/#taxonomy
-[site configuration]: /getting-started/configuration/
+[site configuration]: /configuration/

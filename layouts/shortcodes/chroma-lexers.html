@@ -1,6 +1,14 @@
-<dl>
-  {{ range .Site.Data.docs.chroma.lexers }}
-    <dt>{{ .Name }}</dt>
-    <dd>{{ with .Aliases }}{{ delimit . ", " }}{{ end }}</dd>
-  {{ end }}
-</dl>
+<table>
+  <thead>
+    <th>Language</th>
+    <th>Identifiers</th>
+  </thead>
+  <tbody>
+    {{ range site.Data.docs.chroma.lexers }}
+      <tr>
+        <td>{{ .Name }}</td>
+        <td>{{ with .Aliases }}{{ delimit . ", " }}{{ end }}</td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>

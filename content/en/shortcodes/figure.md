@@ -1,14 +1,8 @@
 ---
 title: Figure
 description: Insert an HTML figure element into your content using the figure shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
-toc: true
 ---
 
 {{< note >}}

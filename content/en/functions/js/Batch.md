@@ -12,8 +12,6 @@ action:
     - functions/resources/Minify
   returnType: js.Batcher
   signatures: ['js.Batch [ID]']
-weight: 20
-toc: true
 ---
 
 {{< note >}}
@@ -190,7 +188,7 @@ Setting the `Config` for a batch can be done from any template (including shortc
 format
 : (`string`) Currently only `esm` is supported in [ESBuild's code splitting].
 
-{{% include "./_common/options.md" %}}
+{{% include "/_common/functions/js/options.md" %}}
 
 ### Script Options
 
@@ -214,7 +212,7 @@ import * as params from '@params';
 ### Params Options
 
 params
-: A map of parameters that will be passed to the script as JSON. 
+: A map of parameters that will be passed to the script as JSON.
 
 ### Import Context
 

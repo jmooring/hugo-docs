@@ -2,14 +2,8 @@
 title: Sections
 description: Organize content into sections.
 
-categories: [content management]
-keywords: [lists,sections,content types,organization]
-menu:
-  docs:
-    parent: content-management
-    weight: 120
-weight: 120
-toc: true
+categories: []
+keywords: []
 aliases: [/content/sections/]
 ---
 

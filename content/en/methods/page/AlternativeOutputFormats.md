@@ -16,7 +16,7 @@ The `AlternativeOutputFormats` method on a `Page` object returns a slice of `Out
 
 ## Methods
 
-{{% include "methods/page/_common/output-format-methods.md" %}}
+{{% include "/_common/methods/page/output-format-methods.md" %}}
 
 ## Example
 

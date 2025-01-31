@@ -1,14 +1,8 @@
 ---
 title: Content formats
 description: Create your content using Markdown, HTML, Emacs Org Mode, AsciiDoc, Pandoc, or reStructuredText.
-categories: [content management]
-keywords: [markdown,asciidoc,pandoc,content format]
-menu:
-  docs:
-    parent: content-management
-    weight: 40
-weight: 40
-toc: true
+categories: []
+keywords: []
 aliases: [/content/markdown-extras/,/content/supported-formats/,/doc/supported-formats/]
 ---
 
@@ -58,13 +52,13 @@ Hugo provides custom Markdown features including:
 
 [Attributes]: /content-management/markdown-attributes/
 [CommonMark]: https://spec.commonmark.org/current/
-[Extensions]: /getting-started/configuration-markup/#goldmark-extensions
+[Extensions]: /configuration/markup/#extensions
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
 [Goldmark]: https://github.com/yuin/goldmark
 [Markdown]: https://daringfireball.net/projects/markdown/
 [Mathematics]: /content-management/mathematics/
 [Render hooks]: /render-hooks/introduction/
-[configure goldmark]: /getting-started/configuration-markup/#goldmark
+[configure goldmark]:/configuration/markup/#goldmark
 
 ### HTML
 
@@ -98,8 +92,8 @@ hugo --logLevel info
 ```
 
 [AsciiDoc]: https://asciidoc.org/
-[configure the AsciiDoc renderer]: /getting-started/configuration-markup/#asciidoc
-[configure asciidoc]: /getting-started/configuration-markup/#asciidoc
+[configure the AsciiDoc renderer]: /configuration/markup/#asciidoc
+[configure asciidoc]: /configuration/markup/#asciidoc
 
 ### Pandoc
 

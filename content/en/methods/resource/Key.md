@@ -1,7 +1,7 @@
 ---
 title: Key
 description: Returns the unique key for the given resource, equivalent to its publishing path.
-draft: true
+draft: true # We don't want to document this; its form could change.
 categories: []
 keywords: []
 action:
@@ -12,6 +12,8 @@ action:
   returnType: string
   signatures: [RESOURCE.Key]
 ---
+
+{{% include "/_common/methods/resource/global-page-remote-resources.md" %}}
 
 By way of example, consider this site configuration:
 
@@ -37,8 +39,6 @@ And this template:
 We used the [`resources.Copy`] function to change the publishing path. The `Key` method returns the updated path, but note that it is different than the value returned by [`RelPermalink`]. The `RelPermalink` value includes the subdirectory segment of the `baseURL` in the site configuration.
 
 The `Key` method is useful if you need to get the resource's publishing path without publishing the resource. Unlike the `Permalink`, `RelPermalink`, or `Publish` methods, calling `Key` will not publish the resource.
-
-{{% include "methods/resource/_common/global-page-remote-resources.md" %}}
 
 [`Permalink`]: /methods/resource/permalink/
 [`RelPermalink`]: /methods/resource/relpermalink/

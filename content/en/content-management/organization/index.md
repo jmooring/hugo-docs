@@ -2,14 +2,8 @@
 title: Content organization
 linkTitle: Organization
 description: Hugo assumes that the same structure that works to organize your source content is used to organize the rendered site.
-categories: [content management,fundamentals]
-keywords: [sections,content,organization,bundle,resources]
-menu:
-  docs:
-    parent: content-management
-    weight: 20
-weight: 20
-toc: true
+categories: []
+keywords: []
 aliases: [/content/sections/]
 ---
 
@@ -152,7 +146,7 @@ A content's `path` is determined by the section's path to the file. The file `pa
 
 The `url` is the entire URL path, defined by the file path and optionally overridden by a `url` value in front matter. See [URL Management](/content-management/urls/#slug) for details.
 
-[config]: /getting-started/configuration/
+[config]: /configuration/
 [formats]: /content-management/formats/
 [front matter]: /content-management/front-matter/
 [getpage]: /methods/page/getpage/

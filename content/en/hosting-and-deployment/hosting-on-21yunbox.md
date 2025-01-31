@@ -1,22 +1,18 @@
 ---
 title: Host on 21YunBox
 description: Host your Hugo site with 21YunBox's blazing fast Chinese CDN, fully-managed SSL and auto deploys from Gitee.
-categories: [hosting and deployment]
-keywords: [hosting,21yunbox]
-menu:
-  docs:
-    parent: hosting-and-deployment
-toc: true
+categories: []
+keywords: []
 ---
 
-[21YunBox](https://www.21yunbox.com) is a fully-managed cloud platform dedicated to make web deployment easy within the Chinese Great Firewall where you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place. It provides blazing fast Chinese CDN, continuous deployment, one-click HTTPS and [other services like managed databases and backend web services](https://www.21yunbox.com/docs/), providing an avenue to launch web projects in China.
+[21YunBox](https://www.21cloudbox.com/) is a fully-managed cloud platform dedicated to make web deployment easy within the Chinese Great Firewall where you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place. It provides blazing fast Chinese CDN, continuous deployment, one-click HTTPS and [other services like managed databases and backend web services](https://www.21cloudbox.com/docs/), providing an avenue to launch web projects in China.
 
 21YunBox includes the following features:
 
 - Continuous, automatic builds & deploys from GitHub and Gitee
 - Automatic SSL certificates through [Let's Encrypt](https://letsencrypt.org)
 - Instant cache invalidation with a blazing fast, Chinese CDN
-- Unlimited [custom domains](https://www.21yunbox.com/docs/#/custom-domains)
+- Unlimited [custom domains](https://www.21cloudbox.com/dns-configuration.html)
 - Automatic [Brotli compression](https://en.wikipedia.org/wiki/Brotli) for faster sites
 - Native HTTP/2 support
 - Automatic HTTP → HTTPS redirects
@@ -49,8 +45,8 @@ Every deploy automatically and instantly invalidates the CDN cache, so your user
 
 ## Custom domains
 
-Add your own domains to your site easily using 21YunBox's [custom domains](https://www.21yunbox.com/docs/#/custom-domains) guide.
+Add your own domains to your site easily using 21YunBox's [custom domains](https://www.21cloudbox.com/dns-configuration.html) guide.
 
 ## Support
 
-Click [here](https://www.21yunbox.com/docs/#/contact) to contact with 21YunBox' experts if you need help.
+Click [here](https://www.21cloudbox.com/contact.html) to contact with 21YunBox' experts if you need help.

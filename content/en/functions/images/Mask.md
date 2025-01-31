@@ -10,7 +10,6 @@ action:
     - methods/resource/Filter
   returnType: images.filter
   signatures: [images.Mask RESOURCE]
-toc: true
 ---
 
 {{< new-in 0.141.0 />}}

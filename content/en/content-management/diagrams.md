@@ -1,14 +1,8 @@
 ---
 title: Diagrams
 description: Use fenced code blocks and Markdown render hooks to include diagrams in your content.
-categories: [content management]
-keywords: [diagrams,drawing]
-menu:
-  docs:
-    parent: content-management
-    weight: 260
-weight: 260
-toc: true
+categories: []
+keywords: []
 ---
 
 ## GoAT diagrams (ASCII)

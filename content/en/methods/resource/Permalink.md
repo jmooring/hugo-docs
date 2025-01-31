@@ -11,6 +11,8 @@ action:
   signatures: [RESOURCE.Permalink]
 ---
 
+{{% include "/_common/methods/resource/global-page-remote-resources.md" %}}
+
 The `Permalink` method on a `Resource` object writes the resource to the publish directory, typically `public`, and returns its [permalink](g).
 
 ```go-html-template
@@ -18,5 +20,3 @@ The `Permalink` method on a `Resource` object writes the resource to the publish
   {{ .Permalink }} → https://example.org/images/a.jpg
 {{ end }}
 ```
-
-{{% include "methods/resource/_common/global-page-remote-resources.md" %}}

@@ -1,14 +1,8 @@
 ---
 title: Documentation
 description: Help us to improve the documentation by identifying issues and suggesting changes.
-categories: [contribute]
-keywords: [documentation]
-menu:
-  docs:
-    parent: contribute
-    weight: 30
-weight: 30
-toc: true
+categories: []
+keywords: []
 aliases: [/contribute/docs/]
 ---
 
@@ -80,7 +74,7 @@ Please link to the glossary (see above) when necessary, and use the terms consis
 - Use the word "flag" instead of "option" when referring to a command line flag
 - Use "client side" as a noun, and "client-side" as an adjective
 - Capitalize the word "Markdown"
-- Hyphenate the term "open-source" when used an adjective.
+- Hyphenate the term "open-source" when used an adjective
 
 ### Page titles and headings
 
@@ -125,8 +119,8 @@ When adding a page to the [functions] or [methods] section, begin the descriptio
 
 For example:
 
-- `Returns the URL aliases as defined in front matter.`
-- `Reports whether the given page is in the given section.`
+- Returns the URL aliases as defined in front matter.
+- Reports whether the given page is in the given section.
 
 [functions]: /functions
 [methods]: /methods
@@ -168,6 +162,8 @@ Always include the language code when using a fenced code block:
 ```
 ````
 
+Rendered:
+
 ```go-html-template
 {{ if eq $foo "bar" }}
   {{ print "foo is bar" }}
@@ -178,10 +174,14 @@ Always include the language code when using a fenced code block:
 
 Use this syntax to include shortcodes calls within your code examples:
 
+````text
 ```text
 {{</*/* foo */*/>}}
 {{%/*/* foo */*/%}}
 ```
+````
+
+Rendered:
 
 ```text
 {{</* foo */>}}
@@ -199,6 +199,8 @@ languageCode = 'en-US'
 title = 'My Site'
 {{</* /code-toggle */>}}
 ```
+
+Rendered:
 
 {{< code-toggle file=hugo >}}
 baseURL = 'https://example.org/'
@@ -218,6 +220,8 @@ draft = false
 {{</* /code-toggle */>}}
 ```
 
+Rendered:
+
 {{< code-toggle file=content/posts/my-first-post.md fm=true >}}
 title = 'My first post'
 date = 2023-11-09T12:56:07-08:00
@@ -235,6 +239,8 @@ Use the [code shortcode] for other code examples that require a file name:
 {{ end }}
 {{</* /code */>}}
 ```
+
+Rendered:
 
 {{< code file=layouts/_default/single.html >}}
 {{ range .Site.RegularPages }}
@@ -265,6 +271,8 @@ Some code here
 {{</* /code */>}}
 ```
 
+Rendered:
+
 {{< code file=content/something/foo.md lang=text copy=true >}}
 Some code here
 {{< /code >}}
@@ -280,24 +288,28 @@ copy
 : (`bool`) Whether to display a copy-to-clipboard button. Default is `false`.
 
 file
-: (`string`) The file name to display. Omit the file extension for site configuration examples. Default is `hugo`
+: (`string`) The file name to display. Omit the file extension for site configuration examples.
 
 fm
 : (`bool`) Whether the example is front matter. Default is `false`.
 
 skipHeader
-: (`bool`) Whether to omit top level key(s) when rendering a section of `site.Data.docs.config`.
+: (`bool`) Whether to omit top-level key(s) when rendering a section of `site.Data.docs.config`.
 
 ```text
-{{</* code-toggle */>}}
-title: Example
-draft: false
+{{</* code-toggle file=hugo */>}}
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'My Site'
 {{</* /code-toggle */>}}
 ```
 
-{{< code-toggle >}}
-title: Example
-draft: false
+Rendered:
+
+{{< code-toggle file=hugo >}}
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'My Site'
 {{< /code-toggle >}}
 
 ### deprecated-in
@@ -306,11 +318,14 @@ Use the `deprecated-in` shortcode to indicate that a feature is deprecated:
 
 ```text
 {{</* deprecated-in 0.144.0 */>}}
+
 Use [`hugo.IsServer`] instead.
 
 [`hugo.IsServer`]: /functions/hugo/isserver/
 {{</* /deprecated-in */>}}
 ```
+
+Rendered:
 
 {{< deprecated-in 0.144.0 >}}
 Use [`hugo.IsServer`] instead.
@@ -340,6 +355,8 @@ Use the `glossary-term` shortcode to insert the definition of the given glossary
 {{%/* glossary-term scalar */%}}
 ```
 
+Rendered:
+
 {{% glossary-term scalar %}}
 
 ### include
@@ -347,7 +364,7 @@ Use the `glossary-term` shortcode to insert the definition of the given glossary
 Use the `include` shortcode to include content from another page.
 
 ```text
-{{%/* include "functions/_common/glob-patterns" */%}}
+{{%/* include "_common/glob-patterns.md" */%}}
 ```
 
 ### new-in
@@ -355,10 +372,25 @@ Use the `include` shortcode to include content from another page.
 Use the `new-in` shortcode to indicate a new feature:
 
 ```text
-{{</* new-in 0.127.0 */>}}
+{{</* new-in 0.144.0 */>}}
+```
+Rendered:
+
+{{< new-in 0.144.0 />}}
+
+You can also include details:
+
+```text
+{{</* new-in 0.144.0 */>}}
+This is a new feature.
+{{</* /new-in */>}}
 ```
 
-{{< new-in 0.127.0 />}}
+Rendered:
+
+{{< new-in 0.144.0 >}}
+This is a new feature.
+{{< /new-in >}}
 
 ### note
 
@@ -372,6 +404,8 @@ Use the [`math.Mod`] function to control...
 {{</* /note */>}}
 ```
 
+Rendered:
+
 {{< note >}}
 Use the [`math.Mod`] function to control...
 
@@ -380,30 +414,40 @@ Use the [`math.Mod`] function to control...
 
 ## New features
 
-Use the "new-in" shortcode to indicate a new feature:
+Use the `new-in` shortcode to indicate a new feature:
 
-{{< code file=content/something/foo.md lang=text >}}
-{{</* new-in 0.120.0 */>}}
-{{< /code >}}
+```text
+{{</* new-in 0.144.0 */>}}
+```
+
+{{< new-in 0.144.0 />}}
 
 The "new in" label will be hidden if the specified version is older than a predefined threshold, based on differences in major and minor versions. See&nbsp;[details](https://github.com/gohugoio/hugoDocs/blob/master/_vendor/github.com/gohugoio/gohugoioTheme/layouts/shortcodes/new-in.html).
 
 ## Deprecated features
 
-Use the "deprecated-in" shortcode to indicate that a feature is deprecated:
+Use the `deprecated-in` shortcode to indicate that a feature is deprecated:
 
-{{< code file=content/something/foo.md >}}
+```text
 {{</* deprecated-in 0.144.0 */>}}
 Use [`hugo.IsServer`] instead.
 
 [`hugo.IsServer`]: /functions/hugo/isserver/
 {{</* /deprecated-in */>}}
-{{< /code >}}
+```
+
+Rendered:
+
+{{< deprecated-in 0.144.0 >}}
+Use [`hugo.IsServer`] instead.
+
+[`hugo.IsServer`]: /functions/hugo/isserver/
+{{< /deprecated-in >}}
 
 When deprecating a function or method, add something like this to front matter:
 
 {{< code-toggle file=content/something/foo.md fm=true >}}
-expiryDate: 2024-10-30 # deprecated 2022-10-30 in v0.123.0
+expiryDate: 2027-02-17 # deprecated 2025-02-17 in v0.144.0
 {{< /code-toggle >}}
 
 Set the `expiryDate` to two years from the date of deprecation, and add a brief front matter comment to explain the setting.
@@ -416,27 +460,33 @@ This section assumes that you have a working knowledge of Git and GitHub, and ar
 
 Use this workflow to create and submit pull requests.
 
-Step 1
-: Fork the [documentation repository].
+### Step 1
 
-Step 2
-: Clone your fork.
+Fork the [documentation repository].
 
-Step 3
-: Create a new branch with a descriptive name that includes the corresponding issue number, if any:
+### Step 2
+
+Clone your fork.
+
+### Step 3
+
+Create a new branch with a descriptive name that includes the corresponding issue number, if any:
 
 ```sh
 git checkout -b restructure-foo-page-99999
 ```
 
-Step 4
-: Make changes.
+### Step 4
 
-Step 5
-: Build the site locally to preview your changes.
+Make changes.
 
-Step 6
-: Commit your changes with a descriptive commit message:
+### Step 5
+
+Build the site locally to preview your changes.
+
+### Step 6
+
+Commit your changes with a descriptive commit message:
 
 - Provide a summary on the first line, typically 50 characters or less, followed by a blank line.
 - Optionally, provide a detailed description where each line is 80 characters or less, followed by a blank line.
@@ -444,7 +494,7 @@ Step 6
 
 For example:
 
-```sh
+```text
 git commit -m "Restructure the taxonomy page
 
 This restructures the taxonomy page by splitting topics into logical
@@ -454,14 +504,17 @@ Fixes #9999
 Closes #9998"
 ```
 
-Step 7
-: Push the new branch to your fork of the documentation repository.
+### Step 7
 
-Step 8
-: Visit the [documentation repository] and create a pull request (PR).
+Push the new branch to your fork of the documentation repository.
 
-Step 9
-: A project maintainer will review your PR and may request changes. You may delete your branch after the maintainer merges your PR.
+### Step 8
+
+Visit the [documentation repository] and create a pull request (PR).
+
+### Step 9
+
+A project maintainer will review your PR and may request changes. You may delete your branch after the maintainer merges your PR.
 
 [ATX]: https://spec.commonmark.org/0.30/#atx-headings
 [Microsoft Writing Style Guide]: https://learn.microsoft.com/en-us/style-guide/welcome/

@@ -14,7 +14,6 @@ action:
     - methods/page/Sections
   returnType: bool
   signatures: [PAGE1.IsAncestor PAGE2]
-toc: true
 ---
 
 {{% glossary-term section %}}

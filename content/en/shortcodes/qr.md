@@ -1,14 +1,8 @@
 ---
 title: QR
 description: Insert a QR code into your content using the qr shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
-toc: true
 ---
 
 {{< new-in 0.141.0 />}}
@@ -98,7 +92,7 @@ scale
 targetDir
 : (`string`) The subdirectory within the [`publishDir`] where Hugo will place the generated image.
 
-[`publishDir`]: /getting-started/configuration/#publishdir
+[`publishDir`]: /configuration/all/#publishdir
 
 alt
 : (`string`) The `alt` attribute of the `img` element.
@@ -108,6 +102,9 @@ class
 
 id
 : (`string`) The `id` attribute of the `img` element.
+
+loading
+: (`string`) The `loading` attribute of the `img` element, either `eager` or `lazy`.
 
 title
 : (`string`) The `title` attribute of the `img` element.

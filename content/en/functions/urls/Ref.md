@@ -1,6 +1,6 @@
 ---
 title: urls.Ref
-description: Returns the absolute permalink to a page at the given path.
+description: Returns the absolute URL of the page with the given path, language, and output format.
 categories: []
 keywords: []
 action:
@@ -16,9 +16,20 @@ action:
 aliases: [/functions/ref]
 ---
 
-The first argument is the context of the page from which to resolve relative paths, typically the current page.
+The function takes two arguments:
 
-The second argument is a path to a page, with or without a file extension, with or without an anchor. A path without a leading `/` is first resolved relative to the given context, then to the remainder of the site. Alternatively, provide an [options map](#options) instead of a path.
+1. The context of the page from which to resolve relative paths, typically the current page.
+1. The [logical path](g) to the target page. A path without a leading `/` is first resolved relative to the provided context, and then relative to the rest of the site.
+
+Alternatively, you can provide an options map instead of a path.
+
+{{% include "_common/ref-and-relref-options.md" %}}
+
+## Examples
+
+### Path
+
+The following examples illustrate how to call the `ref` function using a logical path as the second argument.
 
 ```go-html-template
 {{ ref . "about" }}
@@ -30,34 +41,19 @@ The second argument is a path to a page, with or without a file extension, with 
 {{ ref . "/blog/my-post.md" }}
 ```
 
-## Options
+### Options map
 
-Instead of specifying a path, you can also provide an options map:
-
-path
-: (`string`) The path to the page, relative to the `content` directory. Required.
-
-lang
-: (`string`) The language (site) to search for the page. Default is the current language. Optional.
-
-outputFormat
-: (`string`) The output format to search for the page. Default is the current output format. Optional.
-
-To return the absolute permalink to another language version of a page:
+The following examples illustrate how to call the `ref` function using an options map as the second argument.  Each example shows the resulting output when rendered on a page in the English version of the site.
 
 ```go-html-template
-{{ ref . (dict "path" "about.md" "lang" "fr") }}
+{{ $opts := dict "path" "/books/book-1" }}
+{{ ref . $opts }} → https://example.org/en/books/book-1/
+
+{{ $opts := dict "path" "/books/book-1" "lang" "de" }}
+{{ ref . $opts }} → https://example.org/de/books/book-1/
+
+{{ $opts := dict "path" "/books/book-1" "lang" "de" "outputFormat" "json" }}
+{{ ref . $opts }} → https://example.org/de/books/book-1/index.json
 ```
 
-To return the absolute permalink to another Output Format of a page:
-
-```go-html-template
-{{ ref . (dict "path" "about.md" "outputFormat" "rss") }}
-```
-
-By default, Hugo will throw an error and fail the build if it cannot resolve the path. You can change this to a warning in your site configuration, and specify a URL to return when the path cannot be resolved.
-
-{{< code-toggle file=hugo >}}
-refLinksErrorLevel = 'warning'
-refLinksNotFoundURL = '/some/other/url'
-{{< /code-toggle >}}
+{{% include "_common/ref-and-relref-error-handling.md" %}}

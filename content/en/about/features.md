@@ -1,14 +1,9 @@
 ---
 title: Features
 description: Hugo's rich and powerful feature set provides the framework and tools to create static sites that build in seconds, often less.
-categories: [about]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: about
-    weight: 30
-weight: 30
-toc: true
+weight: 20
 ---
 
 ## Framework
@@ -118,7 +113,7 @@ toc: true
 [CommonMark]: https://spec.commonmark.org/current/
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
 [Markdown attributes]: /content-management/markdown-attributes/
-[Markdown extensions]: /getting-started/configuration-markup/#goldmark-extensions
+[Markdown extensions]: /configuration/markup/#extensions
 [Markdown render hooks]: /render-hooks/introduction/
 [Diagrams]: /content-management/diagrams/
 [Mathematics]: /content-management/mathematics/
@@ -137,5 +132,5 @@ toc: true
 [Tailwind CSS processing]: /functions/css/tailwindcss/
 
 [Caching]: /functions/partials/includecached/
-[Segmentation]: /getting-started/configuration/#configure-segments
-[Minification]: /getting-started/configuration/#configure-minify
+[Segmentation]: /configuration/segments/
+[Minification]: /configuration/minify/

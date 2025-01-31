@@ -2,14 +2,9 @@
 title: Template types
 linkTitle: Template types
 description: Create templates of different types to render your content, resources, and data.
-categories: [templates]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: templates
-    weight: 30
 weight: 30
-toc: true
 aliases: ['/templates/lists/']
 ---
 
@@ -86,7 +81,7 @@ Learn more about [base templates](/templates/base/).
 
 ## Home
 
-A home page template is used to render your site's home page, and is the only template required for a single-page website.  For example, the home page template below inherits the site's shell from the base template and renders the home page content, such as a list of other pages.
+A home page template is used to render your site's home page, and is the only template required for a single-page website. For example, the home page template below inherits the site's shell from the base template and renders the home page content, such as a list of other pages.
 
 {{< code file=layouts/_default/home.html >}}
 {{ define "main" }}
@@ -97,7 +92,7 @@ A home page template is used to render your site's home page, and is the only te
 {{ end }}
 {{< /code >}}
 
-{{% include "templates/_common/filter-sort-group.md" %}}
+{{% include "/_common/filter-sort-group.md" %}}
 
 Learn more about [home page templates](/templates/home/).
 
@@ -132,7 +127,7 @@ For example, the section template below inherits the site's shell from the base 
 {{ end }}
 {{< /code >}}
 
-{{% include "templates/_common/filter-sort-group.md" %}}
+{{% include "/_common/filter-sort-group.md" %}}
 
 Learn more about [section templates](/templates/section/).
 
@@ -152,7 +147,7 @@ For example, the taxonomy template below inherits the site's shell from the base
 {{ end }}
 {{< /code >}}
 
-{{% include "templates/_common/filter-sort-group.md" %}}
+{{% include "/_common/filter-sort-group.md" %}}
 
 Learn more about [taxonomy templates](/templates/taxonomy/).
 
@@ -172,7 +167,7 @@ For example, the term template below inherits the site's shell from the base tem
 {{ end }}
 {{< /code >}}
 
-{{% include "templates/_common/filter-sort-group.md" %}}
+{{% include "/_common/filter-sort-group.md" %}}
 
 Learn more about [term templates](/templates/term/).
 
@@ -258,7 +253,7 @@ For example, the shortcode template below renders an audio element from a [globa
 
 Then call the shortcode from within markup:
 
-{{< code file=content/example.md >}}
+{{< code file=content/example.md lang=text >}}
 {{</* audio src=/audio/test.mp3 */>}}
 {{< /code >}}
 

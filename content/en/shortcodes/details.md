@@ -1,14 +1,8 @@
 ---
 title: Details
 description: Insert an HTML details element into your content using the details shortcode.
-categories: [shortcodes]
+categories: []
 keywords: []
-menu:
-  docs:
-    parent: shortcodes
-    weight:
-weight:
-toc: true
 ---
 
 {{< new-in 0.140.0 />}}

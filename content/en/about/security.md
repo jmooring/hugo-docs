@@ -2,14 +2,9 @@
 title: Security model
 linkTitle: Security 
 description: A summary of Hugo's security model.
-categories: [about]
-keywords: [security,privacy]
-menu:
-  docs:
-    parent: about
-    weight: 50
-weight: 50
-toc: true
+categories: []
+keywords: []
+weight: 40
 aliases: [/about/security-model/]
 ---
 
@@ -69,4 +64,4 @@ This is why you sometimes need to use the _safe_ functions, such as `safeHTML`, 
 There is one exception to the above, as noted in the documentation: If you enable inline shortcodes, you also say that the shortcodes and data handling in content files are trusted, as those macros are treated as pure text.
 It may be worth adding that Hugo is a static site generator with no concept of dynamic user input.
 
-For content, the default Markdown renderer is [configured](/getting-started/configuration-markup) to remove or escape potentially unsafe content. This behavior can be reconfigured if you trust your content.
+For content, the default Markdown renderer is [configured](/configuration/markup/) to remove or escape potentially unsafe content. This behavior can be reconfigured if you trust your content.

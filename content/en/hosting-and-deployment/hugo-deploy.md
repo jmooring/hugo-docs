@@ -1,14 +1,8 @@
 ---
 title: Hugo Deploy
 description: Deploy your site directly to a Google Cloud Storage bucket, an AWS S3 bucket, or an Azure Storage container.
-categories: [hosting and deployment]
-keywords: [deployment,s3,gcs,azure]
-menu:
-  docs:
-    parent: hosting-and-deployment
-    weight: 20
-weight: 20
-toc: true
+categories: []
+keywords: []
 ---
 
 Use the `hugo deploy` command to deploy your site directly to a Google Cloud Storage bucket, an AWS S3 bucket, or an Azure Storage container

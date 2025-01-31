@@ -1,5 +1,5 @@
 ---
-title: Let’s Encrypt
+title: Let's Encrypt
 date: 2018-03-13
 description: "Showcase: Lessons learned from taking letsencrypt.org to Hugo."
 siteURL: https://letsencrypt.org/
@@ -7,7 +7,7 @@ siteSource: https://github.com/letsencrypt/website
 byline: "[bep](https://github.com/bep), Hugo Lead"
 ---
 
-The **Let’s Encrypt website** has a common set of elements: A landing page and some other static info-pages, a document section, a blog, and a documentation section. Having it moved to Hugo was mostly motivated by a _simpler administration and Hugo's [multilingual support](/content-management/multilingual/)_. They already serve HTTPS to more than 60 million domains, and having the documentation available in more languages will increase that reach.[^1]
+The **Let's Encrypt website** has a common set of elements: A landing page and some other static info-pages, a document section, a blog, and a documentation section. Having it moved to Hugo was mostly motivated by a _simpler administration and Hugo's [multilingual support](/content-management/multilingual/)_. They already serve HTTPS to more than 60 million domains, and having the documentation available in more languages will increase that reach.[^1]
 
 {{< x user="letsencrypt" id="971755920639307777" >}}
 

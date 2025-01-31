@@ -8,7 +8,6 @@ action:
     - methods/page/CodeOwners
   returnType: source.GitInfo
   signatures: [PAGE.GitInfo]
-toc: true
 ---
 
 The `GitInfo` method on a `Page` object returns an object with additional methods.
@@ -38,12 +37,12 @@ When you set `enableGitInfo` to `true`, or enable the feature with the command l
 
 This is configurable. See&nbsp;[details].
 
-[details]: /getting-started/configuration/#configure-dates
+[details]: /configuration/frontmatter/#dates
 {{< /note >}}
 
 ## Methods
 
-###### AbbreviatedHash
+### AbbreviatedHash
 
 (`string`) The abbreviated commit hash.
 
@@ -53,7 +52,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### AuthorDate
+### AuthorDate
 
 (`time.Time`) The author date.
 
@@ -63,7 +62,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### AuthorEmail
+### AuthorEmail
 
 (`string`) The author's email address, respecting [gitmailmap].
 
@@ -73,7 +72,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### AuthorName
+### AuthorName
 
 (`string`) The author's name, respecting [gitmailmap].
 
@@ -83,7 +82,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### CommitDate
+### CommitDate
 
 (`time.Time`) The commit date.
 
@@ -93,7 +92,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### Hash
+### Hash
 
 (`string`) The commit hash.
 
@@ -103,7 +102,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### Subject
+### Subject
 
 (`string`) The commit message subject.
 
@@ -113,7 +112,7 @@ This is configurable. See&nbsp;[details].
 {{ end }}
 ```
 
-###### Body
+### Body
 
 (`string`) The commit message body.
 
@@ -131,7 +130,7 @@ You can change this behavior in your [site configuration].
 
 [git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [gitmailmap]: https://git-scm.com/docs/gitmailmap
-[site configuration]: /getting-started/configuration/#configure-front-matter
+[site configuration]: /configuration/frontmatter/
 
 ## Hosting considerations
 

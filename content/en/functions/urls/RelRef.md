@@ -1,6 +1,6 @@
 ---
 title: urls.RelRef
-description: Returns the relative permalink to a page at the given path.
+description: Returns the relative URL of the page with the given path, language, and output format.
 categories: []
 keywords: []
 action:
@@ -16,10 +16,18 @@ action:
 aliases: [/functions/relref]
 ---
 
-The first argument is the context of the page from which to resolve relative paths, typically the current page.
+The function takes two arguments:
 
-The second argument is a path to a page, with or without a file extension, with or without an anchor. A path without a leading `/` is first resolved relative to the given context, then to the remainder of the site. Alternatively, provide an [options map](#options) instead of a path.
-.
+1. The context of the page from which to resolve relative paths, typically the current page.
+1. The [logical path](g) to the target page. A path without a leading `/` is first resolved relative to the provided context, and then relative to the rest of the site.
+
+Alternatively, you can provide an options map instead of a path.
+
+{{% include "_common/ref-and-relref-options.md" %}}
+
+## Examples
+
+
 ```go-html-template
 {{ relref . "about" }}
 {{ relref . "about#anchor" }}
@@ -62,9 +70,4 @@ To return the relative permalink to another Output Format of a page:
 {{ relref . (dict "path" "about.md" "outputFormat" "rss") }}
 ```
 
-By default, Hugo will throw an error and fail the build if it cannot resolve the path. You can change this to a warning in your site configuration, and specify a URL to return when the path cannot be resolved.
-
-{{< code-toggle file=hugo >}}
-refLinksErrorLevel = 'warning'
-refLinksNotFoundURL = '/some/other/url'
-{{< /code-toggle >}}
+{{% include "_common/ref-and-relref-error-handling.md" %}}

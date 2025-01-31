@@ -12,4 +12,4 @@ action:
   signatures: [PAGE.NextInSection]
 ---
 
-{{% include "methods/page/_common/nextinsection-and-previnsection.md" %}}
+{{% include "/_common/methods/page/nextinsection-and-previnsection.md" %}}

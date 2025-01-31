@@ -14,7 +14,7 @@ Pagination is the process of splitting a list page into two or more pagers, wher
 
 The number of elements on each pager is determined by your [site configuration]. The default is `10`.
 
-[site configuration]: /getting-started/configuration/#pagination
+[site configuration]: /configuration/pagination/
 
 You can invoke pagination on the [home template], [section templates], [taxonomy templates], and [term templates]. Each of these receives a collection of regular pages in [context](g). When you invoke the `Paginator` method, it paginates the page collection received in context.
 

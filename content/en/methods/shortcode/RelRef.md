@@ -12,16 +12,9 @@ action:
   signatures: [SHORTCODE.RelRef OPTIONS]
 ---
 
-The map of option contains:
+{{% include "_common/ref-and-relref-options.md" %}}
 
-path
-: (`string`) The path to the page, relative to the `content` directory. Required.
-
-lang
-: (`string`) The language (site) to search for the page. Default is the current language. Optional.
-
-outputFormat
-: (`string`) The output format to search for the page. Default is the current output format. Optional.
+## Examples
 
 The examples below show the rendered output when visiting a page on the English language version of the site:
 
@@ -36,9 +29,4 @@ The examples below show the rendered output when visiting a page on the English 
 {{ .RelRef $opts }} → /de/books/book-1/index.json
 ```
 
-By default, Hugo will throw an error and fail the build if it cannot resolve the path. You can change this to a warning in your site configuration, and specify a URL to return when the path cannot be resolved.
-
-{{< code-toggle file=hugo >}}
-refLinksErrorLevel = 'warning'
-refLinksNotFoundURL = '/some/other/url'
-{{< /code-toggle >}}
+{{% include "_common/ref-and-relref-error-handling.md" %}}

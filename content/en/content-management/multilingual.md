@@ -2,14 +2,8 @@
 title: Multilingual mode
 linkTitle: Multilingual
 description: Localize your project for each language and region, including translations, images, dates, currencies, numbers, percentages, and collation sequence. Hugo's multilingual framework supports single-host and multihost configurations.
-categories: [content management]
-keywords: [multilingual,i18n,internationalization]
-menu:
-  docs:
-    parent: content-management
-    weight: 230
-weight: 230
-toc: true
+categories: []
+keywords: []
 aliases: [/content/multilingual/,/tutorials/create-a-multilingual-site/]
 ---
 
@@ -42,6 +36,7 @@ This is an example of a site configuration for a multilingual project. Any key n
 {{< code-toggle file=hugo >}}
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
 
 [languages.de]
 contentDir = 'content/de'
@@ -76,7 +71,10 @@ defaultContentLanguage
 - `pt-BR`
 
 defaultContentLanguageInSubdir
-: (`bool`)  If `true`, Hugo renders the default language site in a subdirectory matching the `defaultContentLanguage`. Default is `false`.
+: (`bool`) Whether to publish the default language site to a subdirectory matching the `defaultContentLanguage`. Default is `false`.
+
+disableDefaultLanguageRedirect
+: (`bool`) Whether to disable generation of the alias redirect to the default language when `DefaultContentLanguageInSubdir` is `true`. Default is `false`.
 
 contentDir
 : (`string`) The `content` directory for this language. Omit if [translating by file name].
@@ -276,7 +274,7 @@ Considering the following example:
 1. `/content/om.nn.md`
 1. `/content/presentation/a-propos.fr.md`
 
-{{< code-toggle >}}
+{{< code-toggle file=hugo >}}
 translationKey: "about"
 {{< /code-toggle >}}
 
@@ -384,7 +382,7 @@ weight = 3
 
 With this front matter:
 
-{{< code-toggle >}}
+{{< code-toggle file=hugo >}}
 date = 2021-11-03T12:34:56+01:00
 {{< /code-toggle >}}
 
@@ -538,7 +536,7 @@ pageRef = '/services'
 weight = 20
 {{< /code-toggle >}}
 
-[configuration directory]: /getting-started/configuration/#configuration-directory
+[configuration directory]: /configuration/introduction/#configuration-directory
 
 ### Use translation tables
 
@@ -627,7 +625,7 @@ hugo new content content/de/post/test.md
 ```
 
 [`abslangurl`]: /functions/urls/abslangurl/
-[config]: /getting-started/configuration/
+[config]: /configuration/
 [go-i18n-source]: https://github.com/nicksnyder/go-i18n
 [go-i18n]: https://github.com/nicksnyder/go-i18n
 [Hugo Multilingual Part 1: Content translation]: https://regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/
@@ -639,6 +637,5 @@ hugo new content content/de/post/test.md
 [lang.FormatPercent]: /functions/lang/formatpercent/
 [lang.Merge]: /functions/lang/merge/
 [menus]: /content-management/menus/
-[OS environment]: /getting-started/configuration/#configure-with-environment-variables
 [`rellangurl`]: /functions/urls/rellangurl/
 [`time.Format`]: /functions/time/format/

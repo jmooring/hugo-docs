@@ -12,8 +12,6 @@ action:
     - functions/resources/Minify
   returnType: resource.Resource
   signatures: ['js.Build [OPTIONS] RESOURCE']
-weight: 10
-toc: true
 ---
 
 The `js.Build` function uses the [evanw/esbuild] package to:
@@ -54,7 +52,7 @@ Note that the target path's extension may change if the target MIME type is diff
 format
 : (`string`) The output format. One of: `iife`, `cjs`, `esm`. Default is `iife`, a self-executing function, suitable for inclusion as a `<script>` tag.
 
-{{% include "./_common/options.md" %}}
+{{% include "/_common/functions/js/options.md" %}}
 
 ## Import JS code from the assets directory
 
@@ -97,7 +95,7 @@ And then in your JS file:
 import * as params from '@params';
 ```
 
-Hugo will, by default, generate a `assets/jsconfig.json` file that maps the imports. This is useful for navigation/intellisense help inside code editors, but if you don't need/want it, you can [turn it off](/getting-started/configuration/#configure-build).
+Hugo will, by default, generate a `assets/jsconfig.json` file that maps the imports. This is useful for navigation/intellisense help inside code editors, but if you don't need/want it, you can [turn it off](/configuration/build/).
 
 ## Node.js dependencies
 

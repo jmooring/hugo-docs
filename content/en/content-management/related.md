@@ -1,14 +1,8 @@
 ---
 title: Related content
 description: List related content in "See Also" sections.
-categories: [content management]
-keywords: [content]
-menu:
-  docs:
-    parent: content-management
-    weight: 110
-weight: 110
-toc: true
+categories: []
+keywords: []
 aliases: [/content/related/,/related/]
 ---
 
@@ -121,7 +115,7 @@ Custom configuration should be set using the same syntax.
 If you add a `related` configuration section, you need to add a complete configuration. It is not possible to just set, say, `includeNewer` and use the rest  from the Hugo defaults.
 {{< /note >}}
 
-### Top level configuration options
+### Top-level options
 
 threshold
 : (`int`) A value between 0-100. Lower value will give more, but maybe not so relevant, matches.
