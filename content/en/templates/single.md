@@ -9,7 +9,7 @@ aliases: [/layout/content/,/templates/single-page-templates/]
 
 The single template below inherits the site's shell from the [base template].
 
-[base template]: /templates/types/
+[base template]: /docs/concepts/template-types/
 
 ```go-html-template {file="layouts/_default/single.html"}
 {{ define "main" }}
@@ -20,7 +20,7 @@ The single template below inherits the site's shell from the [base template].
 
 Review the [template lookup order] to select a template path that provides the desired level of specificity.
 
-[template lookup order]: /templates/lookup-order/#single-templates
+[template lookup order]: /docs/reference/miscellaneous/template-lookup-order/#single-templates
 
 The single template below inherits the site's shell from the base template, and renders the page title, creation date, content, and a list of associated terms in the "tags" taxonomy.
 
