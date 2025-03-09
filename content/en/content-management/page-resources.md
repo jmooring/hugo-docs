@@ -285,13 +285,13 @@ Although duplicating shared page resources is inefficient, you can enable this f
 duplicateResourceFiles = true
 {{< /code-toggle >}}
 
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Resource`]: /methods/resource
-[`Resources.ByType`]: /methods/page/resources#bytype
-[`Resources.Get`]: /methods/page/resources#get
-[`Resources.Get`]: /methods/page/resources/#get
-[`Resources.GetMatch`]: /methods/page/resources#getmatch
-[`Resources.Match`]: /methods/page/resources#match
-[content formats]: /content-management/formats/
-[embedded image render hook]: /render-hooks/images/#default
-[embedded link render hook]: /render-hooks/links/#default
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Resource`]: /docs/reference/methods/resource
+[`Resources.ByType`]: /docs/reference/methods/page/resources#bytype
+[`Resources.Get`]: /docs/reference/methods/page/resources#get
+[`Resources.Get`]: /docs/reference/methods/page/resources/#get
+[`Resources.GetMatch`]: /docs/reference/methods/page/resources#getmatch
+[`Resources.Match`]: /docs/reference/methods/page/resources#match
+[content formats]: /docs/concepts/content-formats/
+[embedded image render hook]: /docs/reference/markdown-render-hooks/images/#default
+[embedded link render hook]: /docs/reference/markdown-render-hooks/links/#default

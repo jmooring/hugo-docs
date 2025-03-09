@@ -148,19 +148,19 @@ Learn more in the [host and deploy] section.
 
 [^1]: The Git repository contains the entire project directory, typically excluding the `public` directory because the site is built _after_ the push.
 
-[`--destination`]: /commands/hugo/#options
-[`cascade`]: /content-management/front-matter/#cascade
-[`hugo server`]: /commands/hugo_server/
-[`hugo`]: /commands/hugo/
-[`publishDir`]: /configuration/all/#publishdir
+[`--destination`]: /docs/reference/commands/hugo/#options
+[`cascade`]: /docs/concepts/front-matter/#cascade
+[`hugo server`]: /docs/reference/commands/hugo_server/
+[`hugo`]: /docs/reference/commands/hugo/
+[`publishDir`]: /docs/reference/configuration/all/#publishdir
 [AWS Amplify]: https://aws.amazon.com/amplify/
 [build options]: /content-management/build-options/
 [CloudCannon]: https://cloudcannon.com/
 [Cloudflare Pages]: https://pages.cloudflare.com/
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/concepts/front-matter/
 [GitHub Pages]: https://pages.github.com/
 [GitLab Pages]: https://docs.gitlab.com/ee/user/project/pages/
-[host and deploy]: /host-and-deploy/
-[installing]: /installation/
+[host and deploy]: /docs/guides/host-and-deploy/
+[installing]: /docs/installation/
 [LiveReload]: https://github.com/livereload/livereload-js
 [Netlify]: https://www.netlify.com/
