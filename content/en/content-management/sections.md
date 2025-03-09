@@ -11,7 +11,7 @@ aliases: [/content/sections/]
 
 {{% glossary-term "section" %}}
 
-```text
+```tree
 content/
 ├── articles/             <-- section (top-level directory)
 │   ├── 2022/
@@ -68,7 +68,7 @@ With the file structure from the [example above](#overview):
 
 ## Template selection
 
-Hugo has a defined [lookup order] to determine which template to use when rendering a page. The [lookup rules] consider the top-level section name; subsection names are not considered when selecting a template.
+Hugo has a defined [lookup order][] to determine which template to use when rendering a page. The lookup rules consider the top-level section name; subsection names are not considered when selecting a template.
 
 With the file structure from the [example above](#overview):
 
@@ -90,7 +90,7 @@ If you need to use a different template for a subsection, specify `type` and/or 
 
 A section has one or more ancestors (including the home page), and zero or more descendants. With the file structure from the [example above](#overview):
 
-```text
+```tree
 content/products/product-1/benefits/benefit-1.md
 ```
 
@@ -135,5 +135,4 @@ Hugo renders this, where each breadcrumb is a link to the corresponding page:
 Home » Products » Product 1 » Benefits » Benefit 1
 ```
 
-[lookup order]: /templates/lookup-order/
-[lookup rules]: /templates/lookup-order/#lookup-rules
+[lookup order]: /docs/reference/miscellaneous/template-lookup-order/

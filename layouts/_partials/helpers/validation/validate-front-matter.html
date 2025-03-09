@@ -1,0 +1,18 @@
+{{- $t := debug.Timer "validateFrontMatter" }}
+{{- range $p := site.Pages }}
+
+  {{- /* Verify that keywords exist in data/keywords.yaml. */}}
+  {{- $allowedKeywords := collections.Apply hugo.Data.keywords "strings.ToLower" "." }}
+  {{- range .Params.keywords }}
+    {{- if not (in $allowedKeywords (lower .)) }}
+      {{- warnf "The word or phrase %q is not in the keywords data file. See %s." . $p.Page.String }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Verify that description is not empty. */}}
+  {{- if and (not .Description) (not (in .CurrentSection.Path "/commands")) (ne .Kind "taxonomy") (ne .Kind "term") }}
+    {{- warnf "Missing description: %s" $p.Page.String }}
+    {{/*  {{ .CurrentSection.Path | warnf "%#[2]v (%[2]T) [%[1]d]" math.Counter  }}  */}}
+  {{- end }}
+{{- end }}
+{{- $t.Stop }}

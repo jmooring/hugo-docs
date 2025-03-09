@@ -31,7 +31,7 @@
   @apply prose-code:before:hidden prose-code:after:hidden prose-code:font-mono;
   @apply prose-table:prose-th:prose-code:text-white;
   /* tables */
-  @apply prose-table:w-auto prose-table:border-2 prose-table:border-gray-100 prose-table:dark:border-gray-800 prose-table:prose-th:font-bold prose-table:prose-th:bg-blue-500 dark:prose-table:prose-th:bg-blue-500/50 prose-table:prose-th:p-2 prose-table:prose-td:p-2 prose-table:prose-th:text-white;
+  @apply prose-table:w-auto prose-table:my-2 prose-table:border-2 prose-table:border-gray-100 prose-table:dark:border-gray-800 prose-table:prose-th:font-bold prose-table:prose-th:bg-blue-500 dark:prose-table:prose-th:bg-blue-500/50 prose-table:prose-th:p-2 prose-table:prose-td:p-2 prose-table:prose-th:text-white;
   /* hr */
   @apply dark:prose-hr:border-slate-800;
   /* ol */
@@ -46,4 +46,8 @@
 .content dd > .highlight,
 .content li > .highlight {
   @apply border-1 border-gray-200 dark:border-slate-600 mt-6 mb-8;
+}
+
+details {
+  @apply cursor-pointer my-5;
 }

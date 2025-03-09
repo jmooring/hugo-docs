@@ -11,7 +11,7 @@ page with which they are bundled.
 
 In this example, `first-post` is a page bundle with access to 10 page resources including audio, data, documents, images, and video. Although `second-post` is also a page bundle, it has no page resources and is unable to directly access the page resources associated with `first-post`.
 
-```text
+```tree
 content
 └── post
     ├── first-post
@@ -35,16 +35,16 @@ content
 
 Use any of these methods on a `Page` object to capture page resources:
 
-- [`Resources.ByType`]
-- [`Resources.Get`]
-- [`Resources.GetMatch`]
-- [`Resources.Match`]
+- [`Resources.ByType`][]
+- [`Resources.Get`][]
+- [`Resources.GetMatch`][]
+- [`Resources.Match`][]
 
- Once you have captured a resource, use any of the applicable [`Resource`] methods to return a value or perform an action.
+ Once you have captured a resource, use any of the applicable [`Resource`][] methods to return a value or perform an action.
 
 The following examples assume this content structure:
 
-```text
+```tree
 content/
 └── example/
     ├── data/
@@ -196,7 +196,7 @@ the `Name` and `Title` will be assigned to the resource files as follows:
 By default, with a multilingual single-host project, Hugo does not duplicate shared page during the build.
 
 > [!note]
-> This behavior is limited to Markdown content. Shared page resources for other [content formats] are copied into each language bundle.
+> This behavior is limited to Markdown content. Shared page resources for other [content formats][] are copied into each language bundle.
 
 Consider this project configuration:
 
@@ -217,7 +217,7 @@ weight = 2
 
 And this content:
 
-```text
+```tree
 content/
 └── my-bundle/
     ├── a.jpg     <-- shared page resource
@@ -230,7 +230,7 @@ content/
 
 With v0.122.0 and earlier, Hugo duplicated the shared page resources, creating copies for each language:
 
-```text
+```tree
 public/
 ├── de/
 │   ├── my-bundle/
@@ -252,7 +252,7 @@ public/
 
 With v0.123.0 and later, Hugo places the shared resources in the page bundle for the default content language:
 
-```text
+```tree
 public/
 ├── de/
 │   ├── my-bundle/
@@ -272,11 +272,14 @@ public/
 This approach reduces build times, storage requirements, bandwidth consumption, and deployment times, ultimately reducing cost.
 
 > [!important]
-> To resolve Markdown link and image destinations to the correct location, you must use link and image render hooks that capture the page resource with the [`Resources.Get`] method, and then invoke its [`RelPermalink`] method.
+> To resolve Markdown link and image destinations to the correct location, you must use link and image render hooks that capture the page resource with the [`Resources.Get`][] method, and then invoke its [`RelPermalink`][] method.
 >
-> In its default configuration, Hugo automatically uses the [embedded link render hook] and the [embedded image render hook] for multilingual single-host projects, specifically when the [duplication of shared page resources] feature is disabled. This is the default behavior for such projects. If custom link or image render hooks are defined by your project, modules, or themes, these will be used instead.
+> In its default configuration, Hugo automatically uses the [embedded link render hook][] and the [embedded image render hook][] for multilingual single-host projects, specifically when the [duplication of shared page resources][] feature is disabled. This is the default behavior for such projects. If custom link or image render hooks are defined by your project, modules, or themes, these will be used instead.
 >
-> You can also configure Hugo to `always` use the embedded link or image render hook, use it only as a `fallback`, or `never` use it. See&nbsp;[details](/configuration/markup/#renderhookslinkuseembedded).
+> You can also configure Hugo to `always` use the embedded link or image render hook, use it only as a `fallback`, or `never` use it. See&nbsp;details:
+>
+> - [`renderHooks.link.useEmbedded`](/docs/reference/configuration/markup/#renderhookslinkuseembedded)
+> - [`renderHooks.image.useEmbedded`](/docs/reference/configuration/markup/#renderhooksimageuseembedded)
 
 Although duplicating shared page resources is inefficient, you can enable this feature in your project configuration if desired:
 
@@ -285,13 +288,13 @@ Although duplicating shared page resources is inefficient, you can enable this f
 duplicateResourceFiles = true
 {{< /code-toggle >}}
 
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Resource`]: /methods/resource
-[`Resources.ByType`]: /methods/page/resources#bytype
-[`Resources.Get`]: /methods/page/resources/#get
-[`Resources.GetMatch`]: /methods/page/resources#getmatch
-[`Resources.Match`]: /methods/page/resources#match
-[content formats]: /content-management/formats/
-[duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
-[embedded image render hook]: /render-hooks/images/#embedded
-[embedded link render hook]: /render-hooks/links/#embedded
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Resource`]: /docs/reference/methods/resource
+[`Resources.ByType`]: /docs/reference/methods/page/resources#bytype
+[`Resources.Get`]: /docs/reference/methods/page/resources#get
+[`Resources.GetMatch`]: /docs/reference/methods/page/resources#getmatch
+[`Resources.Match`]: /docs/reference/methods/page/resources#match
+[content formats]: /docs/concepts/content-formats/
+[duplication of shared page resources]: /docs/reference/configuration/markup/#duplicateresourcefiles
+[embedded image render hook]: /docs/reference/markdown-render-hooks/images/#embedded
+[embedded link render hook]: /docs/reference/markdown-render-hooks/links/#embedded

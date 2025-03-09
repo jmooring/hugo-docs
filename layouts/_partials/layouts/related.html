@@ -1,20 +1,36 @@
 {{- $heading := "See also" }}
-{{- $related := site.Pages.Related . | first 7}}
+{{- $opts := dict "indices" (slice "keywords") "document" . }}
+{{- $related := site.Pages.Related $opts | first 7 }}
 
 {{- with $related }}
   {{ $.Store.Set "hasRelated" true }}
-  <h2
-    class="text-base font-semibold tracking-tight text-gray-600  dark:text-gray-400">
+  <h2 class="text-base font-semibold tracking-tight text-gray-600 dark:text-gray-400">
     {{ $heading }}
   </h2>
   <ul class="mt-2 mb-8">
     {{- range . }}
+      {{- $section := index .Ancestors.Reverse 2 }}
+      {{- $label := (or $section.Params.label $section.LinkTitle) | first 3 | strings.ToUpper }}
       <li>
         <a
-          class="text-sm text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400"
-          href="{{ .RelPermalink }}"
-          >{{ or .Params.alt_title .Title }}</a
-        >
+          class="group flex items-start text-sm text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 no-underline py-[2px]"
+          href="{{ .RelPermalink }}">
+
+          <span
+            title="{{ $section.LinkTitle }}"
+            class="flex-none inline-block text-center w-[34px] h-[17px] mr-1.5 font-mono text-xs font-normal rounded uppercase tracking-tight pt-[1px] transition-colors
+                   border border-gray-400 dark:border-gray-500
+                   text-gray-700 dark:text-gray-300
+                   bg-gray-50 dark:bg-gray-800
+                   group-hover:border-blue-500 dark:group-hover:border-blue-400
+                   group-hover:text-blue-600 dark:group-hover:text-blue-400">
+            {{ $label }}
+          </span>
+
+          <span class="flex-1 leading-snug">
+            {{ or .Params.alt_title .Title }}
+          </span>
+        </a>
       </li>
     {{- end }}
   </ul>

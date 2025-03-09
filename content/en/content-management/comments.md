@@ -23,7 +23,7 @@ Disqus comments require you set a single value in your [project configuration][c
 shortname = 'your-disqus-shortname'
 {{</ code-toggle >}}
 
-For many websites, this is enough configuration. However, you also have the option to set the following in the [front matter] of a single content file:
+For many websites, this is enough configuration. However, you also have the option to set the following in the [front matter][] of a single content file:
 
 - `disqus_identifier`
 - `disqus_title`
@@ -63,7 +63,7 @@ Open-source commenting systems:
 - [Utterances](https://utteranc.es/)
 - [Zoomment](https://zoomment.com/)
 
-[configuration]: /configuration/
+[configuration]: /docs/reference/configuration/
 [disquspartial]: /templates/embedded/#disqus
 [disqussetup]: https://disqus.com/profile/signup/
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/reference/front-matter/
