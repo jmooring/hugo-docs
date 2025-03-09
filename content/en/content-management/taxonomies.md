@@ -78,7 +78,7 @@ When taxonomies are used Hugo will automatically create both a page listing all 
 
 ## Configuration
 
-See [configure taxonomies](/configuration/taxonomies/).
+See [configure taxonomies](/docs/reference/configuration/taxonomies/).
 
 ## Assign terms to content
 

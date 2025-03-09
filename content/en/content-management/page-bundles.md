@@ -19,7 +19,7 @@ content/
 └── privacy.md
 ```
 
-The "about" page is a page bundle. It logically associates a resource with content by bundling them together. Resources within a page bundle are [page resources], accessible with the [`Resources`] method on the `Page` object.
+The "about" page is a page bundle. It logically associates a resource with content by bundling them together. Resources within a page bundle are [page resources][], accessible with the [`Resources`][] method on the `Page` object.
 
 Page bundles are either _leaf bundles_ or _branch bundles_.
 
@@ -41,7 +41,7 @@ Page bundle characteristics vary by bundle type.
 | Index file          | `index.md`                                              | `_index.md`                                             |
 | Example             | `content/about/index.md`                                | `content/posts/_index.md`                               |
 | [Page kinds](g)     | `page`                                                  | `home`, `section`, `taxonomy`, or `term`                |
-| Template types      | [single]                                                | [home], [section], [taxonomy], or [term]                |
+| Template types      | [single][]                                              | [home][], [section][], [taxonomy][], or [term][]                |
 | Descendant pages    | None                                                    | Zero or more                                            |
 | Resource location   | Adjacent to the index file or in a nested subdirectory  | Same as a leaf bundles, but excludes descendant bundles |
 | [Resource types](g) | `page`, `image`, `video`, etc.                          | all but `page`                                          |
@@ -83,7 +83,7 @@ my-post
 
   - content-1, content-2
 
-    These are resources of resource type `page`, accessible via the [`Resources`] method on the `Page` object. Hugo will not render these as individual pages.
+    These are resources of resource type `page`, accessible via the [`Resources`][] method on the `Page` object. Hugo will not render these as individual pages.
 
   - image-1, image-2
 
@@ -133,13 +133,13 @@ branch-bundle-2
 
 ## Headless bundles
 
-Use [build options] in front matter to create an unpublished leaf or branch bundle whose content and resources you can include in other pages.
+Use [build options][] in front matter to create an unpublished leaf or branch bundle whose content and resources you can include in other pages.
 
-[`Resources`]: /methods/page/resources/
+[`Resources`]: /docs/reference/methods/page/resources/
 [build options]: /content-management/build-options/
-[home]: /templates/types/#home
+[home]: /docs/concepts/template-types/#home
 [page resources]: /content-management/page-resources/
-[section]: /templates/types/#section
-[single]: /templates/types/#single
-[taxonomy]: /templates/types/#taxonomy
-[term]: /templates/types/#term
+[section]: /docs/concepts/template-types/#section
+[single]: /docs/concepts/template-types/#single
+[taxonomy]: /docs/concepts/template-types/#taxonomy
+[term]: /docs/concepts/template-types/#term

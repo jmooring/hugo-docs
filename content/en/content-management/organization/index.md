@@ -40,7 +40,7 @@ The file tree above shows three bundles. Note that the home page bundle cannot c
 
 In Hugo, your content should be organized in a manner that reflects the rendered website.
 
-While Hugo supports content nested at any level, the top levels (i.e. `content/<DIRECTORIES>`) are special in Hugo and are considered the content type used to determine layouts etc. To read more about sections, including how to nest them, see [sections].
+While Hugo supports content nested at any level, the top levels (i.e. `content/<DIRECTORIES>`) are special in Hugo and are considered the content type used to determine layouts etc. To read more about sections, including how to nest them, see [sections][].
 
 Without any additional configuration, the following will automatically work:
 
@@ -95,11 +95,11 @@ At build, this will output to the following destination with the associated valu
 https://example.org/posts/index.html
 ```
 
-The [sections] can be nested as deeply as you want. The important thing to understand is that to make the section tree fully navigational, at least the lower-most section must include a content file. (i.e. `_index.md`).
+The [sections][] can be nested as deeply as you want. The important thing to understand is that to make the section tree fully navigational, at least the lower-most section must include a content file. (i.e. `_index.md`).
 
 ### Single pages in sections
 
-Single content files in each of your sections will be rendered by a [page template]. Here is an example of a single `post` within `posts`:
+Single content files in each of your sections will be rendered by a [page template][]. Here is an example of a single `post` within `posts`:
 
 ```txt
                    path ("posts/my-first-hugo-post.md")
@@ -132,7 +132,7 @@ A default content type is determined by the section in which a content item is s
 
 ### `slug`
 
-The `slug` is the last segment of the URL path, defined by the file name and optionally overridden by a `slug` value in front matter. See [URL Management](/content-management/urls/#slug) for details.
+The `slug` is the last segment of the URL path, defined by the file name and optionally overridden by a `slug` value in front matter. See [URL Management][slug] for details.
 
 ### `path`
 
@@ -143,9 +143,11 @@ A content's `path` is determined by the section's path to the file. The file `pa
 
 ### `url`
 
-The `url` is the entire URL path, defined by the file path and optionally overridden by a `url` value in front matter. See [URL Management](/content-management/urls/#slug) for details.
+The `url` is the entire URL path, defined by the file path and optionally overridden by a `url` value in front matter. See [URL Management][url] for details.
 
-[config]: /configuration/
-[pretty]: /content-management/urls/#appearance
+[config]: /docs/reference/configuration/
+[page template]: /docs/concepts/template-types/#page
+[pretty]: /docs/concepts/url-management/#appearance
 [sections]: /content-management/sections/
-[page template]: /templates/types/#page
+[slug]: /docs/concepts/url-management/#slug
+[url]: /docs/concepts/url-management/#url

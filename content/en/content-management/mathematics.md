@@ -10,7 +10,7 @@ keywords: []
 
 ## Overview
 
-Mathematical equations and expressions written in [LaTeX] are common in academic and scientific publications. Your browser typically renders this mathematical markup using an open-source JavaScript display engine such as [MathJax] or [KaTeX].
+Mathematical equations and expressions written in [LaTeX][] are common in academic and scientific publications. Your browser typically renders this mathematical markup using an open-source JavaScript display engine such as [MathJax][] or [KaTeX][].
 
 For example, with this LaTeX markup:
 
@@ -37,7 +37,7 @@ Equations and expressions can be displayed inline with other text, or as standal
 Whether an equation or expression appears inline, or as a block, depends on the delimiters that surround the mathematical markup. Delimiters are defined in pairs, where each pair consists of an opening and closing delimiter. The opening and closing delimiters may be the same, or different.
 
 > [!note]
-> You can configure Hugo to render mathematical markup on the client side using the MathJax or KaTeX display engine, or you can render the markup with the [`transform.ToMath`] function while building your site.
+> You can configure Hugo to render mathematical markup on the client side using the MathJax or KaTeX display engine, or you can render the markup with the [`transform.ToMath`][] function while building your site.
 >
 > The first approach is described below.
 
@@ -46,7 +46,7 @@ Whether an equation or expression appears inline, or as a block, depends on the 
 Follow these instructions to include mathematical equations and expressions in your Markdown using LaTeX markup.
 
 Step 1
-: Enable and configure the Goldmark [passthrough extension] in your site configuration. The passthrough extension preserves raw Markdown within delimited snippets of text, including the delimiters themselves.
+: Enable and configure the Goldmark [passthrough extension][] in your site configuration. The passthrough extension preserves raw Markdown within delimited snippets of text, including the delimiters themselves.
 
   {{< code-toggle file=hugo copy=true >}}
   [markup.goldmark.extensions.passthrough]
@@ -74,7 +74,7 @@ Step 1
   block = [['\[', '\]'], ['$$', '$$']]
   {{< /code-toggle >}}
 
-  You can define your own opening and closing delimiters, provided they match the delimiters that you set in [Step 2].
+  You can define your own opening and closing delimiters, provided they match the delimiters that you set in [Step 2](#step-2).
 
   {{< code-toggle file=hugo >}}
   [markup.goldmark.extensions.passthrough.delimiters]
@@ -176,7 +176,7 @@ MathJax and KaTeX are open-source JavaScript display engines. Both engines are f
 >
 >See the [inline delimiters](#inline-delimiters) section for details.
 
-To use KaTeX instead of MathJax, replace the _partial_ template from [Step 2] with this:
+To use KaTeX instead of MathJax, replace the _partial_ template from [Step 2](#step-2) with this:
 
 ```go-html-template {file="layouts/_partials/math.html" copy=true}
 <link
@@ -226,8 +226,8 @@ $$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$$
 
 As shown in [Step 2](#step-2) above, MathJax supports chemical equations without additional configuration. To add chemistry support to KaTeX, enable the mhchem extension as described in the KaTeX [documentation](https://katex.org/docs/libs).
 
-[`transform.ToMath`]: /functions/transform/tomath/
+[`transform.ToMath`]: /docs/reference/functions/transform/tomath/
 [KaTeX]: https://katex.org/
 [LaTeX]: https://www.latex-project.org/
 [MathJax]: https://www.mathjax.org/
-[passthrough extension]: /configuration/markup/#passthrough
+[passthrough extension]: /docs/reference/configuration/markup/#passthrough

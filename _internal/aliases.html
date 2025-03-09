@@ -1,0 +1,61 @@
+{{/*
+
+{{ $m1 := dict }}
+{{ $m2 := site.Data.aliases_1 }}
+
+{{ range $p := where site.Pages "Section" "docs" }}
+  {{ $s := slice }}
+
+  {{ range $a := .Aliases }}
+    {{ if not (hasSuffix $a "/") }}
+      {{ $a = print $a "/" }}
+    {{ end }}
+    {{ $s = $s | append (dict "latest" false "date" (now.Format "2006-01-02") "url" $a) }}
+  {{ end }}
+
+  {{ range $a := .Params.old_aliases }}
+    {{ if not (hasSuffix $a "/") }}
+      {{ $a = print $a "/" }}
+    {{ end }}
+    {{ $s = $s | append (dict "latest" false "date" (now.Format "2006-01-02") "url" $a) }}
+  {{ end }}
+
+  {{ with $a := .Params.last_alias }}
+    {{ $s = $s | append (dict "latest" true "date" (now.Format "2006-01-02") "url" $a) }}
+  {{ end }}
+
+  {{ with index $m2 $p.RelPermalink }}
+    {{ range . }}
+      {{ if not (where $s "url" "eq" .url) }}
+        {{ $s = $s | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $m1 = merge $m1 (dict $p.RelPermalink $s) }}
+{{ end }}
+
+{{ range $k, $v := $m2 }}
+  {{ if not (index $m1 $k) }}
+    {{ $m1 = merge $m1 (index . 0) }}
+  {{ end }}
+{{ end }}
+
+<pre>{{ jsonify (dict "indent" "  ") $m1 }}</pre>
+  */}}
+
+{{ $m := site.Data.reverse_aliases }}
+<pre>
+{{- range $k, $v := $m }}
+  {{ $count := 0 }}
+  {{ range $v }}
+    {{if .latest }}
+      {{ $count = add $count 1 }}
+    {{ end }}
+    {{ if gt $count 1 }}
+      {{ $count | warnf "%#[2]v (%[2]T) [%[1]d]" math.Counter  }}
+      {{ $k | warnf "%#[2]v (%[2]T) [%[1]d]" math.Counter  }}
+    {{ end }}
+  {{ end }}
+{{- end }}
+</pre>

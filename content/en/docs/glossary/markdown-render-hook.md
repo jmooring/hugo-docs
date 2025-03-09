@@ -1,0 +1,6 @@
+---
+title: Markdown render hook
+reference: /docs/concepts/markdown-render-hooks/
+---
+
+A _Markdown render hook_ is a [_template_](g) that overrides standard Markdown rendering.

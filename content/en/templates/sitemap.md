@@ -20,7 +20,7 @@ With a multilingual project, Hugo generates:
 
 ## Configuration
 
-See [configure sitemap](/configuration/sitemap).
+See [configure sitemap](/docs/reference/configuration/sitemap).
 
 ## Override default values
 
@@ -48,7 +48,7 @@ You may disable sitemap generation in your site configuration:
 disableKinds = ['sitemap']
 {{</ code-toggle >}}
 
-[`publishDir`]: /configuration/all/#publishdir
+[`publishDir`]: /docs/reference/configuration/all/#publishdir
 [embedded sitemap template]: <{{% eturl sitemap %}}>
 [embedded sitemapindex template]: <{{% eturl sitemapindex %}}>
 [sitemap protocol]: https://www.sitemaps.org/protocol.html
