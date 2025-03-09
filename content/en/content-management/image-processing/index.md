@@ -101,7 +101,7 @@ Example 4: Skip rendering if there's problem accessing a remote resource.
 {{ end }}
 ```
 
-{{% include "/_common/functions/reflect/image-reflection-functions.md" %}}
+{{% include "/docs/_common/functions/reflect/image-reflection-functions.md" %}}
 
 ## Processing
 
@@ -121,7 +121,7 @@ To transform an image, apply a processing method to the image resource. Hugo gen
 Select a method from the table below for syntax and usage examples, depending on your specific transformation or metadata requirements:
 
 {{% render-table-of-pages-in-section
-  path=/methods/resource
+  path=/docs/reference/methods/resource
   filter=methods_resource_image_processing
   filterType=include
   headingColumn1=Method
@@ -158,12 +158,12 @@ If your source images are much larger than the maximum size you intend to publis
 
 ## Configuration
 
-See [configure imaging](/configuration/imaging).
+See [configure imaging](/docs/reference/configuration/imaging/).
 
-[`Height`]: /methods/resource/height/
-[`Meta`]: /methods/resource/meta/
-[`Permalink`]: /methods/resource/permalink/
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Width`]: /methods/resource/width/
-[`reflect.IsImageResourceProcessable`]: /functions/reflect/isimageresourceprocessable/
-[file cache]: /configuration/caches/
+[`Height`]: /docs/reference/methods/resource/height/
+[`Meta`]: /docs/reference/methods/resource/meta/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Width`]: /docs/reference/methods/resource/width/
+[`reflect.IsImageResourceProcessable`]: /docs/reference/functions/reflect/isimageresourceprocessable/
+[file cache]: /docs/reference/configuration/caches/

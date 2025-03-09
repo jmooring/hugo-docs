@@ -1,0 +1,10 @@
+/commands/* /docs/reference/commands/:splat
+/configuration/* /docs/reference/configuration/:splat
+/functions/* /docs/reference/functions/:splat
+/methods/* /docs/reference/methods/:splat
+/render-hooks/* /docs/reference/markdown-render-hooks/:splat
+/host-and-deploy/* /docs/guides/host-and-deploy/:splat
+/installation/* /docs/installation/:splat
+/shortcodes/* /docs/guides/embedded-shortcodes/:splat
+/troubleshooting/* /docs/troubleshooting/:splat
+/themes/* /docs/concept/themes/
