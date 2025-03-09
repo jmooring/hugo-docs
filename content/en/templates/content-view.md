@@ -84,7 +84,7 @@ Continuing on the previous example, we can change our render function to use a s
 </li>
 ```
 
-[render]: /methods/page/render/
-[single template]: /templates/types/#single
-[summaries]: /content-management/summaries/
-[taxonomy template]: /templates/types/#taxonomy
+[render]: /docs/reference/methods/page/render/
+[single template]: /docs/concepts/template-types/#single
+[summaries]: /docs/concepts/content-summaries/
+[taxonomy template]: /docs/concepts/template-types/#taxonomy
