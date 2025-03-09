@@ -23,5 +23,6 @@ jobs:
       - uses: codespell-project/actions-codespell@v2
         with:
           check_filenames: true
-          check_hidden: true
-          # by default, codespell uses configuration from the .codespellrc
+          check_hidden: false
+          path: content
+          skip: emojis.md

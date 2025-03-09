@@ -9,7 +9,7 @@ aliases: [/taxonomies/displaying/,/templates/terms/,/indexes/displaying/,/taxono
 
 The [taxonomy](g) template below inherits the site's shell from the [base template], and renders a list of [terms](g) in the current taxonomy.
 
-[base template]: /templates/types/
+[base template]: /docs/concepts/template-types/
 
 ```go-html-template {file="layouts/_default/taxonomy.html"}
 {{ define "main" }}
@@ -23,7 +23,7 @@ The [taxonomy](g) template below inherits the site's shell from the [base templa
 
 Review the [template lookup order] to select a template path that provides the desired level of specificity.
 
-[template lookup order]: /templates/lookup-order/#taxonomy-templates
+[template lookup order]: /docs/reference/miscellaneous/template-lookup-order/#taxonomy-templates
 
 In the example above, the taxonomy and term will be capitalized if their respective pages are not backed by files. You can disable this in your site configuration:
 
@@ -58,7 +58,7 @@ Terms
 
 Once we have the `Taxonomy` object, we can call any of its [methods], allowing us to sort alphabetically or by term count.
 
-[methods]: /methods/taxonomy/
+[methods]: /docs/reference/methods/taxonomy/
 
 ## Sort alphabetically
 
@@ -92,8 +92,8 @@ The taxonomy template below inherits the site's shell from the base template, an
 
 The [`Alphabetical`] and [`ByCount`] methods used in the previous examples return an [ordered taxonomy](g), so we can also list the content to which each term is assigned.
 
-[`Alphabetical`]: /methods/taxonomy/alphabetical/
-[`ByCount`]: /methods/taxonomy/bycount/
+[`Alphabetical`]: /docs/reference/methods/taxonomy/alphabetical/
+[`ByCount`]: /docs/reference/methods/taxonomy/bycount/
 
 The taxonomy template below inherits the site's shell from the base template, and renders a list of terms in the current taxonomy. Hugo sorts the list by the number of pages associated with each term, displays the number of pages associated with each term, then lists the content to which each term is assigned.
 

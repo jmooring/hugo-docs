@@ -13,9 +13,9 @@ The `block` keyword allows you to define the outer shell of your pages' one or m
 
 ## Base template lookup order
 
-The base template lookup order closely follows that of the template it applies to (e.g. `_default/list.html`).
+The base template lookup order closely follows that of the template it applies to (e.g., `_default/list.html`).
 
-See [Template Lookup Order](/templates/lookup-order/) for details and examples.
+See [template lookup order](/docs/reference/miscellaneous/template-lookup-order/) for details and examples.
 
 ## Define the base template
 
@@ -86,5 +86,5 @@ The following shows how you can override both the `main` and `title` block areas
 {{ end }}
 ```
 
-[single template]: /templates/types/#single
-[template comments]: /templates/introduction/#comments
+[single template]: /docs/concepts/template-types/#single
+[template comments]: /docs/concepts/templating/#comments

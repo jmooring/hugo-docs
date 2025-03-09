@@ -108,13 +108,13 @@ The `image` resource implements the  [`Process`],  [`Resize`], [`Fit`], [`Fill`]
 {{< new-in 0.119.0 />}}
 
 > [!note]
-> The `Process` method is also available as a filter, which is more effective if you need to apply multiple filters to an image. See [Process filter](/functions/images/process).
+> The `Process` method is also available as a filter, which is more effective if you need to apply multiple filters to an image. See [Process filter](/docs/reference/functions/images/process).
 
 Process processes the image with the given specification. The specification can contain an optional action, one of `resize`, `crop`, `fit` or `fill`. This means that you can use this method instead of [`Resize`], [`Fit`], [`Fill`], or [`Crop`].
 
 See [Options](#image-processing-options) for available options.
 
-You can also use this method apply image processing that does not need any scaling, e.g. format conversions:
+You can also use this method apply image processing that does not need any scaling, e.g., format conversions:
 
 ```go-html-template
 {{/* Convert the image from JPG to PNG. */}}
@@ -405,7 +405,7 @@ _The photo of the sunset used in the examples below is Copyright [Bjørn Erik Pe
 
 ## Configuration
 
-See [configure imaging](/configuration/imaging).
+See [configure imaging](/docs/reference/configuration/imaging).
 
 ## Smart cropping of images
 
@@ -435,13 +435,13 @@ hugo --gc
 [`Fill`]: #fill
 [`Filter`]: #filter
 [`Fit`]: #fit
-[`lang.FormatNumber`]: /functions/lang/formatnumber/
+[`lang.FormatNumber`]: /docs/reference/functions/lang/formatnumber/
 [`Process`]: #process
 [`Resize`]: #resize
-[`time.Format`]: /functions/time/format/
-[`with`]: /functions/go-template/with/
+[`time.Format`]: /docs/reference/functions/time/format/
+[`with`]: /docs/reference/functions/go-template/with/
 [EXIF]: https://en.wikipedia.org/wiki/Exif
-[filters]: /functions/images/filter/#image-filters
+[filters]: /docs/reference/functions/images/filter/#image-filters
 [github.com/disintegration/imaging]: https://github.com/disintegration/imaging#image-resizing
-[site configuration]: /configuration/imaging/
+[site configuration]: /docs/reference/configuration/imaging/
 [Smartcrop]: https://github.com/muesli/smartcrop#smartcrop
