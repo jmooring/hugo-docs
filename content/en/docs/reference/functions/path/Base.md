@@ -1,0 +1,19 @@
+---
+title: path.Base
+description: Returns the last element of the given path, after replacing path separators with slashes (`/`).
+categories: []
+keywords: []
+params:
+  functions_and_methods:
+    aliases: []
+    returnType: string
+    signatures: [path.Base PATH]
+---
+
+```go-html-template
+{{ path.Base "a/news.html" }} → news.html
+{{ path.Base "news.html" }} → news.html
+{{ path.Base "a/b/c" }} → c
+{{ path.Base "/x/y/z/" }} → z
+{{ path.Base "" }} → .
+```
