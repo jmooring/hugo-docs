@@ -37,7 +37,10 @@ may also specify the following parameters:
 {{- if in (slice "html" "gotmpl") $lang }}
   {{- $lang = "go-html-template" }}
 {{- end }}
-{{- if eq $lang "md" }}
+{{- if eq $lang "tree" }}
+  {{- $lang = "text" }}
+{{- end }}
+{{- if in (slice "bash" "ksh" "sh" "shell" "zsh") $lang }}
   {{- $lang = "text" }}
 {{- end }}
 
