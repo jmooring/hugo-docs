@@ -1,0 +1,5806 @@
+{
+  "/docs/": [],
+  "/docs/concepts/": [],
+  "/docs/contribute/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/tutorials/how-to-contribute-to-hugo/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/community/contributing/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/contribute/"
+    }
+  ],
+  "/docs/contribute/development/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/contribute/development/"
+    }
+  ],
+  "/docs/contribute/documentation/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/contribute/docs/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/contribute/documentation/"
+    }
+  ],
+  "/docs/contribute/themes/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/contribute/theme/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/contribute/themes/"
+    }
+  ],
+  "/docs/glossary/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/getting-started/glossary/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/quick-reference/glossary/"
+    }
+  ],
+  "/docs/guides/": [],
+  "/docs/guides/host-and-deploy/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/deploy-with-hugo-deploy/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hugo-deploy/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/deploy-with-hugo-deploy/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/deploy-with-rclone/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/deployment-with-rclone/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/deploy-with-rclone/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/deploy-with-rsync/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/deployment-with-rsync/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/deploy-with-rsync/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-21yunbox/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-21yunbox/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-21yunbox/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-aws-amplify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-aws-amplify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/hosting-on-aws-amplify/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-azure-static-web-apps/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-azure-static-web-apps/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-azure-static-web-apps/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-cloudflare-pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-cloudflare-pages/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-cloudflare-pages/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-codeberg-pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-codeberg/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-codeberg-pages/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-firebase/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-firebase/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-firebase/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-github-pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-github/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/hosting-on-github/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-gitlab-pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-gitlab/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-gitlab-pages/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-keycdn/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-keycdn/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/hosting-on-keycdn/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-netlify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-netlify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/hosting-on-netlify/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-render/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-render/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-render/"
+    }
+  ],
+  "/docs/guides/host-and-deploy/host-on-sourcehut-pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hosting-and-deployment/hosting-on-sourcehut/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/host-and-deploy/host-on-sourcehut-pages/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/details/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/details/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/figure/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/figure/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/gist/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/gist/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/highlight/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/highlight/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/instagram/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/instagram/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/param/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/param/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/qr/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/qr/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/ref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/ref/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/relref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/relref/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/vimeo/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/vimeo/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/x/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/x/"
+    }
+  ],
+  "/docs/guides/embedded-shortcodes/youtube/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/shortcodes/youtube/"
+    }
+  ],
+  "/docs/installation/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/getting-started/installing/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/installation/"
+    }
+  ],
+  "/docs/installation/bsd/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/installation/bsd/"
+    }
+  ],
+  "/docs/installation/linux/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/installation/linux/"
+    }
+  ],
+  "/docs/installation/macos/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/installation/macos/"
+    }
+  ],
+  "/docs/installation/windows/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/installation/windows/"
+    }
+  ],
+  "/docs/reference/": [],
+  "/docs/reference/commands/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/"
+    }
+  ],
+  "/docs/reference/commands/hugo/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo/"
+    }
+  ],
+  "/docs/reference/commands/hugo_build/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_build/"
+    }
+  ],
+  "/docs/reference/commands/hugo_completion/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_completion/"
+    }
+  ],
+  "/docs/reference/commands/hugo_completion_bash/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_completion_bash/"
+    }
+  ],
+  "/docs/reference/commands/hugo_completion_fish/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_completion_fish/"
+    }
+  ],
+  "/docs/reference/commands/hugo_completion_powershell/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_completion_powershell/"
+    }
+  ],
+  "/docs/reference/commands/hugo_completion_zsh/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_completion_zsh/"
+    }
+  ],
+  "/docs/reference/commands/hugo_config/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_config/"
+    }
+  ],
+  "/docs/reference/commands/hugo_config_mounts/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_config_mounts/"
+    }
+  ],
+  "/docs/reference/commands/hugo_convert/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_convert/"
+    }
+  ],
+  "/docs/reference/commands/hugo_convert_tojson/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_convert_tojson/"
+    }
+  ],
+  "/docs/reference/commands/hugo_convert_totoml/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_convert_totoml/"
+    }
+  ],
+  "/docs/reference/commands/hugo_convert_toyaml/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_convert_toyaml/"
+    }
+  ],
+  "/docs/reference/commands/hugo_deploy/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_deploy/"
+    }
+  ],
+  "/docs/reference/commands/hugo_env/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_env/"
+    }
+  ],
+  "/docs/reference/commands/hugo_gen/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_gen/"
+    }
+  ],
+  "/docs/reference/commands/hugo_gen_chromastyles/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_gen_chromastyles/"
+    }
+  ],
+  "/docs/reference/commands/hugo_gen_doc/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_gen_doc/"
+    }
+  ],
+  "/docs/reference/commands/hugo_gen_man/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_gen_man/"
+    }
+  ],
+  "/docs/reference/commands/hugo_import/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_import/"
+    }
+  ],
+  "/docs/reference/commands/hugo_import_jekyll/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_import_jekyll/"
+    }
+  ],
+  "/docs/reference/commands/hugo_list/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_list/"
+    }
+  ],
+  "/docs/reference/commands/hugo_list_all/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_list_all/"
+    }
+  ],
+  "/docs/reference/commands/hugo_list_drafts/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_list_drafts/"
+    }
+  ],
+  "/docs/reference/commands/hugo_list_expired/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_list_expired/"
+    }
+  ],
+  "/docs/reference/commands/hugo_list_future/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_list_future/"
+    }
+  ],
+  "/docs/reference/commands/hugo_list_published/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_list_published/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_clean/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_clean/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_get/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_get/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_graph/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_graph/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_init/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_init/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_npm/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_npm/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_npm_pack/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_npm_pack/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_tidy/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_tidy/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_vendor/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_vendor/"
+    }
+  ],
+  "/docs/reference/commands/hugo_mod_verify/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_mod_verify/"
+    }
+  ],
+  "/docs/reference/commands/hugo_new/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_new/"
+    }
+  ],
+  "/docs/reference/commands/hugo_new_content/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_new_content/"
+    }
+  ],
+  "/docs/reference/commands/hugo_new_site/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_new_site/"
+    }
+  ],
+  "/docs/reference/commands/hugo_new_theme/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_new_theme/"
+    }
+  ],
+  "/docs/reference/commands/hugo_server/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_server/"
+    }
+  ],
+  "/docs/reference/commands/hugo_server_trust/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_server_trust/"
+    }
+  ],
+  "/docs/reference/commands/hugo_version/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/commands/hugo_version/"
+    }
+  ],
+  "/docs/reference/configuration/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/"
+    }
+  ],
+  "/docs/reference/configuration/all/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/getting-started/configuration/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/all/"
+    }
+  ],
+  "/docs/reference/configuration/build/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/getting-started/configuration-build/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/build/"
+    }
+  ],
+  "/docs/reference/configuration/caches/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/caches/"
+    }
+  ],
+  "/docs/reference/configuration/cascade/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/cascade/"
+    }
+  ],
+  "/docs/reference/configuration/content-types/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/content-types/"
+    }
+  ],
+  "/docs/reference/configuration/deployment/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/deployment/"
+    }
+  ],
+  "/docs/reference/configuration/front-matter/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/front-matter/"
+    }
+  ],
+  "/docs/reference/configuration/http-cache/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/http-cache/"
+    }
+  ],
+  "/docs/reference/configuration/imaging/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/imaging/"
+    }
+  ],
+  "/docs/reference/configuration/introduction/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/introduction/"
+    }
+  ],
+  "/docs/reference/configuration/languages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/languages/"
+    }
+  ],
+  "/docs/reference/configuration/markup/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/getting-started/configuration-markup/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/markup/"
+    }
+  ],
+  "/docs/reference/configuration/media-types/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/media-types/"
+    }
+  ],
+  "/docs/reference/configuration/menus/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/menus/"
+    }
+  ],
+  "/docs/reference/configuration/minify/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/minify/"
+    }
+  ],
+  "/docs/reference/configuration/module/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/hugo-modules/configuration/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/module/"
+    }
+  ],
+  "/docs/reference/configuration/output-formats/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/output-formats/"
+    }
+  ],
+  "/docs/reference/configuration/outputs/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/outputs/"
+    }
+  ],
+  "/docs/reference/configuration/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/page/"
+    }
+  ],
+  "/docs/reference/configuration/pagination/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/pagination/"
+    }
+  ],
+  "/docs/reference/configuration/params/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/params/"
+    }
+  ],
+  "/docs/reference/configuration/permalinks/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/permalinks/"
+    }
+  ],
+  "/docs/reference/configuration/privacy/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/about/privacy/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/privacy/"
+    }
+  ],
+  "/docs/reference/configuration/related-content/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/related-content/"
+    }
+  ],
+  "/docs/reference/configuration/security/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/security/"
+    }
+  ],
+  "/docs/reference/configuration/segments/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/segments/"
+    }
+  ],
+  "/docs/reference/configuration/server/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/server/"
+    }
+  ],
+  "/docs/reference/configuration/services/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/services/"
+    }
+  ],
+  "/docs/reference/configuration/sitemap/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/sitemap/"
+    }
+  ],
+  "/docs/reference/configuration/taxonomies/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/taxonomies/"
+    }
+  ],
+  "/docs/reference/configuration/ugly-urls/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/configuration/ugly-urls/"
+    }
+  ],
+  "/docs/reference/functions/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/layout/functions/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/templates/functions/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/"
+    }
+  ],
+  "/docs/reference/functions/cast/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/cast/"
+    }
+  ],
+  "/docs/reference/functions/cast/tofloat/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/float/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/cast/tofloat/"
+    }
+  ],
+  "/docs/reference/functions/cast/toint/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/int/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/cast/toint/"
+    }
+  ],
+  "/docs/reference/functions/cast/tostring/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/string/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/cast/tostring/"
+    }
+  ],
+  "/docs/reference/functions/collections/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/"
+    }
+  ],
+  "/docs/reference/functions/collections/after/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/after/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/after/"
+    }
+  ],
+  "/docs/reference/functions/collections/append/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/append/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/append/"
+    }
+  ],
+  "/docs/reference/functions/collections/apply/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/apply/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/apply/"
+    }
+  ],
+  "/docs/reference/functions/collections/complement/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/complement/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/complement/"
+    }
+  ],
+  "/docs/reference/functions/collections/delimit/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/delimit/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/delimit/"
+    }
+  ],
+  "/docs/reference/functions/collections/dictionary/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/dict/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/dictionary/"
+    }
+  ],
+  "/docs/reference/functions/collections/first/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/first/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/first/"
+    }
+  ],
+  "/docs/reference/functions/collections/group/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/group/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/group/"
+    }
+  ],
+  "/docs/reference/functions/collections/in/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/in/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/in/"
+    }
+  ],
+  "/docs/reference/functions/collections/indexfunction/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/index/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/index-function/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/indexfunction/"
+    }
+  ],
+  "/docs/reference/functions/collections/intersect/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/intersect/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/intersect/"
+    }
+  ],
+  "/docs/reference/functions/collections/isset/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/isset/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/isset/"
+    }
+  ],
+  "/docs/reference/functions/collections/keyvals/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/keyvals/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/keyvals/"
+    }
+  ],
+  "/docs/reference/functions/collections/last/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/last/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/last/"
+    }
+  ],
+  "/docs/reference/functions/collections/merge/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/merge/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/merge/"
+    }
+  ],
+  "/docs/reference/functions/collections/newscratch/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/newscratch/"
+    }
+  ],
+  "/docs/reference/functions/collections/querify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/querify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/querify/"
+    }
+  ],
+  "/docs/reference/functions/collections/reverse/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/collections.reverse/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/reverse/"
+    }
+  ],
+  "/docs/reference/functions/collections/seq/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/seq/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/seq/"
+    }
+  ],
+  "/docs/reference/functions/collections/shuffle/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/shuffle/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/shuffle/"
+    }
+  ],
+  "/docs/reference/functions/collections/slice/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/slice/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/slice/"
+    }
+  ],
+  "/docs/reference/functions/collections/sort/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/sort/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/sort/"
+    }
+  ],
+  "/docs/reference/functions/collections/symdiff/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/symdiff/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/symdiff/"
+    }
+  ],
+  "/docs/reference/functions/collections/union/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/union/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/union/"
+    }
+  ],
+  "/docs/reference/functions/collections/uniq/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/uniq/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/uniq/"
+    }
+  ],
+  "/docs/reference/functions/collections/where/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/where/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/collections/where/"
+    }
+  ],
+  "/docs/reference/functions/compare/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/"
+    }
+  ],
+  "/docs/reference/functions/compare/conditional/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/cond/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/conditional/"
+    }
+  ],
+  "/docs/reference/functions/compare/default/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/default/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/default/"
+    }
+  ],
+  "/docs/reference/functions/compare/eq/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/eq/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/eq/"
+    }
+  ],
+  "/docs/reference/functions/compare/ge/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/ge/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/ge/"
+    }
+  ],
+  "/docs/reference/functions/compare/gt/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/gt/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/gt/"
+    }
+  ],
+  "/docs/reference/functions/compare/le/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/le/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/le/"
+    }
+  ],
+  "/docs/reference/functions/compare/lt/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/lt/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/lt/"
+    }
+  ],
+  "/docs/reference/functions/compare/ne/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/ne/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/compare/ne/"
+    }
+  ],
+  "/docs/reference/functions/crypto/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/crypto/"
+    }
+  ],
+  "/docs/reference/functions/crypto/fnv32a/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/crypto/fnv32a/"
+    }
+  ],
+  "/docs/reference/functions/crypto/hmac/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/hmac/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/crypto/hmac/"
+    }
+  ],
+  "/docs/reference/functions/crypto/md5/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/md5/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/crypto/md5/"
+    }
+  ],
+  "/docs/reference/functions/crypto/sha1/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/sha/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/sha1/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/crypto/sha1/"
+    }
+  ],
+  "/docs/reference/functions/crypto/sha256/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/sha256/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/crypto/sha256/"
+    }
+  ],
+  "/docs/reference/functions/css/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/css/"
+    }
+  ],
+  "/docs/reference/functions/css/postcss/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/css/postcss/"
+    }
+  ],
+  "/docs/reference/functions/css/sass/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/css/sass/"
+    }
+  ],
+  "/docs/reference/functions/css/tailwindcss/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/css/tailwindcss/"
+    }
+  ],
+  "/docs/reference/functions/data/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/data/"
+    }
+  ],
+  "/docs/reference/functions/data/getcsv/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/data/getcsv/"
+    }
+  ],
+  "/docs/reference/functions/data/getjson/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/data/getjson/"
+    }
+  ],
+  "/docs/reference/functions/debug/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/debug/"
+    }
+  ],
+  "/docs/reference/functions/debug/dump/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/debug/dump/"
+    }
+  ],
+  "/docs/reference/functions/debug/timer/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/debug/timer/"
+    }
+  ],
+  "/docs/reference/functions/diagrams/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/diagrams/"
+    }
+  ],
+  "/docs/reference/functions/diagrams/goat/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/diagrams/goat/"
+    }
+  ],
+  "/docs/reference/functions/encoding/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/encoding/"
+    }
+  ],
+  "/docs/reference/functions/encoding/base64decode/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/base64Decode/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/encoding/base64decode/"
+    }
+  ],
+  "/docs/reference/functions/encoding/base64encode/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/base64/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/base64Encode/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/encoding/base64encode/"
+    }
+  ],
+  "/docs/reference/functions/encoding/jsonify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/jsonify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/encoding/jsonify/"
+    }
+  ],
+  "/docs/reference/functions/fmt/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/"
+    }
+  ],
+  "/docs/reference/functions/fmt/errorf/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/errorf/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/errorf/"
+    }
+  ],
+  "/docs/reference/functions/fmt/erroridf/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/erroridf/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/erroridf/"
+    }
+  ],
+  "/docs/reference/functions/fmt/print/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/print/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/print/"
+    }
+  ],
+  "/docs/reference/functions/fmt/printf/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/printf/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/printf/"
+    }
+  ],
+  "/docs/reference/functions/fmt/println/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/println/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/println/"
+    }
+  ],
+  "/docs/reference/functions/fmt/warnf/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/warnf/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/warnf/"
+    }
+  ],
+  "/docs/reference/functions/fmt/warnidf/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/warnidf/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/fmt/warnidf/"
+    }
+  ],
+  "/docs/reference/functions/global/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/global/"
+    }
+  ],
+  "/docs/reference/functions/global/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/page/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/global/page/"
+    }
+  ],
+  "/docs/reference/functions/global/site/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/site/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/global/site/"
+    }
+  ],
+  "/docs/reference/functions/go-template/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/"
+    }
+  ],
+  "/docs/reference/functions/go-template/and/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/and/"
+    }
+  ],
+  "/docs/reference/functions/go-template/block/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/block/"
+    }
+  ],
+  "/docs/reference/functions/go-template/break/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/break/"
+    }
+  ],
+  "/docs/reference/functions/go-template/continue/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/continue/"
+    }
+  ],
+  "/docs/reference/functions/go-template/define/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/define/"
+    }
+  ],
+  "/docs/reference/functions/go-template/else/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/else/"
+    }
+  ],
+  "/docs/reference/functions/go-template/end/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/end/"
+    }
+  ],
+  "/docs/reference/functions/go-template/if/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/if/"
+    }
+  ],
+  "/docs/reference/functions/go-template/len/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/len/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/len/"
+    }
+  ],
+  "/docs/reference/functions/go-template/not/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/not/"
+    }
+  ],
+  "/docs/reference/functions/go-template/or/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/or/"
+    }
+  ],
+  "/docs/reference/functions/go-template/range/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/range/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/range/"
+    }
+  ],
+  "/docs/reference/functions/go-template/return/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/return/"
+    }
+  ],
+  "/docs/reference/functions/go-template/template/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/template/"
+    }
+  ],
+  "/docs/reference/functions/go-template/try/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/try/"
+    }
+  ],
+  "/docs/reference/functions/go-template/urlquery/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/urlquery/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/urlquery/"
+    }
+  ],
+  "/docs/reference/functions/go-template/with/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/with/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/go-template/with/"
+    }
+  ],
+  "/docs/reference/functions/hash/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hash/"
+    }
+  ],
+  "/docs/reference/functions/hash/fnv32a/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/crypto.fnv32a/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hash/fnv32a/"
+    }
+  ],
+  "/docs/reference/functions/hash/xxhash/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hash/xxhash/"
+    }
+  ],
+  "/docs/reference/functions/hugo/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/"
+    }
+  ],
+  "/docs/reference/functions/hugo/builddate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/builddate/"
+    }
+  ],
+  "/docs/reference/functions/hugo/commithash/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/commithash/"
+    }
+  ],
+  "/docs/reference/functions/hugo/deps/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/deps/"
+    }
+  ],
+  "/docs/reference/functions/hugo/environment/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/environment/"
+    }
+  ],
+  "/docs/reference/functions/hugo/generator/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/generator/"
+    }
+  ],
+  "/docs/reference/functions/hugo/goversion/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/goversion/"
+    }
+  ],
+  "/docs/reference/functions/hugo/isdevelopment/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/isdevelopment/"
+    }
+  ],
+  "/docs/reference/functions/hugo/isextended/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/isextended/"
+    }
+  ],
+  "/docs/reference/functions/hugo/ismultihost/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/ismultihost/"
+    }
+  ],
+  "/docs/reference/functions/hugo/ismultilingual/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/ismultilingual/"
+    }
+  ],
+  "/docs/reference/functions/hugo/isproduction/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/isproduction/"
+    }
+  ],
+  "/docs/reference/functions/hugo/isserver/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/isserver/"
+    }
+  ],
+  "/docs/reference/functions/hugo/store/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/store/"
+    }
+  ],
+  "/docs/reference/functions/hugo/version/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/version/"
+    }
+  ],
+  "/docs/reference/functions/hugo/workingdir/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/hugo/workingdir/"
+    }
+  ],
+  "/docs/reference/functions/images/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/"
+    }
+  ],
+  "/docs/reference/functions/images/autoorient/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/autoorient/"
+    }
+  ],
+  "/docs/reference/functions/images/brightness/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/brightness/"
+    }
+  ],
+  "/docs/reference/functions/images/colorbalance/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/colorbalance/"
+    }
+  ],
+  "/docs/reference/functions/images/colorize/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/colorize/"
+    }
+  ],
+  "/docs/reference/functions/images/config/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/imageconfig/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/config/"
+    }
+  ],
+  "/docs/reference/functions/images/contrast/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/contrast/"
+    }
+  ],
+  "/docs/reference/functions/images/dither/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/dither/"
+    }
+  ],
+  "/docs/reference/functions/images/filter/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/filter/"
+    }
+  ],
+  "/docs/reference/functions/images/gamma/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/gamma/"
+    }
+  ],
+  "/docs/reference/functions/images/gaussianblur/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/gaussianblur/"
+    }
+  ],
+  "/docs/reference/functions/images/grayscale/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/grayscale/"
+    }
+  ],
+  "/docs/reference/functions/images/hue/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/hue/"
+    }
+  ],
+  "/docs/reference/functions/images/invert/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/invert/"
+    }
+  ],
+  "/docs/reference/functions/images/mask/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/mask/"
+    }
+  ],
+  "/docs/reference/functions/images/opacity/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/opacity/"
+    }
+  ],
+  "/docs/reference/functions/images/overlay/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/overlay/"
+    }
+  ],
+  "/docs/reference/functions/images/padding/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/padding/"
+    }
+  ],
+  "/docs/reference/functions/images/pixelate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/pixelate/"
+    }
+  ],
+  "/docs/reference/functions/images/process/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/process/"
+    }
+  ],
+  "/docs/reference/functions/images/qr/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/qr/"
+    }
+  ],
+  "/docs/reference/functions/images/saturation/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/saturation/"
+    }
+  ],
+  "/docs/reference/functions/images/sepia/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/sepia/"
+    }
+  ],
+  "/docs/reference/functions/images/sigmoid/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/sigmoid/"
+    }
+  ],
+  "/docs/reference/functions/images/text/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/text/"
+    }
+  ],
+  "/docs/reference/functions/images/unsharpmask/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/images/unsharpmask/"
+    }
+  ],
+  "/docs/reference/functions/inflect/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/inflect/"
+    }
+  ],
+  "/docs/reference/functions/inflect/humanize/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/humanize/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/inflect/humanize/"
+    }
+  ],
+  "/docs/reference/functions/inflect/pluralize/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/pluralize/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/inflect/pluralize/"
+    }
+  ],
+  "/docs/reference/functions/inflect/singularize/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/singularize/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/inflect/singularize/"
+    }
+  ],
+  "/docs/reference/functions/js/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/js/"
+    }
+  ],
+  "/docs/reference/functions/js/babel/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/js/babel/"
+    }
+  ],
+  "/docs/reference/functions/js/batch/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/js/batch/"
+    }
+  ],
+  "/docs/reference/functions/js/build/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/js/build/"
+    }
+  ],
+  "/docs/reference/functions/lang/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/"
+    }
+  ],
+  "/docs/reference/functions/lang/formataccounting/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/formataccounting/"
+    }
+  ],
+  "/docs/reference/functions/lang/formatcurrency/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/formatcurrency/"
+    }
+  ],
+  "/docs/reference/functions/lang/formatnumber/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/formatnumber/"
+    }
+  ],
+  "/docs/reference/functions/lang/formatnumbercustom/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/numfmt/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/formatnumbercustom/"
+    }
+  ],
+  "/docs/reference/functions/lang/formatpercent/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/formatpercent/"
+    }
+  ],
+  "/docs/reference/functions/lang/merge/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/lang.merge/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/merge/"
+    }
+  ],
+  "/docs/reference/functions/lang/translate/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/i18n/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/lang/translate/"
+    }
+  ],
+  "/docs/reference/functions/math/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/"
+    }
+  ],
+  "/docs/reference/functions/math/abs/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/abs/"
+    }
+  ],
+  "/docs/reference/functions/math/acos/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/acos/"
+    }
+  ],
+  "/docs/reference/functions/math/add/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/add/"
+    }
+  ],
+  "/docs/reference/functions/math/asin/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/asin/"
+    }
+  ],
+  "/docs/reference/functions/math/atan/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/atan/"
+    }
+  ],
+  "/docs/reference/functions/math/atan2/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/atan2/"
+    }
+  ],
+  "/docs/reference/functions/math/ceil/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/ceil/"
+    }
+  ],
+  "/docs/reference/functions/math/cos/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/cos/"
+    }
+  ],
+  "/docs/reference/functions/math/counter/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/counter/"
+    }
+  ],
+  "/docs/reference/functions/math/div/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/div/"
+    }
+  ],
+  "/docs/reference/functions/math/floor/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/floor/"
+    }
+  ],
+  "/docs/reference/functions/math/log/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/log/"
+    }
+  ],
+  "/docs/reference/functions/math/max/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/max/"
+    }
+  ],
+  "/docs/reference/functions/math/min/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/min/"
+    }
+  ],
+  "/docs/reference/functions/math/mod/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/mod/"
+    }
+  ],
+  "/docs/reference/functions/math/modbool/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/modbool/"
+    }
+  ],
+  "/docs/reference/functions/math/mul/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/mul/"
+    }
+  ],
+  "/docs/reference/functions/math/pi/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/pi/"
+    }
+  ],
+  "/docs/reference/functions/math/pow/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/pow/"
+    }
+  ],
+  "/docs/reference/functions/math/product/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/product/"
+    }
+  ],
+  "/docs/reference/functions/math/rand/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/rand/"
+    }
+  ],
+  "/docs/reference/functions/math/round/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/round/"
+    }
+  ],
+  "/docs/reference/functions/math/sin/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/sin/"
+    }
+  ],
+  "/docs/reference/functions/math/sqrt/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/sqrt/"
+    }
+  ],
+  "/docs/reference/functions/math/sub/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/sub/"
+    }
+  ],
+  "/docs/reference/functions/math/sum/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/sum/"
+    }
+  ],
+  "/docs/reference/functions/math/tan/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/tan/"
+    }
+  ],
+  "/docs/reference/functions/math/todegrees/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/todegrees/"
+    }
+  ],
+  "/docs/reference/functions/math/toradians/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/math/toradians/"
+    }
+  ],
+  "/docs/reference/functions/openapi3/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/openapi3/"
+    }
+  ],
+  "/docs/reference/functions/openapi3/unmarshal/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/openapi3/unmarshal/"
+    }
+  ],
+  "/docs/reference/functions/os/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/os/"
+    }
+  ],
+  "/docs/reference/functions/os/fileexists/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/fileexists/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/os/fileexists/"
+    }
+  ],
+  "/docs/reference/functions/os/getenv/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/getenv/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/os/getenv/"
+    }
+  ],
+  "/docs/reference/functions/os/readdir/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/readdir/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/os/readdir/"
+    }
+  ],
+  "/docs/reference/functions/os/readfile/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/readfile/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/os/readfile/"
+    }
+  ],
+  "/docs/reference/functions/os/stat/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/os.stat/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/os/stat/"
+    }
+  ],
+  "/docs/reference/functions/partials/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/partials/"
+    }
+  ],
+  "/docs/reference/functions/partials/include/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/partial/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/partials/include/"
+    }
+  ],
+  "/docs/reference/functions/partials/includecached/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/partialcached/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/partials/includecached/"
+    }
+  ],
+  "/docs/reference/functions/path/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/"
+    }
+  ],
+  "/docs/reference/functions/path/base/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.base/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/base/"
+    }
+  ],
+  "/docs/reference/functions/path/basename/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.basename/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/basename/"
+    }
+  ],
+  "/docs/reference/functions/path/clean/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.clean/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/clean/"
+    }
+  ],
+  "/docs/reference/functions/path/dir/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.dir/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/dir/"
+    }
+  ],
+  "/docs/reference/functions/path/ext/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.ext/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/ext/"
+    }
+  ],
+  "/docs/reference/functions/path/join/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.join/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/join/"
+    }
+  ],
+  "/docs/reference/functions/path/split/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/path.split/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/path/split/"
+    }
+  ],
+  "/docs/reference/functions/reflect/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/reflect/"
+    }
+  ],
+  "/docs/reference/functions/reflect/ismap/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/reflect.ismap/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/reflect/ismap/"
+    }
+  ],
+  "/docs/reference/functions/reflect/isslice/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/reflect.isslice/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/reflect/isslice/"
+    }
+  ],
+  "/docs/reference/functions/resources/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/"
+    }
+  ],
+  "/docs/reference/functions/resources/babel/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/babel/"
+    }
+  ],
+  "/docs/reference/functions/resources/bytype/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/bytype/"
+    }
+  ],
+  "/docs/reference/functions/resources/concat/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/concat/"
+    }
+  ],
+  "/docs/reference/functions/resources/copy/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/copy/"
+    }
+  ],
+  "/docs/reference/functions/resources/executeastemplate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/executeastemplate/"
+    }
+  ],
+  "/docs/reference/functions/resources/fingerprint/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/fingerprint/"
+    }
+  ],
+  "/docs/reference/functions/resources/fromstring/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/fromstring/"
+    }
+  ],
+  "/docs/reference/functions/resources/get/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/get/"
+    }
+  ],
+  "/docs/reference/functions/resources/getmatch/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/getmatch/"
+    }
+  ],
+  "/docs/reference/functions/resources/getremote/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/getremote/"
+    }
+  ],
+  "/docs/reference/functions/resources/match/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/match/"
+    }
+  ],
+  "/docs/reference/functions/resources/minify/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/minify/"
+    }
+  ],
+  "/docs/reference/functions/resources/postcss/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/postcss/"
+    }
+  ],
+  "/docs/reference/functions/resources/postprocess/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/postprocess/"
+    }
+  ],
+  "/docs/reference/functions/resources/tocss/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/resources/tocss/"
+    }
+  ],
+  "/docs/reference/functions/safe/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/"
+    }
+  ],
+  "/docs/reference/functions/safe/css/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/safecss/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/css/"
+    }
+  ],
+  "/docs/reference/functions/safe/html/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/safehtml/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/html/"
+    }
+  ],
+  "/docs/reference/functions/safe/htmlattr/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/safehtmlattr/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/htmlattr/"
+    }
+  ],
+  "/docs/reference/functions/safe/js/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/safejs/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/js/"
+    }
+  ],
+  "/docs/reference/functions/safe/jsstr/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/safejsstr/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/jsstr/"
+    }
+  ],
+  "/docs/reference/functions/safe/url/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/safeurl/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/safe/url/"
+    }
+  ],
+  "/docs/reference/functions/strings/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/"
+    }
+  ],
+  "/docs/reference/functions/strings/chomp/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/chomp/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/chomp/"
+    }
+  ],
+  "/docs/reference/functions/strings/contains/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.contains/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/contains/"
+    }
+  ],
+  "/docs/reference/functions/strings/containsany/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.containsany/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/containsany/"
+    }
+  ],
+  "/docs/reference/functions/strings/containsnonspace/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.containsnonspace/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/containsnonspace/"
+    }
+  ],
+  "/docs/reference/functions/strings/count/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.count/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/count/"
+    }
+  ],
+  "/docs/reference/functions/strings/countrunes/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/countrunes/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/countrunes/"
+    }
+  ],
+  "/docs/reference/functions/strings/countwords/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/countwords/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/countwords/"
+    }
+  ],
+  "/docs/reference/functions/strings/diff/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/diff/"
+    }
+  ],
+  "/docs/reference/functions/strings/findre/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/findre/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/findre/"
+    }
+  ],
+  "/docs/reference/functions/strings/findresubmatch/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/findresubmatch/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/findresubmatch/"
+    }
+  ],
+  "/docs/reference/functions/strings/firstupper/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.firstupper/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/firstupper/"
+    }
+  ],
+  "/docs/reference/functions/strings/hasprefix/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/hasprefix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.hasprefix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/hasprefix/"
+    }
+  ],
+  "/docs/reference/functions/strings/hassuffix/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/hassuffix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/docs/reference/functions/strings/hassuffix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/hassuffix/"
+    }
+  ],
+  "/docs/reference/functions/strings/repeat/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.repeat/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/repeat/"
+    }
+  ],
+  "/docs/reference/functions/strings/replace/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/replace/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/replace/"
+    }
+  ],
+  "/docs/reference/functions/strings/replacere/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/replacere/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/replacere/"
+    }
+  ],
+  "/docs/reference/functions/strings/runecount/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.runecount/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/runecount/"
+    }
+  ],
+  "/docs/reference/functions/strings/slicestring/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/slicestr/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/slicestring/"
+    }
+  ],
+  "/docs/reference/functions/strings/split/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/split/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/split/"
+    }
+  ],
+  "/docs/reference/functions/strings/substr/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/substr/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/substr/"
+    }
+  ],
+  "/docs/reference/functions/strings/title/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/title/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/title/"
+    }
+  ],
+  "/docs/reference/functions/strings/tolower/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/lower/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/tolower/"
+    }
+  ],
+  "/docs/reference/functions/strings/toupper/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/upper/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/toupper/"
+    }
+  ],
+  "/docs/reference/functions/strings/trim/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/trim/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/trim/"
+    }
+  ],
+  "/docs/reference/functions/strings/trimleft/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.trimleft/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/trimleft/"
+    }
+  ],
+  "/docs/reference/functions/strings/trimprefix/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.trimprefix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/trimprefix/"
+    }
+  ],
+  "/docs/reference/functions/strings/trimright/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.trimright/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/trimright/"
+    }
+  ],
+  "/docs/reference/functions/strings/trimspace/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/trimspace/"
+    }
+  ],
+  "/docs/reference/functions/strings/trimsuffix/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/strings.trimsuffix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/trimsuffix/"
+    }
+  ],
+  "/docs/reference/functions/strings/truncate/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/truncate/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/strings/truncate/"
+    }
+  ],
+  "/docs/reference/functions/templates/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/templates/"
+    }
+  ],
+  "/docs/reference/functions/templates/defer/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/templates.defer/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/templates/defer/"
+    }
+  ],
+  "/docs/reference/functions/templates/exists/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/templates.exists/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/templates/exists/"
+    }
+  ],
+  "/docs/reference/functions/time/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/time/"
+    }
+  ],
+  "/docs/reference/functions/time/astime/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/time/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/time/astime/"
+    }
+  ],
+  "/docs/reference/functions/time/duration/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/duration/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/time/duration/"
+    }
+  ],
+  "/docs/reference/functions/time/format/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/dateformat/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/time/format/"
+    }
+  ],
+  "/docs/reference/functions/time/now/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/now/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/time/now/"
+    }
+  ],
+  "/docs/reference/functions/time/parseduration/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/time.parseduration/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/time/parseduration/"
+    }
+  ],
+  "/docs/reference/functions/transform/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/"
+    }
+  ],
+  "/docs/reference/functions/transform/canhighlight/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/canhighlight/"
+    }
+  ],
+  "/docs/reference/functions/transform/emojify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/emojify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/emojify/"
+    }
+  ],
+  "/docs/reference/functions/transform/highlight/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/highlight/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/highlight/"
+    }
+  ],
+  "/docs/reference/functions/transform/highlightcodeblock/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/highlightcodeblock/"
+    }
+  ],
+  "/docs/reference/functions/transform/htmlescape/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/htmlescape/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/htmlescape/"
+    }
+  ],
+  "/docs/reference/functions/transform/htmlunescape/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/htmlunescape/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/htmlunescape/"
+    }
+  ],
+  "/docs/reference/functions/transform/markdownify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/markdownify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/markdownify/"
+    }
+  ],
+  "/docs/reference/functions/transform/plainify/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/plainify/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/plainify/"
+    }
+  ],
+  "/docs/reference/functions/transform/portabletext/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/portabletext/"
+    }
+  ],
+  "/docs/reference/functions/transform/remarshal/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/transform.remarshal/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/remarshal/"
+    }
+  ],
+  "/docs/reference/functions/transform/tomath/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/tomath/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/tomath/"
+    }
+  ],
+  "/docs/reference/functions/transform/unmarshal/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/transform.unmarshal/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/unmarshal/"
+    }
+  ],
+  "/docs/reference/functions/transform/xmlescape/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/transform/xmlescape/"
+    }
+  ],
+  "/docs/reference/functions/urls/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/"
+    }
+  ],
+  "/docs/reference/functions/urls/abslangurl/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/abslangurl/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/abslangurl/"
+    }
+  ],
+  "/docs/reference/functions/urls/absurl/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/absurl/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/absurl/"
+    }
+  ],
+  "/docs/reference/functions/urls/anchorize/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/anchorize/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/anchorize/"
+    }
+  ],
+  "/docs/reference/functions/urls/joinpath/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/urls.joinpath/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/joinpath/"
+    }
+  ],
+  "/docs/reference/functions/urls/parse/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/urls.parse/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/parse/"
+    }
+  ],
+  "/docs/reference/functions/urls/ref/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/ref/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/ref/"
+    }
+  ],
+  "/docs/reference/functions/urls/rellangurl/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/rellangurl/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/rellangurl/"
+    }
+  ],
+  "/docs/reference/functions/urls/relref/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/relref/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/relref/"
+    }
+  ],
+  "/docs/reference/functions/urls/relurl/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/relurl/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/relurl/"
+    }
+  ],
+  "/docs/reference/functions/urls/urlize/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/urlize/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/functions/urls/urlize/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/templates/render-hooks/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/blockquotes/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/blockquotes/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/code-blocks/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/code-blocks/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/headings/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/headings/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/images/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/images/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/introduction/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/introduction/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/links/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/links/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/passthrough/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/passthrough/"
+    }
+  ],
+  "/docs/reference/markdown-render-hooks/tables/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/render-hooks/tables/"
+    }
+  ],
+  "/docs/reference/methods/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/variables/"
+    }
+  ],
+  "/docs/reference/methods/duration/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/"
+    }
+  ],
+  "/docs/reference/methods/duration/abs/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/abs/"
+    }
+  ],
+  "/docs/reference/methods/duration/hours/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/hours/"
+    }
+  ],
+  "/docs/reference/methods/duration/microseconds/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/microseconds/"
+    }
+  ],
+  "/docs/reference/methods/duration/milliseconds/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/milliseconds/"
+    }
+  ],
+  "/docs/reference/methods/duration/minutes/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/minutes/"
+    }
+  ],
+  "/docs/reference/methods/duration/nanoseconds/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/nanoseconds/"
+    }
+  ],
+  "/docs/reference/methods/duration/round/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/round/"
+    }
+  ],
+  "/docs/reference/methods/duration/seconds/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/seconds/"
+    }
+  ],
+  "/docs/reference/methods/duration/truncate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/duration/truncate/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/children/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/children/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/haschildren/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/haschildren/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/identifier/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/identifier/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/keyname/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/keyname/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/menu/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/menu/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/name/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/name/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/page/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/pageref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/pageref/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/params/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/params/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/parent/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/parent/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/post/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/post/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/pre/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/pre/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/title/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/title/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/url/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/url/"
+    }
+  ],
+  "/docs/reference/methods/menu-entry/weight/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu-entry/weight/"
+    }
+  ],
+  "/docs/reference/methods/menu/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu/"
+    }
+  ],
+  "/docs/reference/methods/menu/byname/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu/byname/"
+    }
+  ],
+  "/docs/reference/methods/menu/byweight/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu/byweight/"
+    }
+  ],
+  "/docs/reference/methods/menu/limit/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu/limit/"
+    }
+  ],
+  "/docs/reference/methods/menu/reverse/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/menu/reverse/"
+    }
+  ],
+  "/docs/reference/methods/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/variables/page/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/"
+    }
+  ],
+  "/docs/reference/methods/page/aliases/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/aliases/"
+    }
+  ],
+  "/docs/reference/methods/page/alltranslations/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/alltranslations/"
+    }
+  ],
+  "/docs/reference/methods/page/alternativeoutputformats/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/alternativeoutputformats/"
+    }
+  ],
+  "/docs/reference/methods/page/ancestors/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/ancestors/"
+    }
+  ],
+  "/docs/reference/methods/page/bundletype/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/bundletype/"
+    }
+  ],
+  "/docs/reference/methods/page/codeowners/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/codeowners/"
+    }
+  ],
+  "/docs/reference/methods/page/content/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/content/"
+    }
+  ],
+  "/docs/reference/methods/page/contentwithoutsummary/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/contentwithoutsummary/"
+    }
+  ],
+  "/docs/reference/methods/page/currentsection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/currentsection/"
+    }
+  ],
+  "/docs/reference/methods/page/data/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/data/"
+    }
+  ],
+  "/docs/reference/methods/page/date/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/date/"
+    }
+  ],
+  "/docs/reference/methods/page/description/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/description/"
+    }
+  ],
+  "/docs/reference/methods/page/draft/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/draft/"
+    }
+  ],
+  "/docs/reference/methods/page/eq/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/eq/"
+    }
+  ],
+  "/docs/reference/methods/page/expirydate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/expirydate/"
+    }
+  ],
+  "/docs/reference/methods/page/file/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/file/"
+    }
+  ],
+  "/docs/reference/methods/page/firstsection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/firstsection/"
+    }
+  ],
+  "/docs/reference/methods/page/fragments/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/fragments/"
+    }
+  ],
+  "/docs/reference/methods/page/fuzzywordcount/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/fuzzywordcount/"
+    }
+  ],
+  "/docs/reference/methods/page/getpage/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/getpage/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/getpage/"
+    }
+  ],
+  "/docs/reference/methods/page/getterms/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/getterms/"
+    }
+  ],
+  "/docs/reference/methods/page/gitinfo/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/gitinfo/"
+    }
+  ],
+  "/docs/reference/methods/page/hasmenucurrent/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/hasmenucurrent/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/hasmenucurrent/"
+    }
+  ],
+  "/docs/reference/methods/page/hasshortcode/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/hasshortcode/"
+    }
+  ],
+  "/docs/reference/methods/page/headingsfiltered/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/headingsfiltered/"
+    }
+  ],
+  "/docs/reference/methods/page/insection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/insection/"
+    }
+  ],
+  "/docs/reference/methods/page/isancestor/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/isancestor/"
+    }
+  ],
+  "/docs/reference/methods/page/isdescendant/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/isdescendant/"
+    }
+  ],
+  "/docs/reference/methods/page/ishome/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/ishome/"
+    }
+  ],
+  "/docs/reference/methods/page/ismenucurrent/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/ismenucurrent/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/ismenucurrent/"
+    }
+  ],
+  "/docs/reference/methods/page/isnode/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/isnode/"
+    }
+  ],
+  "/docs/reference/methods/page/ispage/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/ispage/"
+    }
+  ],
+  "/docs/reference/methods/page/issection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/issection/"
+    }
+  ],
+  "/docs/reference/methods/page/istranslated/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/istranslated/"
+    }
+  ],
+  "/docs/reference/methods/page/keywords/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/keywords/"
+    }
+  ],
+  "/docs/reference/methods/page/kind/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/kind/"
+    }
+  ],
+  "/docs/reference/methods/page/language/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/language/"
+    }
+  ],
+  "/docs/reference/methods/page/lastmod/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/lastmod/"
+    }
+  ],
+  "/docs/reference/methods/page/layout/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/layout/"
+    }
+  ],
+  "/docs/reference/methods/page/len/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/len/"
+    }
+  ],
+  "/docs/reference/methods/page/linktitle/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/linktitle/"
+    }
+  ],
+  "/docs/reference/methods/page/next/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/next/"
+    }
+  ],
+  "/docs/reference/methods/page/nextinsection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/nextinsection/"
+    }
+  ],
+  "/docs/reference/methods/page/outputformats/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/outputformats/"
+    }
+  ],
+  "/docs/reference/methods/page/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/page/"
+    }
+  ],
+  "/docs/reference/methods/page/pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/pages/"
+    }
+  ],
+  "/docs/reference/methods/page/paginate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/paginate/"
+    }
+  ],
+  "/docs/reference/methods/page/paginator/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/paginator/"
+    }
+  ],
+  "/docs/reference/methods/page/param/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/param/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/param/"
+    }
+  ],
+  "/docs/reference/methods/page/params/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/params/"
+    }
+  ],
+  "/docs/reference/methods/page/parent/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/parent/"
+    }
+  ],
+  "/docs/reference/methods/page/path/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/path/"
+    }
+  ],
+  "/docs/reference/methods/page/permalink/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/permalink/"
+    }
+  ],
+  "/docs/reference/methods/page/plain/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/plain/"
+    }
+  ],
+  "/docs/reference/methods/page/plainwords/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/plainwords/"
+    }
+  ],
+  "/docs/reference/methods/page/prev/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/prev/"
+    }
+  ],
+  "/docs/reference/methods/page/previnsection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/previnsection/"
+    }
+  ],
+  "/docs/reference/methods/page/publishdate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/publishdate/"
+    }
+  ],
+  "/docs/reference/methods/page/rawcontent/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/rawcontent/"
+    }
+  ],
+  "/docs/reference/methods/page/readingtime/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/readingtime/"
+    }
+  ],
+  "/docs/reference/methods/page/ref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/ref/"
+    }
+  ],
+  "/docs/reference/methods/page/regularpages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/regularpages/"
+    }
+  ],
+  "/docs/reference/methods/page/regularpagesrecursive/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/regularpagesrecursive/"
+    }
+  ],
+  "/docs/reference/methods/page/relpermalink/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/relpermalink/"
+    }
+  ],
+  "/docs/reference/methods/page/relref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/relref/"
+    }
+  ],
+  "/docs/reference/methods/page/render/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/render/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/render/"
+    }
+  ],
+  "/docs/reference/methods/page/rendershortcodes/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/rendershortcodes/"
+    }
+  ],
+  "/docs/reference/methods/page/renderstring/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/renderstring/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/renderstring/"
+    }
+  ],
+  "/docs/reference/methods/page/resources/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/resources/"
+    }
+  ],
+  "/docs/reference/methods/page/scratch/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/scratch/"
+    }
+  ],
+  "/docs/reference/methods/page/section/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/section/"
+    }
+  ],
+  "/docs/reference/methods/page/sections/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/sections/"
+    }
+  ],
+  "/docs/reference/methods/page/site/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/site/"
+    }
+  ],
+  "/docs/reference/methods/page/sitemap/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/sitemap/"
+    }
+  ],
+  "/docs/reference/methods/page/sites/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/sites/"
+    }
+  ],
+  "/docs/reference/methods/page/slug/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/slug/"
+    }
+  ],
+  "/docs/reference/methods/page/store/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/store/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/extras/scratch/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/doc/scratch/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/scratch/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/store/"
+    }
+  ],
+  "/docs/reference/methods/page/summary/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/summary/"
+    }
+  ],
+  "/docs/reference/methods/page/tableofcontents/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/content-management/toc/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/tableofcontents/"
+    }
+  ],
+  "/docs/reference/methods/page/title/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/title/"
+    }
+  ],
+  "/docs/reference/methods/page/translationkey/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/translationkey/"
+    }
+  ],
+  "/docs/reference/methods/page/translations/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/translations/"
+    }
+  ],
+  "/docs/reference/methods/page/truncated/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/truncated/"
+    }
+  ],
+  "/docs/reference/methods/page/type/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/type/"
+    }
+  ],
+  "/docs/reference/methods/page/weight/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/weight/"
+    }
+  ],
+  "/docs/reference/methods/page/wordcount/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/page/wordcount/"
+    }
+  ],
+  "/docs/reference/methods/pager/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/"
+    }
+  ],
+  "/docs/reference/methods/pager/first/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/first/"
+    }
+  ],
+  "/docs/reference/methods/pager/hasnext/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/hasnext/"
+    }
+  ],
+  "/docs/reference/methods/pager/hasprev/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/hasprev/"
+    }
+  ],
+  "/docs/reference/methods/pager/last/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/last/"
+    }
+  ],
+  "/docs/reference/methods/pager/next/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/next/"
+    }
+  ],
+  "/docs/reference/methods/pager/numberofelements/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/numberofelements/"
+    }
+  ],
+  "/docs/reference/methods/pager/pagegroups/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/pagegroups/"
+    }
+  ],
+  "/docs/reference/methods/pager/pagenumber/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/pagenumber/"
+    }
+  ],
+  "/docs/reference/methods/pager/pagers/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/pagers/"
+    }
+  ],
+  "/docs/reference/methods/pager/pagersize/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/pagersize/"
+    }
+  ],
+  "/docs/reference/methods/pager/pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/pages/"
+    }
+  ],
+  "/docs/reference/methods/pager/pagesize/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/pagesize/"
+    }
+  ],
+  "/docs/reference/methods/pager/prev/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/prev/"
+    }
+  ],
+  "/docs/reference/methods/pager/totalnumberofelements/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/totalnumberofelements/"
+    }
+  ],
+  "/docs/reference/methods/pager/totalpages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/totalpages/"
+    }
+  ],
+  "/docs/reference/methods/pager/url/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pager/url/"
+    }
+  ],
+  "/docs/reference/methods/pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/variables/pages/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/"
+    }
+  ],
+  "/docs/reference/methods/pages/bydate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bydate/"
+    }
+  ],
+  "/docs/reference/methods/pages/byexpirydate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/byexpirydate/"
+    }
+  ],
+  "/docs/reference/methods/pages/bylanguage/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bylanguage/"
+    }
+  ],
+  "/docs/reference/methods/pages/bylastmod/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bylastmod/"
+    }
+  ],
+  "/docs/reference/methods/pages/bylength/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bylength/"
+    }
+  ],
+  "/docs/reference/methods/pages/bylinktitle/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bylinktitle/"
+    }
+  ],
+  "/docs/reference/methods/pages/byparam/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/byparam/"
+    }
+  ],
+  "/docs/reference/methods/pages/bypublishdate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bypublishdate/"
+    }
+  ],
+  "/docs/reference/methods/pages/bytitle/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/bytitle/"
+    }
+  ],
+  "/docs/reference/methods/pages/byweight/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/byweight/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupby/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupby/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupbydate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupbydate/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupbyexpirydate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupbyexpirydate/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupbylastmod/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupbylastmod/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupbyparam/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupbyparam/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupbyparamdate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupbyparamdate/"
+    }
+  ],
+  "/docs/reference/methods/pages/groupbypublishdate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/groupbypublishdate/"
+    }
+  ],
+  "/docs/reference/methods/pages/len/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/len/"
+    }
+  ],
+  "/docs/reference/methods/pages/limit/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/limit/"
+    }
+  ],
+  "/docs/reference/methods/pages/next/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/next/"
+    }
+  ],
+  "/docs/reference/methods/pages/prev/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/prev/"
+    }
+  ],
+  "/docs/reference/methods/pages/related/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/related/"
+    }
+  ],
+  "/docs/reference/methods/pages/reverse/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/pages/reverse/"
+    }
+  ],
+  "/docs/reference/methods/resource/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/"
+    }
+  ],
+  "/docs/reference/methods/resource/colors/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/data/"
+    }
+  ],
+  "/docs/reference/methods/resource/content/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/process/"
+    }
+  ],
+  "/docs/reference/methods/resource/crop/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/height/"
+    }
+  ],
+  "/docs/reference/methods/resource/data/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/crop/"
+    }
+  ],
+  "/docs/reference/methods/resource/err/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/publish/"
+    }
+  ],
+  "/docs/reference/methods/resource/exif/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/content/"
+    }
+  ],
+  "/docs/reference/methods/resource/fill/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/colors/"
+    }
+  ],
+  "/docs/reference/methods/resource/filter/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/regularpages/"
+    }
+  ],
+  "/docs/reference/methods/resource/fit/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/err/"
+    }
+  ],
+  "/docs/reference/methods/resource/height/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/relpermalink/"
+    }
+  ],
+  "/docs/reference/methods/resource/mediatype/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/width/"
+    }
+  ],
+  "/docs/reference/methods/resource/name/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/"
+    }
+  ],
+  "/docs/reference/methods/resource/params/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/resourcetype/"
+    }
+  ],
+  "/docs/reference/methods/resource/permalink/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/params/"
+    }
+  ],
+  "/docs/reference/methods/resource/process/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/permalink/"
+    }
+  ],
+  "/docs/reference/methods/resource/publish/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/name/"
+    }
+  ],
+  "/docs/reference/methods/resource/relpermalink/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/resize/"
+    }
+  ],
+  "/docs/reference/methods/resource/resize/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/title/"
+    }
+  ],
+  "/docs/reference/methods/resource/resourcetype/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/fit/"
+    }
+  ],
+  "/docs/reference/methods/resource/title/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/exif/"
+    }
+  ],
+  "/docs/reference/methods/resource/width/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/resource/fill/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/variables/shortcodes/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcodes/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/get/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/get/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/inner/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/inner/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/innerdeindent/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/innerdeindent/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/isnamedparams/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/isnamedparams/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/name/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/name/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/ordinal/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/ordinal/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/page/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/params/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/params/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/parent/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/parent/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/position/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/position/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/ref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/ref/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/relref/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/relref/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/scratch/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/scratch/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/site/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/site/"
+    }
+  ],
+  "/docs/reference/methods/shortcode/store/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/shortcode/store/"
+    }
+  ],
+  "/docs/reference/methods/site/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/variables/site/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/"
+    }
+  ],
+  "/docs/reference/methods/site/allpages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/allpages/"
+    }
+  ],
+  "/docs/reference/methods/site/baseurl/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/allpages/"
+    }
+  ],
+  "/docs/reference/methods/site/builddrafts/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/isdevelopment/"
+    }
+  ],
+  "/docs/reference/methods/site/config/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/languageprefix/"
+    }
+  ],
+  "/docs/reference/methods/site/copyright/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/store/"
+    }
+  ],
+  "/docs/reference/methods/site/data/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/language/"
+    }
+  ],
+  "/docs/reference/methods/site/disqusshortname/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/isserver/"
+    }
+  ],
+  "/docs/reference/methods/site/getpage/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/sections/"
+    }
+  ],
+  "/docs/reference/methods/site/googleanalytics/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/params/"
+    }
+  ],
+  "/docs/reference/methods/site/home/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/copyright/"
+    }
+  ],
+  "/docs/reference/methods/site/isdevelopment/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/title/"
+    }
+  ],
+  "/docs/reference/methods/site/ismultilingual/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/lastmod/"
+    }
+  ],
+  "/docs/reference/methods/site/isserver/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/home/"
+    }
+  ],
+  "/docs/reference/methods/site/language/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/builddrafts/"
+    }
+  ],
+  "/docs/reference/methods/site/languageprefix/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/"
+    }
+  ],
+  "/docs/reference/methods/site/languages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/config/"
+    }
+  ],
+  "/docs/reference/methods/site/lastchange/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/ismultilingual/"
+    }
+  ],
+  "/docs/reference/methods/site/lastmod/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/mainsections/"
+    }
+  ],
+  "/docs/reference/methods/site/mainsections/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/sites/"
+    }
+  ],
+  "/docs/reference/methods/site/menus/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/pages/"
+    }
+  ],
+  "/docs/reference/methods/site/pages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/languages/"
+    }
+  ],
+  "/docs/reference/methods/site/param/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/disqusshortname/"
+    }
+  ],
+  "/docs/reference/methods/site/params/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/menus/"
+    }
+  ],
+  "/docs/reference/methods/site/regularpages/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/getpage/"
+    }
+  ],
+  "/docs/reference/methods/site/sections/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/data/"
+    }
+  ],
+  "/docs/reference/methods/site/sites/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/param/"
+    }
+  ],
+  "/docs/reference/methods/site/store/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/googleanalytics/"
+    }
+  ],
+  "/docs/reference/methods/site/taxonomies/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/baseurl/"
+    }
+  ],
+  "/docs/reference/methods/site/title/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/site/lastchange/"
+    }
+  ],
+  "/docs/reference/methods/taxonomy/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/variables/taxonomy/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/taxonomy/"
+    }
+  ],
+  "/docs/reference/methods/taxonomy/alphabetical/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/taxonomy/alphabetical/"
+    }
+  ],
+  "/docs/reference/methods/taxonomy/bycount/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/taxonomy/bycount/"
+    }
+  ],
+  "/docs/reference/methods/taxonomy/count/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/taxonomy/count/"
+    }
+  ],
+  "/docs/reference/methods/taxonomy/get/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/taxonomy/get/"
+    }
+  ],
+  "/docs/reference/methods/taxonomy/page/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/taxonomy/page/"
+    }
+  ],
+  "/docs/reference/methods/time/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/"
+    }
+  ],
+  "/docs/reference/methods/time/add/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/add/"
+    }
+  ],
+  "/docs/reference/methods/time/adddate/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/adddate/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/adddate/"
+    }
+  ],
+  "/docs/reference/methods/time/after/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/after/"
+    }
+  ],
+  "/docs/reference/methods/time/before/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/before/"
+    }
+  ],
+  "/docs/reference/methods/time/day/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/day/"
+    }
+  ],
+  "/docs/reference/methods/time/equal/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/equal/"
+    }
+  ],
+  "/docs/reference/methods/time/format/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/format/"
+    }
+  ],
+  "/docs/reference/methods/time/hour/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/hour/"
+    }
+  ],
+  "/docs/reference/methods/time/isdst/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/isdst/"
+    }
+  ],
+  "/docs/reference/methods/time/iszero/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/iszero/"
+    }
+  ],
+  "/docs/reference/methods/time/local/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/local/"
+    }
+  ],
+  "/docs/reference/methods/time/minute/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/minute/"
+    }
+  ],
+  "/docs/reference/methods/time/month/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/month/"
+    }
+  ],
+  "/docs/reference/methods/time/nanosecond/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/nanosecond/"
+    }
+  ],
+  "/docs/reference/methods/time/round/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/round/"
+    }
+  ],
+  "/docs/reference/methods/time/second/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/second/"
+    }
+  ],
+  "/docs/reference/methods/time/sub/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/sub/"
+    }
+  ],
+  "/docs/reference/methods/time/truncate/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/truncate/"
+    }
+  ],
+  "/docs/reference/methods/time/unix/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/functions/unix/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/unix/"
+    }
+  ],
+  "/docs/reference/methods/time/unixmicro/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/unixmicro/"
+    }
+  ],
+  "/docs/reference/methods/time/unixmilli/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/unixmilli/"
+    }
+  ],
+  "/docs/reference/methods/time/unixnano/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/unixnano/"
+    }
+  ],
+  "/docs/reference/methods/time/utc/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/utc/"
+    }
+  ],
+  "/docs/reference/methods/time/weekday/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/weekday/"
+    }
+  ],
+  "/docs/reference/methods/time/year/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/year/"
+    }
+  ],
+  "/docs/reference/methods/time/yearday/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/methods/time/yearday/"
+    }
+  ],
+  "/docs/reference/miscellaneous/": [],
+  "/docs/reference/miscellaneous/emojis/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/quick-reference/emojis/"
+    }
+  ],
+  "/docs/reference/miscellaneous/syntax-highlighting-styles/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/quick-reference/syntax-highlighting-styles/"
+    }
+  ],
+  "/docs/troubleshooting/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/templates/template-debugging/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/"
+    }
+  ],
+  "/docs/troubleshooting/audit/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/audit/"
+    }
+  ],
+  "/docs/troubleshooting/deprecation/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/deprecation/"
+    }
+  ],
+  "/docs/troubleshooting/faq/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/faq/"
+    }
+  ],
+  "/docs/troubleshooting/inspection/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/inspection/"
+    }
+  ],
+  "/docs/troubleshooting/logging/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/logging/"
+    }
+  ],
+  "/docs/troubleshooting/performance/": [
+    {
+      "date": "2025-03-13",
+      "latest": false,
+      "url": "/troubleshooting/build-performance/"
+    },
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/troubleshooting/performance/"
+    }
+  ],
+  "/documentation/": [
+    {
+      "date": "2025-03-13",
+      "latest": true,
+      "url": "/docs/"
+    }
+  ],
+  "/docs/tutorials/": []
+}
