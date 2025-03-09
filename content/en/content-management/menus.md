@@ -62,7 +62,7 @@ Access the entry with `site.Menus.main` and `site.Menus.footer` in your template
 
 Use these properties when defining menu entries in front matter:
 
-{{% include "/_common/menu-entry-properties.md" %}}
+{{% include "/docs/_common/menu-entry-properties.md" %}}
 
 ### Example
 
@@ -82,7 +82,7 @@ Access the entry with `site.Menus.main` in your templates. See [menu templates] 
 
 ## Define in site configuration
 
-See [configure menus](/configuration/menus/).
+See [configure menus](/docs/reference/configuration/menus/).
 
 ## Localize
 

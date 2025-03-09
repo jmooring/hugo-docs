@@ -294,10 +294,10 @@ public/
 └── index.html
 ```
 
-[`.Page.GetPage`]: /methods/page/getpage/
-[`.Site.GetPage`]: /methods/site/getpage/
-[`Permalink`]: /methods/resource/permalink/
-[`Publish`]: /methods/resource/publish/
-[`RelPermalink`]: /methods/resource/relpermalink/
+[`.Page.GetPage`]: /docs/reference/methods/page/getpage/
+[`.Site.GetPage`]: /docs/reference/methods/site/getpage/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`Publish`]: /docs/reference/methods/resource/publish/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
 [page bundles]: /content-management/page-bundles/
 [page resources]: /content-management/page-resources/

@@ -49,5 +49,5 @@ This template creates a robots.txt file with a `Disallow` directive for each pag
 > Remember that Hugo copies everything in the [`static` directory][static] to the root of `publishDir` (typically `public`) when you build your site.
 
 [embedded template]: {{% eturl robots %}}
-[site configuration]: /configuration/
+[site configuration]: /docs/reference/configuration/
 [static]: /getting-started/directory-structure/
