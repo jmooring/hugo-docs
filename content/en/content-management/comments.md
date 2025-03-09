@@ -61,11 +61,11 @@ Open-source commenting systems:
 - [Talkyard](https://blog-comments.talkyard.io/)
 - [Utterances](https://utteranc.es/)
 
-[configuration]: /configuration/
+[configuration]: /docs/reference/configuration/
 [disquspartial]: /templates/embedded/#disqus
 [disqussetup]: https://disqus.com/profile/signup/
 [forum]: https://discourse.gohugo.io
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/concepts/front-matter/
 [kaijuissue]: https://github.com/spf13/kaiju/issues/new
 [issotutorial]: https://stiobhart.net/2017-02-24-isso-comments/
 [partials]: /templates/partial/
