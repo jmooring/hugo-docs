@@ -257,17 +257,17 @@ Although duplicating shared page resources is inefficient, you can enable this f
 duplicateResourceFiles = true
 {{< /code-toggle >}}
 
-[`Name`]: /methods/resource/name/
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Resource`]: /methods/resource/
-[`Resources.ByType`]: /methods/page/resources#bytype
-[`Resources.GetMatch`]: /methods/page/resources#getmatch
-[`Resources.Get`]: /methods/page/resources/#get
-[`Resources.Match`]: /methods/page/resources#match
-[`Title`]: /methods/resource/title/
-[content formats]: /content-management/formats/
-[details]: /configuration/markup/#renderhookslinkuseembedded
-[duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
-[embedded image render hook]: /render-hooks/images/#embedded
-[embedded link render hook]: /render-hooks/links/#embedded
-[page bundles]: /content-management/page-bundles/
+[`Name`]: /docs/reference/methods/resource/name/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Resource`]: /docs/reference/methods/resource
+[`Resources.ByType`]: /docs/reference/methods/page/resources#bytype
+[`Resources.GetMatch`]: /docs/reference/methods/page/resources#getmatch
+[`Resources.Get`]: /docs/reference/methods/page/resources#get
+[`Resources.Match`]: /docs/reference/methods/page/resources#match
+[`Title`]: /docs/reference/methods/resource/title/
+[content formats]: /docs/concepts/content-formats/
+[details]: /docs/reference/configuration/markup/#renderhookslinkuseembedded
+[duplication of shared page resources]: /docs/reference/configuration/markup/#duplicateresourcefiles
+[embedded image render hook]: /docs/reference/markdown-render-hooks/images/#embedded
+[embedded link render hook]: /docs/reference/markdown-render-hooks/links/#embedded
+[page bundles]: /content-management/page-bundles

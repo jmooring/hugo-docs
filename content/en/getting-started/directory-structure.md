@@ -19,7 +19,7 @@ hugo new project my-project
 
 Creates this directory structure:
 
-```txt
+```tree
 my-project/
 ├── archetypes/
 │   └── default.md
@@ -76,34 +76,34 @@ my-project/
 Each of the subdirectories contributes to content, structure, behavior, or presentation.
 
 `archetypes`
-: The `archetypes` directory contains templates for new content. See [details](/content-management/archetypes/).
+: The `archetypes` directory contains templates for new content. See [details](/docs/concepts/archetypes/).
 
 `assets`
-: The `assets` directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See [details](/hugo-pipes/introduction/).
+: The `assets` directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See [details](/docs/concepts/asset-pipelines/).
 
 `config`
-: The `config` directory contains your project configuration, possibly split into multiple subdirectories and files. For projects with minimal configuration or projects that do not need to behave differently in different environments, a single configuration file named `hugo.toml` in the root of the project is sufficient. See [details][configuration-directory].
+: The `config` directory contains your project configuration, possibly split into multiple subdirectories and files. For projects with minimal configuration or projects that do not need to behave differently in different environments, a single configuration file named `hugo.toml` in the root of the project is sufficient. See [details](/docs/reference/configuration/introduction/#configuration-directory).
 
 `content`
-: The `content` directory contains the markup files (typically Markdown) and page resources that comprise the content of your project. See [details](/content-management/organization/).
+: The `content` directory contains the markup files and page resources that comprise the content of your project. See [details](/content-management/organization/).
 
 `data`
-: The `data` directory contains data files (JSON, TOML, YAML, or XML) that augment content, configuration, localization, and navigation. See [details](/content-management/data-sources/).
+: The `data` directory contains data files (JSON, TOML, YAML, or XML) that augment content, configuration, localization, and navigation. See [details](/docs/concepts/data-sources/).
 
 `i18n`
 : The `i18n` directory contains translation tables for multilingual projects. See [details](/content-management/multilingual/).
 
 `layouts`
-: The `layouts` directory contains templates to transform content, data, and resources into a complete website. See [details](/templates/).
+: The `layouts` directory contains templates to transform content, data, and resources into a complete website. See [details](/docs/concepts/template-types/).
 
 `public`
-: The `public` directory contains the published website, generated when you run the `hugo build` or `hugo server` commands. Hugo recreates this directory and its content as needed. See [details][build-your-project].
+: The `public` directory contains the published website, generated when you run the `hugo build` or `hugo server` commands. Hugo recreates this directory and its content as needed. See [details](/getting-started/usage/#build-your-project).
 
 `resources`
 : The `resources` directory contains cached output from Hugo's asset pipelines, generated when you run the `hugo build` or `hugo server` commands. By default this cache directory includes CSS and images. Hugo recreates this directory and its content as needed.
 
 `static`
-: The `static` directory contains files that will be copied to the `public` directory when you build your project. For example: `favicon.ico`, `robots.txt`, and files that verify website ownership. Before the introduction of [page bundles](g) and [asset pipelines][], the `static` directory was also used for images, CSS, and JavaScript.
+: The `static` directory contains files that will be copied to the `public` directory when you build your project. For example: `favicon.ico`, `robots.txt`, and files that verify website ownership. Before the introduction of [page bundles](g) and [asset pipelines](g), the `static` directory was also used for images, CSS, and JavaScript.
 
 `themes`
 : The `themes` directory contains one or more [themes](g), each in its own subdirectory.
@@ -172,9 +172,9 @@ home/
 
 When two or more files share the same path, the version in the highest layer takes precedence. In the example above, if the `shared-content` directory contains `books/book-1.md`, it is ignored because the project's `content` directory is the first (highest) mount.
 
-You can mount directories to `archetypes`, `assets`, `content`, `data`, `i18n`, `layouts`, and `static`. See [details][mounts].
+You can mount directories to `archetypes`, `assets`, `content`, `data`, `i18n`, `layouts`, and `static`. See [details](/docs/reference/configuration/modules/#mounts).
 
-You can also mount directories from Git repositories using modules. See [details](/hugo-modules/).
+You can also mount directories from Git repositories using modules. See [details](/docs/concepts/modules/).
 
 ## Theme skeleton
 
@@ -201,8 +201,3 @@ my-theme/
 Using the unified file system described above, Hugo mounts each of these directories to the corresponding location in the project. When two files have the same path, the file in the project directory takes precedence. This allows you, for example, to override a theme's template by placing a copy in the same location within the project directory.
 
 If you are simultaneously using components from two or more themes or modules, and there's a path collision, the first mount takes precedence.
-
-[asset pipelines]: /hugo-pipes/introduction/
-[build-your-project]: /getting-started/usage/#build-your-project
-[configuration-directory]: /configuration/introduction/#configuration-directory
-[mounts]: /configuration/module/#mounts
