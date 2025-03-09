@@ -9,13 +9,13 @@ aliases: [/templates/menus/,/templates/menu-templates/]
 
 ## Overview
 
-After [defining menu entries], use [menu methods] to render a menu.
+After [defining menu entries][], use [menu methods][] to render a menu.
 
 Three factors determine how to render a menu:
 
-1. The method used to define the menu entries: [automatic], [in front matter], or [in site configuration]
+1. The method used to define the menu entries: [automatic], [in front matter][], or [in site configuration][]
 1. The menu structure: flat or nested
-1. The method used to [localize the menu entries]: site configuration or translation tables
+1. The method used to [localize the menu entries]: site configuration or [translation tables](g)
 
 The example below handles every combination.
 
@@ -77,7 +77,7 @@ Call the partial above, passing a menu ID and the current page in context.
 
 ## Page references
 
-Regardless of how you [define menu entries], an entry associated with a page has access to page context.
+Regardless of how you [define menu entries][], an entry associated with a page has access to page context.
 
 This simplistic example renders a page parameter named `version` next to each entry's `name`. Code defensively using `with` or `if` to handle entries where (a) the entry points to an external resource, or (b) the `version` parameter is not defined.
 
@@ -96,10 +96,10 @@ This simplistic example renders a page parameter named `version` next to each en
 
 ## Menu entry parameters
 
-When you define menu entries [in site configuration] or [in front matter], you can include a `params` key as shown in these examples:
+When you define menu entries [in site configuration][] or [in front matter][], you can include a `params` key as shown in these examples:
 
-- [Menu entry defined in site configuration]
-- [Menu entry defined in front matter]
+- [Menu entry defined in site configuration][]
+- [Menu entry defined in front matter][]
 
 This simplistic example renders a `class` attribute for each anchor element. Code defensively using `with` or `if` to handle entries where `params.class` is not defined.
 
@@ -113,7 +113,7 @@ This simplistic example renders a `class` attribute for each anchor element. Cod
 
 ## Localize
 
-Hugo provides two methods to localize your menu entries. See [multilingual].
+Hugo provides two methods to localize your menu entries. See [multilingual][].
 
 [automatic]: /content-management/menus/#define-automatically
 [define menu entries]: /content-management/menus/
@@ -122,6 +122,6 @@ Hugo provides two methods to localize your menu entries. See [multilingual].
 [in site configuration]: /content-management/menus/#define-in-site-configuration
 [localize the menu entries]: /content-management/multilingual/#menus
 [menu entry defined in front matter]: /content-management/menus/#example
-[menu entry defined in site configuration]: /configuration/menus
-[menu methods]: /methods/menu/
+[menu entry defined in site configuration]: /docs/reference/configuration/menus
+[menu methods]: /docs/reference/methods/menu/
 [multilingual]: /content-management/multilingual/#menus
