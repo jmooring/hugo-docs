@@ -188,7 +188,7 @@ To learn how to _deploy_ your project, see the [host and deploy][] section.
 
 ## Ask for help
 
-Hugo's [forum][] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help] before asking your first question.
+Hugo's [forum][] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help][] before asking your first question.
 
 ## Other resources
 
@@ -199,17 +199,17 @@ For other resources to help you learn Hugo, including books and video tutorials,
 [demonstration site]: https://gohugo-ananke-theme-demo.netlify.app/
 [documentation]: https://github.com/theNewDynamic/gohugo-theme-ananke#readme
 [draft, future, and expired content]: /getting-started/usage/#draft-future-and-expired-content
-[external learning resources]: /getting-started/external-learning-resources/
+[external learning resources]: /docs/tutorials/external-learning-resources/
 [forum]: https://discourse.gohugo.io/
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/reference/front-matter/
 [Git submodule]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
-[host and deploy]: /host-and-deploy/
+[host and deploy]: /docs/guides/host-and-deploy/
 [Install Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[Install Hugo]: /installation/
+[Install Hugo]: /docs/installation/
 [live testing tool]: https://spec.commonmark.org/dingus/
 [Markdown]: https://daringfireball.net/projects/markdown
 [PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
-[project configuration]: /configuration/
+[project configuration]: /docs/reference/configuration/
 [project skeleton]: /getting-started/directory-structure/#project-skeleton
 [requesting help]: https://discourse.gohugo.io/t/requesting-help/9132
 [specification]: https://spec.commonmark.org/
