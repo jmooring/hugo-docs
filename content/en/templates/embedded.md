@@ -108,7 +108,7 @@ To include the embedded template:
 
 ### Configuration {#configuration-open-graph}
 
-Hugo's Open Graph template is configured using a mix of configuration settings and [front matter](/content-management/front-matter/) on individual pages.
+Hugo's Open Graph template is configured using a mix of configuration settings and [front matter](/docs/concepts/front-matter/) on individual pages.
 
 {{< code-toggle file=hugo >}}
 [params]
@@ -178,7 +178,7 @@ To include the embedded template:
 
 ### Configuration {#configuration-x-cards}
 
-Hugo's X (Twitter) Card template is configured using a mix of configuration settings and [front-matter](/content-management/front-matter/) values on individual pages.
+Hugo's X (Twitter) Card template is configured using a mix of configuration settings and [front-matter](/docs/concepts/front-matter/) values on individual pages.
 
 {{< code-toggle file=hugo >}}
 [params]
@@ -193,7 +193,7 @@ images = ["post-cover.png"]
 {{</ code-toggle >}}
 
 If [page bundles](/content-management/page-bundles/) are used and the `images` array is empty or undefined, images with file names matching `*feature*`, `*cover*`, or `*thumbnail*` are used for image metadata.
-If no image resources with those names are found, the images defined in the [site config](/configuration/) are used instead.
+If no image resources with those names are found, the images defined in the [site config](/docs/reference/configuration/) are used instead.
 If no images are found at all, then an image-less Twitter `summary` card is used instead of `summary_large_image`.
 
 Hugo uses the page title and description for the card's title and description fields. The page summary is used if no description is given.
@@ -211,7 +211,7 @@ NOTE: The `@` will be added for you
 <meta name="twitter:site" content="@GoHugoIO"/>
 ```
 
-[`partial`]: /functions/partials/include/
+[`partial`]: /docs/reference/functions/partials/include/
 [Disqus]: https://disqus.com
 [Google Analytics 4]: https://support.google.com/analytics/answer/10089681
 [microdata]: https://html.spec.whatwg.org/multipage/microdata.html#microdata

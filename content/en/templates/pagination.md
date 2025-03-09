@@ -34,7 +34,7 @@ paginator
 
 ## Configuration
 
-See [configure pagination](/configuration/pagination).
+See [configure pagination](/docs/reference/configuration/pagination).
 
 ## Methods
 
@@ -144,7 +144,7 @@ The `terse` format has fewer controls and page slots, consuming less space when 
 
 Create custom navigation components using any of the `Pager` methods:
 
-{{% list-pages-in-section path=/methods/pager %}}
+{{% list-pages-in-section path=/docs/reference/methods/pager %}}
 
 ## Structure
 
@@ -233,9 +233,9 @@ public/
 └── index.html
 ```
 
-[`Paginate`]: /methods/page/paginate/
-[`Paginator`]: /methods/page/paginator/
-[`partial`]: /functions/partials/include/
-[grouping methods]: /quick-reference/page-collections/#group
-[grouping methods]: /quick-reference/page-collections/#group
+[`Paginate`]: /docs/reference/methods/page/paginate/
+[`Paginator`]: /docs/reference/methods/page/paginator/
+[`partial`]: /docs/reference/functions/partials/include/
+[grouping methods]: /docs/reference/quick-reference/page-collections/#group
+[grouping methods]: /docs/reference/quick-reference/page-collections/#group
 [source code]: {{% eturl pagination %}}
