@@ -27,17 +27,17 @@ Please refer to the relevant documentation for installation instructions:
 - [Go][go install]
 - [Dart Sass][dart sass install]
 
-[Cloudflare]: /host-and-deploy/host-on-cloudflare/
+[Cloudflare]: /docs/guides/host-and-deploy/host-on-cloudflare/
 [commit information]: /methods/page/GitInfo
 [dart sass install]: /functions/css/sass/#dart-sass
 [dart sass]: https://sass-lang.com/dart-sass
 [git install]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [git]: https://git-scm.com/
-[GitHub Pages]: /host-and-deploy/host-on-github-pages/
-[GitLab Pages]: /host-and-deploy/host-on-gitlab-pages/
+[GitHub Pages]: /docs/guides/host-and-deploy/host-on-github-pages/
+[GitLab Pages]: /docs/guides/host-and-deploy/host-on-gitlab-pages/
 [go install]: https://go.dev/doc/install
 [go]: https://go.dev/
 [hugo modules]: /hugo-modules/
-[Netlify]: /host-and-deploy/host-on-netlify/
-[Render]: /host-and-deploy/host-on-render/
-[Vercel]: /host-and-deploy/host-on-vercel/
+[Netlify]: /docs/guides/host-and-deploy/host-on-netlify/
+[Render]: /docs/guides/host-and-deploy/host-on-render/
+[Vercel]: /docs/guides/host-and-deploy/host-on-vercel/
