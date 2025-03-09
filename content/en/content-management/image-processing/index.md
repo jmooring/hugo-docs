@@ -117,15 +117,15 @@ Each method serves a specific transformation or metadata requirement:
 
 Method|Description
 :--|:--
-[`Colors`]|Returns a slice of the most dominant colors using a simple histogram method.
-[`Crop`]|Returns a new image resource cropped according to the given processing specification.
-[`Exif`]|Applicable to JPEG, PNG, TIFF, and WebP images, returns an object containing Exif metadata.
-[`Fill`]|Returns a new image resource cropped and resized according to the given processing specification.
-[`Filter`]|Applies one or more image filters to the given image resource.
-[`Fit`]|Returns a new image resource downscaled to fit according to the given processing specification.
-[`Meta`]|Applicable to JPEG, PNG, TIFF, and WebP images, returns an object containing Exif, IPTC, and XMP metadata.
-[`Process`]|Returns a new image resource processed according to the given processing specification.
-[`Resize`]|Returns a new image resource resized according to the given processing specification.
+[`Colors`][]|Returns a slice of the most dominant colors using a simple histogram method.
+[`Crop`][]|Returns a new image resource cropped according to the given processing specification.
+[`Exif`][]|Applicable to JPEG, PNG, TIFF, and WebP images, returns an object containing Exif metadata.
+[`Fill`][]|Returns a new image resource cropped and resized according to the given processing specification.
+[`Filter`][]|Applies one or more image filters to the given image resource.
+[`Fit`][]|Returns a new image resource downscaled to fit according to the given processing specification.
+[`Meta`][]|Applicable to JPEG, PNG, TIFF, and WebP images, returns an object containing Exif, IPTC, and XMP metadata.
+[`Process`][]|Returns a new image resource processed according to the given processing specification.
+[`Resize`][]|Returns a new image resource resized according to the given processing specification.
 {class="!mt-0"}
 
 Select a method from the table above for syntax and usage examples.
@@ -160,18 +160,18 @@ If your source images are much larger than the maximum size you intend to publis
 
 ## Configuration
 
-See [configure imaging](/configuration/imaging).
+See [configure imaging](/docs/reference/configuration/imaging/).
 
-[`Colors`]: /methods/resource/colors/
-[`Crop`]: /methods/resource/crop/
-[`Exif`]: /methods/resource/exif/
-[`Fill`]: /methods/resource/fill/
-[`Filter`]: /methods/resource/filter/
-[`Fit`]: /methods/resource/fit/
-[`Height`]: /methods/resource/height/
-[`Meta`]: /methods/resource/meta/
-[`Permalink`]: /methods/resource/permalink/
-[`Process`]: /methods/resource/process/
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Resize`]: /methods/resource/resize/
-[`Width`]: /methods/resource/width/
+[`Colors`]: /docs/reference/methods/resource/colors/
+[`Crop`]: /docs/reference/methods/resource/crop/
+[`Exif`]: /docs/reference/methods/resource/exif/
+[`Fill`]: /docs/reference/methods/resource/fill/
+[`Filter`]: /docs/reference/methods/resource/filter/
+[`Fit`]: /docs/reference/methods/resource/fit/
+[`Height`]: /docs/reference/methods/resource/height/
+[`Meta`]: /docs/reference/methods/resource/meta/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`Process`]: /docs/reference/methods/resource/process/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Resize`]: /docs/reference/methods/resource/resize/
+[`Width`]: /docs/reference/methods/resource/width/

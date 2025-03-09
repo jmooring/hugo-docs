@@ -6,7 +6,9 @@ keywords: []
 aliases: [/content/related/,/related/,/content-management/related/]
 ---
 
-Hugo uses a set of factors to identify a page's related content based on front matter parameters. This can be tuned to the desired set of indices and parameters or left to Hugo's default [related content configuration](/configuration/related-content/).
+Hugo uses a set of factors to identify a page's related content based on front matter parameters. This can be tuned to the desired set of indices and parameters or left to Hugo's default [related content configuration][].
+
+[related content configuration]: /docs/reference/configuration/related-content/
 
 ## List related content
 
@@ -32,7 +34,7 @@ document
 : (`page`) The page for which to find related content. Required when specifying an options map.
 
 namedSlices
-: (`slice`) The keywords to search for, expressed as a slice of `KeyValues` using the [`keyVals`] function.
+: (`slice`) The keywords to search for, expressed as a slice of `KeyValues` using the [`keyVals`][] function.
 
 fragments
 : (`slice`) A list of special keywords that is used for indices configured as type "fragments". This will match the [fragment](g) identifiers of the documents.
@@ -97,6 +99,6 @@ weight      = 80
 
 ## Configuration
 
-See [configure related content](/configuration/related-content/).
+See [configure related content](/docs/reference/configuration/related-content/).
 
-[`keyVals`]: /functions/collections/keyvals/
+[`keyVals`]: /docs/reference/functions/collections/keyvals/

@@ -26,6 +26,9 @@ Renders a comma-separated list of links to the root key configuration pages.
 {{/* This key is "frontmatter" not "frontMatter" */}}
 {{- $s.Set "frontmatter" "front-matter" }}
 
+{{/* This key is "module" not "modules". */}}
+{{- $s.Set "module" "modules" }}
+
 {{/* The page title is "Related content" not "related". */}}
 {{- $s.Set "related" "related-content" }}
 
@@ -34,7 +37,7 @@ Renders a comma-separated list of links to the root key configuration pages.
 
 {{- $links := slice }}
 {{- range $k, $v := $s.Values }}
-  {{- $path := printf "/configuration/%s" $v }}
+  {{- $path := printf "/docs/reference/configuration/%s" $v }}
   {{- with site.GetPage $path }}
     {{- $links = $links | append (printf "<a href=%q><code>%s</code></a>" .RelPermalink $k) }}
   {{- else }}
