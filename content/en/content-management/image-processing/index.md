@@ -13,7 +13,7 @@ To process an image you must access the file as a page resource, global resource
 
 {{% glossary-term "page resource" %}}
 
-```text
+```tree
 content/
 └── posts/
     └── post-1/           <-- page bundle
@@ -31,7 +31,7 @@ To access an image as a page resource:
 
 {{% glossary-term "global resource" %}}
 
-```text
+```tree
 assets/
 └── images/
     └── sunset.jpg    <-- global resource
@@ -98,7 +98,7 @@ Example 4: Skips rendering if there's problem accessing a remote resource.
 
 ## Image processing methods
 
-The `image` resource implements the  [`Process`],  [`Resize`], [`Fit`], [`Fill`], [`Crop`], [`Filter`], [`Colors`] and [`Exif`] methods.
+The `image` resource implements the  [`Process`][], [`Resize`][], [`Fit`][], [`Fill`][], [`Crop`][], [`Filter`][], [`Colors`][] and [`Exif`][] methods.
 
 > [!note]
 > Metadata (EXIF, IPTC, XMP, etc.) is not preserved during image transformation. Use the `Exif` method with the _original_ image to extract EXIF metadata from JPEG, PNG, TIFF, and WebP images.
@@ -106,13 +106,13 @@ The `image` resource implements the  [`Process`],  [`Resize`], [`Fit`], [`Fill`]
 ### Process
 
 > [!note]
-> The `Process` method is also available as a filter, which is more effective if you need to apply multiple filters to an image. See [Process filter](/functions/images/process).
+> The `Process` method is also available as a filter, which is more effective if you need to apply multiple filters to an image. See [Process filter](/docs/reference/functions/images/process).
 
-Process processes the image with the given specification. The specification can contain an optional action, one of `resize`, `crop`, `fit` or `fill`. This means that you can use this method instead of [`Resize`], [`Fit`], [`Fill`], or [`Crop`].
+Process processes the image with the given specification. The specification can contain an optional action, one of `resize`, `crop`, `fit` or `fill`. This means that you can use this method instead of [`Resize`][], [`Fit`][], [`Fill`][], or [`Crop`][].
 
 See [Options](#image-processing-options) for available options.
 
-You can also use this method apply image processing that does not need any scaling, e.g. format conversions:
+You can also use this method apply image processing that does not need any scaling, e.g., format conversions:
 
 ```go-html-template
 {{/* Convert the image from JPG to PNG. */}}
@@ -159,7 +159,7 @@ Downscale an image to fit the given dimensions while maintaining aspect ratio. Y
 
 ### Fill
 
-Crop and resize an image to match the given dimensions. You must provide both width and height. Use the [`anchor`] option to change the crop box anchor point.
+Crop and resize an image to match the given dimensions. You must provide both width and height. Use the [`anchor`][] option to change the crop box anchor point.
 
 ```go-html-template
 {{ $image := $image.Fill "600x400" }}
@@ -167,7 +167,7 @@ Crop and resize an image to match the given dimensions. You must provide both wi
 
 ### Crop
 
-Crop an image to match the given dimensions without resizing. You must provide both width and height. Use the [`anchor`] option to change the crop box anchor point.
+Crop an image to match the given dimensions without resizing. You must provide both width and height. Use the [`anchor`][] option to change the crop box anchor point.
 
 ```go-html-template
 {{ $image := $image.Crop "600x400" }}
@@ -175,7 +175,7 @@ Crop an image to match the given dimensions without resizing. You must provide b
 
 ### Filter
 
-Apply one or more [filters] to an image.
+Apply one or more [filters][] to an image.
 
 ```go-html-template
 {{ $image := $image.Filter (images.GaussianBlur 6) (images.Pixelate 8) }}
@@ -207,9 +207,9 @@ This method is fast, but if you also scale down your images, it would be good fo
 
 ### EXIF
 
-Provides an [EXIF] object containing image metadata.
+Provides an [EXIF][] object containing image metadata.
 
-You may access EXIF data in JPEG, PNG, TIFF, and WebP images. To prevent errors when processing images without EXIF data, wrap the access in a [`with`] statement.
+You may access EXIF data in JPEG, PNG, TIFF, and WebP images. To prevent errors when processing images without EXIF data, wrap the access in a [`with`][] statement.
 
 ```go-html-template
 {{ with $image.Exif }}
@@ -222,7 +222,7 @@ You may access EXIF data in JPEG, PNG, TIFF, and WebP images. To prevent errors 
 {{ end }}
 ```
 
-You may also access EXIF fields individually, using the [`lang.FormatNumber`] function to format the fields as needed.
+You may also access EXIF fields individually, using the [`lang.FormatNumber`][] function to format the fields as needed.
 
 ```go-html-template
 {{ with $image.Exif }}
@@ -242,7 +242,7 @@ You may also access EXIF fields individually, using the [`lang.FormatNumber`] fu
 #### EXIF methods
 
 Date
-: (`time.Time`) Returns the image creation date/time. Format with the [`time.Format`]function.
+: (`time.Time`) Returns the image creation date/time. Format with the [`time.Format`][] function.
 
 Lat
 : (`float64`) Returns the GPS latitude in degrees.
@@ -251,15 +251,15 @@ Long
 : (`float64`) Returns the GPS longitude in degrees.
 
 Tags
-: (`exif.Tags`) Returns a collection of the available EXIF tags for this image. You may include or exclude specific tags from this collection in the [site configuration].
+: (`exif.Tags`) Returns a collection of the available EXIF tags for this image. You may include or exclude specific tags from this collection in the [site configuration][].
 
 ## Image processing options
 
-The [`Resize`], [`Fit`], [`Fill`], and [`Crop`] methods accept a space-delimited, case-insensitive list of options. The order of the options within the list is irrelevant.
+The [`Resize`][], [`Fit`][], [`Fill`][], and [`Crop`][] methods accept a space-delimited, case-insensitive list of options. The order of the options within the list is irrelevant.
 
 ### Dimensions
 
-With the [`Resize`] method you must specify width, height, or both. The [`Fit`], [`Fill`], and [`Crop`] methods require both width and height. All dimensions are in pixels.
+With the [`Resize`][] method you must specify width, height, or both. The [`Fit`][], [`Fill`][], and [`Crop`][] methods require both width and height. All dimensions are in pixels.
 
 ```go-html-template
 {{ $image := $image.Resize "600x" }}
@@ -294,9 +294,9 @@ In the example above, on the second line, we have reversed width and height to r
 
 ### Anchor
 
-When using the [`Crop`] or [`Fill`] method, the _anchor_ determines the placement of the crop box. You may specify `TopLeft`, `Top`, `TopRight`, `Left`, `Center`, `Right`, `BottomLeft`, `Bottom`, `BottomRight`, or `Smart`.
+When using the [`Crop`][] or [`Fill`][] method, the _anchor_ determines the placement of the crop box. You may specify `TopLeft`, `Top`, `TopRight`, `Left`, `Center`, `Right`, `BottomLeft`, `Bottom`, `BottomRight`, or `Smart`.
 
-The default value is `Smart`, which uses [Smartcrop] image analysis to determine the optimal placement of the crop box. You may override the default value in the [site configuration].
+The default value is `Smart`, which uses [Smartcrop][] image analysis to determine the optimal placement of the crop box. You may override the default value in the [site configuration][].
 
 For example, if you have a 400x200 image with a bird in the upper left quadrant, you can create a 200x100 thumbnail containing the bird:
 
@@ -304,7 +304,7 @@ For example, if you have a 400x200 image with a bird in the upper left quadrant,
 {{ $image.Crop "200x100 TopLeft" }}
 ```
 
-If you apply [rotation](#rotation) when using the [`Crop`] or [`Fill`] method, specify the anchor relative to the rotated image.
+If you apply [rotation](#rotation) when using the [`Crop`][] or [`Fill`][] method, specify the anchor relative to the rotated image.
 
 ### Target format
 
@@ -328,7 +328,7 @@ To convert an image without scaling, use the dimensions of the original image:
 
 Applicable to JPEG and WebP images, the `q` value determines the quality of the converted image. Higher values produce better quality images, while lower values produce smaller files. Set this value to a whole number between 1 and 100, inclusive.
 
-The default value is 75. You may override the default value in the [site configuration].
+The default value is 75. You may override the default value in the [site configuration][].
 
 ```go-html-template
 {{ $image.Resize "600x webp q50" }}
@@ -336,7 +336,7 @@ The default value is 75. You may override the default value in the [site configu
 
 ### Hint
 
-Applicable to WebP images, this option corresponds to a set of predefined encoding parameters, and is equivalent to the `-preset` flag for the [`cwebp`] encoder.
+Applicable to WebP images, this option corresponds to a set of predefined encoding parameters, and is equivalent to the `-preset` flag for the [`cwebp`][] encoder.
 
 Value|Example
 :--|:--
@@ -346,7 +346,7 @@ Value|Example
 `picture`|Indoor photograph such as a portrait
 `text`|Image that is primarily text
 
-The default value is `photo`. You may override the default value in the [site configuration].
+The default value is `photo`. You may override the default value in the [site configuration][].
 
 ```go-html-template
 {{ $image.Resize "600x webp picture" }}
@@ -358,7 +358,7 @@ When converting an image from a format that supports transparency (e.g., PNG) to
 
 Use either a 3-digit or 6-digit hexadecimal color code (e.g., `#00f` or `#0000ff`).
 
-The default value is `#ffffff` (white). You may override the default value in the [site configuration].
+The default value is `#ffffff` (white). You may override the default value in the [site configuration][].
 
 ```go-html-template
 {{ $image.Resize "600x jpg #b31280" }}
@@ -377,13 +377,13 @@ Filter|Description
 `Linear`|Bilinear resampling filter, produces smooth output, faster than cubic filters
 `NearestNeighbor`|Fastest resampling filter, no antialiasing
 
-The default value is `Box`. You may override the default value in the [site configuration].
+The default value is `Box`. You may override the default value in the [site configuration][].
 
 ```go-html-template
 {{ $image.Resize "600x400 Lanczos" }}
 ```
 
-See [github.com/disintegration/imaging] for the complete list of resampling filters. If you wish to improve image quality at the expense of performance, you may wish to experiment with the alternative filters.
+See [github.com/disintegration/imaging][] for the complete list of resampling filters. If you wish to improve image quality at the expense of performance, you may wish to experiment with the alternative filters.
 
 ## Image processing examples
 
@@ -403,11 +403,11 @@ _The photo of the sunset used in the examples below is Copyright [Bjørn Erik Pe
 
 ## Configuration
 
-See [configure imaging](/configuration/imaging).
+See [configure imaging](/docs/reference/configuration/imaging).
 
 ## Smart cropping of images
 
-By default, Hugo uses the [Smartcrop] library when cropping images with the `Crop` or `Fill` methods. You can set the anchor point manually, but in most cases the `Smart` option will make a good choice.
+By default, Hugo uses the [Smartcrop][] library when cropping images with the [`Crop`][] or [`Fill`][] methods. You can set the anchor point manually, but in most cases the `Smart` option will make a good choice.
 
 Examples using the sunset image from above:
 
@@ -433,13 +433,13 @@ hugo --gc
 [`Fill`]: #fill
 [`Filter`]: #filter
 [`Fit`]: #fit
-[`lang.FormatNumber`]: /functions/lang/formatnumber/
+[`lang.FormatNumber`]: /docs/reference/functions/lang/formatnumber/
 [`Process`]: #process
 [`Resize`]: #resize
-[`time.Format`]: /functions/time/format/
-[`with`]: /functions/go-template/with/
+[`time.Format`]: /docs/reference/functions/time/format/
+[`with`]: /docs/reference/functions/go-template/with/
 [EXIF]: https://en.wikipedia.org/wiki/Exif
-[filters]: /functions/images/filter/#image-filters
+[filters]: /docs/reference/functions/images/filter/#image-filters
 [github.com/disintegration/imaging]: https://github.com/disintegration/imaging#image-resizing
-[site configuration]: /configuration/imaging/
+[site configuration]: /docs/reference/configuration/imaging/
 [Smartcrop]: https://github.com/muesli/smartcrop#smartcrop

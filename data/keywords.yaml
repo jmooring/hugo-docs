@@ -7,7 +7,12 @@
 # will decrease over time, though the initial implementation will require some
 # effort.
 
+- content adapter
 - highlight
-- menu
+- menu # not used
+- module
+- mount
 - random
-- resource
+- render hook
+- resource # not used
+- shortcode

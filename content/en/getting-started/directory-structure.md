@@ -19,7 +19,7 @@ hugo new site my-site
 
 Creates this directory structure:
 
-```txt
+```tree
 my-site/
 ├── archetypes/
 │   └── default.md
@@ -35,7 +35,7 @@ my-site/
 
 Depending on requirements, you may wish to organize your site configuration into subdirectories:
 
-```txt
+```tree
 my-site/
 ├── archetypes/
 │   └── default.md
@@ -53,7 +53,7 @@ my-site/
 
 When you build your site, Hugo creates a `public` directory, and typically a `resources` directory as well:
 
-```txt
+```tree
 my-site/
 ├── archetypes/
 │   └── default.md
@@ -76,22 +76,22 @@ my-site/
 Each of the subdirectories contributes to the content, structure, behavior, or presentation of your site.
 
 archetypes
-: The `archetypes` directory contains templates for new content. See&nbsp;[details](/content-management/archetypes/).
+: The `archetypes` directory contains templates for new content. See&nbsp;[details](/docs/concepts/archetypes/).
 
 assets
-: The `assets` directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See&nbsp;[details](/hugo-pipes/introduction/).
+: The `assets` directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See&nbsp;[details](/docs/concepts/asset-pipelines/).
 
 config
-: The `config` directory contains your site configuration, possibly split into multiple subdirectories and files. For projects with minimal configuration or projects that do not need to behave differently in different environments, a single configuration file named `hugo.toml` in the root of the project is sufficient. See&nbsp;[details](/configuration/introduction/#configuration-directory).
+: The `config` directory contains your site configuration, possibly split into multiple subdirectories and files. For projects with minimal configuration or projects that do not need to behave differently in different environments, a single configuration file named `hugo.toml` in the root of the project is sufficient. See&nbsp;[details](/docs/reference/configuration/introduction/#configuration-directory).
 
 content
 : The `content` directory contains the markup files (typically Markdown) and page resources that comprise the content of your site. See&nbsp;[details](/content-management/organization/).
 
 data
-: The `data` directory contains data files (JSON, TOML, YAML, or XML) that augment content, configuration, localization, and navigation. See&nbsp;[details](/content-management/data-sources/).
+: The `data` directory contains data files (JSON, TOML, YAML, or XML) that augment content, configuration, localization, and navigation. See&nbsp;[details](/docs/concepts/data-sources/).
 
 i18n
-: The `i18n` directory contains translation tables for multilingual sites. See&nbsp;[details](/content-management/multilingual/).
+: The `i18n` directory contains [translation tables](g) for multilingual sites. See&nbsp;[details](/content-management/multilingual/).
 
 layouts
 : The `layouts` directory contains templates to transform content, data, and resources into a complete website. See&nbsp;[details](/templates/).
@@ -103,7 +103,7 @@ resources
 : The `resources` directory contains cached output from Hugo's asset pipelines, generated when you run the `hugo` or `hugo server` commands. By default this cache directory includes CSS and images. Hugo recreates this directory and its content as needed.
 
 static
-: The `static` directory contains files that will be copied to the `public` directory when you build your site. For example: `favicon.ico`, `robots.txt`, and files that verify site ownership. Before the introduction of [page bundles](g) and [asset pipelines](/hugo-pipes/introduction/), the `static` directory was also used for images, CSS, and JavaScript.
+: The `static` directory contains files that will be copied to the `public` directory when you build your site. For example: `favicon.ico`, `robots.txt`, and files that verify site ownership. Before the introduction of [page bundles](g) and [asset pipelines](/docs/concepts/asset-pipelines/), the `static` directory was also used for images, CSS, and JavaScript.
 
 themes
 : The `themes` directory contains one or more [themes](g), each in its own subdirectory.
@@ -112,7 +112,7 @@ themes
 
 Hugo creates a union file system, allowing you to mount two or more directories to the same location. For example, let's say your home directory contains a Hugo project in one directory, and shared content in another:
 
-```text
+```tree
 home/
 └── user/
     ├── my-site/            
@@ -151,7 +151,7 @@ target = 'content'
 
 After mounting, the union file system has this structure:
 
-```text
+```tree
 home/
 └── user/
     └── my-site/
@@ -173,21 +173,21 @@ home/
 > [!note]
 > When two or more files have the same path, the order of precedence follows the order of the mounts. For example, if the shared content directory contains `books/book-1.md`, it will be ignored because the project's `content` directory was mounted first.
 
-You can mount directories to `archetypes`, `assets`, `content`, `data`, `i18n`, `layouts`, and `static`. See&nbsp;[details](/configuration/module/#mounts).
+You can mount directories to `archetypes`, `assets`, `content`, `data`, `i18n`, `layouts`, and `static`. See&nbsp;[details](/docs/reference/configuration/modules/#mounts).
 
-You can also mount directories from Git repositories using Hugo Modules. See&nbsp;[details](/hugo-modules/).
+You can also mount directories from Git repositories using modules. See&nbsp;[details](/docs/concepts/modules/).
 
 ## Theme skeleton
 
 Hugo generates a functional theme skeleton when you create a new theme. For example, this command:
 
-```text
+```sh
 hugo new theme my-theme
 ```
 
 Creates this directory structure (subdirectories not shown):
 
-```text
+```tree
 my-theme/
 ├── archetypes/
 ├── assets/
