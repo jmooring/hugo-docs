@@ -12,7 +12,7 @@ Mathematical equations and expressions written in [LaTeX][] are common in academ
 
 For example, this LaTeX markup:
 
-```md
+```md {file="content/example.md"}
 \[
 \begin{aligned}
 KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
@@ -127,7 +127,7 @@ Step 4
 Step 5
 : Include mathematical equations and expressions in Markdown using LaTeX markup.
 
-  ```md {file="content/math-examples.md" copy=true}
+  ```md {file="content/example.md" copy=true}
   This is an inline \(a^*=x-b^*\) equation.
 
   These are block equations:
@@ -157,7 +157,7 @@ The configuration, JavaScript, and examples above use the `\(...\)` delimiter pa
 
 If you add the `$...$` delimiter pair to your configuration and JavaScript, you must double-escape the `$` symbol when used outside of math contexts to avoid unintended formatting. For example:
 
-```md
+```md {file="content/example.md"}
 I will give you \\$2 if you can solve $y = x^2$.
 ```
 
@@ -204,7 +204,7 @@ The delimiters above must match the delimiters in your project configuration.
 
 Both MathJax and KaTeX provide support for chemical equations. For example:
 
-```md
+```md {file="content/example.md"}
 $$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$$
 ```
 
@@ -215,7 +215,7 @@ As shown in [Step 2](#step-2) above, MathJax supports chemical equations without
 [KaTeX]: https://katex.org/
 [LaTeX]: https://www.latex-project.org/
 [MathJax]: https://www.mathjax.org/
-[`transform.ToMath`]: /functions/transform/tomath/
+[`transform.ToMath`]: /docs/reference/functions/transform/tomath/
 [documentation]: https://katex.org/docs/libs
-[passthrough extension]: /configuration/markup/#passthrough
+[passthrough extension]: /docs/reference/configuration/markup/#passthrough
 [this KaTeX limitation]: https://github.com/KaTeX/KaTeX/issues/437
