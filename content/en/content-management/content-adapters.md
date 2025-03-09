@@ -13,7 +13,7 @@ A content adapter is a template that dynamically creates pages when building a s
 
 Unlike templates that reside in the `layouts` directory, content adapters reside in the `content` directory, no more than one per directory per language. When a content adapter creates a page, the page's [logical path](g) will be relative to the content adapter.
 
-```text
+```tree
 content/
 ├── articles/
 │   ├── _index.md
@@ -27,7 +27,7 @@ content/
     └── _index.md
 ```
 
-Each content adapter is named `_content.gotmpl` and uses the same [syntax] as templates in the `layouts` directory. You can use any of the [template functions] within a content adapter, as well as the methods described below.
+Each content adapter is named `_content.gotmpl` and uses the same [syntax][] as templates in the `layouts` directory. You can use any of the [template functions][] within a content adapter, as well as the methods described below.
 
 ## Methods
 
@@ -86,11 +86,11 @@ Returns the `Site` to which the pages will be added.
 ```
 
 > [!note]
-> Note that the `Site` returned isn't fully built when invoked from the content adapters; if you try to call methods that depends on pages, e.g. `.Site.Pages`, you will get an error saying "this method cannot be called before the site is fully initialized".
+> Note that the `Site` returned isn't fully built when invoked from the content adapters; if you try to call methods that depends on pages, e.g., `.Site.Pages`, you will get an error saying "this method cannot be called before the site is fully initialized".
 
 ### Store
 
-Returns a persistent "scratch pad" to store and manipulate data. The main use case for this is to transfer values between executions when [EnableAllLanguages](#enablealllanguages) is set. See [examples](/methods/page/store/).
+Returns a persistent "scratch pad" to store and manipulate data. The main use case for this is to transfer values between executions when [EnableAllLanguages](#enablealllanguages) is set. See [examples](/docs/reference/methods/page/store/).
 
 ```go-html-template {file="content/books/_content.gotmpl"}
 {{ .Store.Set "key" "value" }}
@@ -128,13 +128,13 @@ For more fine-grained control, define a `sites.matrix` in front matter or in a c
 
 ## Page map
 
-Set any [front matter field] in the map passed to the [`AddPage`](#addpage) method, excluding `markup`. Instead of setting the `markup` field, specify the `content.mediaType` as described below.
+Set any [front matter field][] in the map passed to the [`AddPage`](#addpage) method, excluding `markup`. Instead of setting the `markup` field, specify the `content.mediaType` as described below.
 
 This table describes the fields most commonly passed to the `AddPage` method.
 
 Key|Description|Required
 :--|:--|:-:
-`content.mediaType`|The content [media type]. Default is `text/markdown`. See [content formats] for examples.|&nbsp;
+`content.mediaType`|The content [media type][]. Default is `text/markdown`. See [content formats][] for examples.|&nbsp;
 `content.value`|The content value as a string.|&nbsp;
 `dates.date`|The page creation date as a `time.Time` value.|&nbsp;
 `dates.expiryDate`|The page expiry date as a `time.Time` value.|&nbsp;
@@ -155,7 +155,7 @@ Construct the map passed to the [`AddResource`](#addresource) method using the f
 
 Key|Description|Required
 :--|:--|:-:
-`content.mediaType`|The content [media type].|:heavy_check_mark:
+`content.mediaType`|The content [media type][].|:heavy_check_mark:
 `content.value`|The content value as a string or resource.|:heavy_check_mark:
 `name`|The resource name.|&nbsp;
 `params`|A map of resource parameters.|&nbsp;
@@ -174,7 +174,7 @@ Create pages from remote data, where each page represents a book review.
 Step 1
 : Create the content structure.
 
-  ```text
+  ```tree
   content/
   └── books/
       ├── _content.gotmpl  <-- content adapter
@@ -296,7 +296,7 @@ weight = 2
 
 Include a language designator in the content adapter's file name.
 
-```text
+```tree
 content/
 └── books/
     ├── _content.de.gotmpl
@@ -321,7 +321,7 @@ weight = 2
 
 Create a single content adapter in each directory:
 
-```text
+```tree
 content/
 ├── de/
 │   └── books/
@@ -337,7 +337,7 @@ content/
 
 Two or more pages collide when they have the same publication path. Due to concurrency, the content of the published page is indeterminate. Consider this example:
 
-```text
+```tree
 content/
 └── books/
     ├── _content.gotmpl  <-- content adapter
@@ -349,8 +349,8 @@ If the content adapter also creates `books/the-hunchback-of-notre-dame`, the con
 
 To detect page collisions, use the `--printPathWarnings` flag when building your site.
 
-[content formats]: /content-management/formats/#classification
-[front matter field]: /content-management/front-matter/#fields
+[content formats]: /docs/concepts/content-formats/#classification
+[front matter field]: /docs/concepts/front-matter/#fields
 [media type]: https://en.wikipedia.org/wiki/Media_type
-[syntax]: /templates/introduction/
-[template functions]: /functions/
+[syntax]: /docs/concepts/templating/
+[template functions]: /docs/reference/functions/

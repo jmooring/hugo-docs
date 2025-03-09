@@ -38,7 +38,7 @@ Then, in each of the movies, you would specify terms for each of these taxonomie
 
 To continue with the example of a movie site, the following demonstrates content relationships from the perspective of the taxonomy:
 
-```txt
+```text
 Actor                    <- Taxonomy
     Bruce Willis         <- Term
         The Sixth Sense  <- Value
@@ -52,7 +52,7 @@ Actor                    <- Taxonomy
 
 From the perspective of the content, the relationships would appear differently, although the data and labels used are the same:
 
-```txt
+```text
 Unbreakable                 <- Value
     Actors                  <- Taxonomy
         Bruce Willis        <- Term
@@ -78,7 +78,7 @@ When taxonomies are used Hugo will automatically create both a page listing all 
 
 ## Configuration
 
-See [configure taxonomies](/configuration/taxonomies/).
+See [configure taxonomies](/docs/reference/configuration/taxonomies/).
 
 ## Assign terms to content
 
@@ -118,7 +118,7 @@ author = 'authors'
 
 Then create content with one [branch bundle](g) for each term:
 
-```text
+```tree
 content/
 └── authors/
     ├── jsmith/

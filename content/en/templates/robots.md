@@ -8,13 +8,13 @@ weight: 180
 aliases: [/extras/robots-txt/]
 ---
 
-To generate a robots.txt file from a template, change the [site configuration]:
+To generate a robots.txt file from a template, change the [site configuration][]:
 
 {{< code-toggle file=hugo >}}
 enableRobotsTXT = true
 {{< /code-toggle >}}
 
-By default, Hugo generates robots.txt using an [embedded template].
+By default, Hugo generates robots.txt using an [embedded template][].
 
 ```text
 User-agent: *
@@ -46,7 +46,7 @@ This template creates a robots.txt file with a `Disallow` directive for each pag
 > 1. Set `enableRobotsTXT` to `false` in the site configuration.
 > 1. Create a robots.txt file in the `static` directory.
 >
-> Remember that Hugo copies everything in the static director to the root of `publishDir` (typically `public`) when you build your site.
+> Remember that Hugo copies everything in the `static` directory to the root of `publishDir` (typically `public`) when you build your site.
 
 [embedded template]: <{{% eturl robots %}}>
-[site configuration]: /configuration/
+[site configuration]: /docs/reference/configuration/
