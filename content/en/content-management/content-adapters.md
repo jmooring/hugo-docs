@@ -86,11 +86,11 @@ Returns the `Site` to which the pages will be added.
 ```
 
 > [!note]
-> Note that the `Site` returned isn't fully built when invoked from the content adapters; if you try to call methods that depends on pages, e.g. `.Site.Pages`, you will get an error saying "this method cannot be called before the site is fully initialized".
+> Note that the `Site` returned isn't fully built when invoked from the content adapters; if you try to call methods that depends on pages, e.g., `.Site.Pages`, you will get an error saying "this method cannot be called before the site is fully initialized".
 
 ### Store
 
-Returns a persistent "scratch pad" to store and manipulate data. The main use case for this is to transfer values between executions when [EnableAllLanguages](#enablealllanguages) is set. See [examples](/methods/page/store/).
+Returns a persistent "scratch pad" to store and manipulate data. The main use case for this is to transfer values between executions when [EnableAllLanguages](#enablealllanguages) is set. See [examples](/docs/reference/methods/page/store/).
 
 ```go-html-template {file="content/books/_content.gotmpl"}
 {{ .Store.Set "key" "value" }}
@@ -339,8 +339,8 @@ If the content adapter also creates `books/the-hunchback-of-notre-dame`, the con
 
 To detect page collisions, use the `--printPathWarnings` flag when building your site.
 
-[content formats]: /content-management/formats/#classification
-[front matter field]: /content-management/front-matter/#fields
+[content formats]: /docs/concepts/content-formats/#classification
+[front matter field]: /docs/concepts/front-matter/#fields
 [media type]: https://en.wikipedia.org/wiki/Media_type
-[syntax]: /templates/introduction/
-[template functions]: /functions/
+[syntax]: /docs/concepts/templating/
+[template functions]: /docs/reference/functions/

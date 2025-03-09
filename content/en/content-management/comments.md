@@ -61,7 +61,7 @@ Open-source commenting systems:
 - [Talkyard](https://blog-comments.talkyard.io/)
 - [Utterances](https://utteranc.es/)
 
-[configuration]: /configuration/
+[configuration]: /docs/reference/configuration/
 [disquspartial]: /templates/embedded/#disqus
 [disqussetup]: https://disqus.com/profile/signup/
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/concepts/front-matter/

@@ -135,11 +135,11 @@ branch-bundle-2
 
 Use [build options] in front matter to create an unpublished leaf or branch bundle whose content and resources you can include in other pages.
 
-[`Resources`]: /methods/page/resources/
+[`Resources`]: /docs/reference/methods/page/resources/
 [build options]: /content-management/build-options/
-[home]: /templates/types/#home
+[home]: /docs/concepts/template-types/#home
 [page resources]: /content-management/page-resources/
-[section]: /templates/types/#section
-[single]: /templates/types/#single
-[taxonomy]: /templates/types/#taxonomy
-[term]: /templates/types/#term
+[section]: /docs/concepts/template-types/#section
+[single]: /docs/concepts/template-types/#single
+[taxonomy]: /docs/concepts/template-types/#taxonomy
+[term]: /docs/concepts/template-types/#term

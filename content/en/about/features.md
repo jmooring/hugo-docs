@@ -24,7 +24,7 @@ weight: 20
 : Reduce development time and cost by using one of the hundreds of themes contributed by the Hugo community. Themes are available for corporate sites, documentation projects, image portfolios, landing pages, personal and professional blogs, resumes, CVs, and more.
 
 [Modules]
-: Reduce development time and cost by creating or importing packaged combinations of archetypes, assets, content, data, templates, translation tables, static files, or configuration settings. A module may serve as the basis for a new site, or to augment an existing site.
+: Reduce development time and cost by creating or importing packaged combinations of archetypes, assets, content, data, templates, translation tables, and static files.
 
 [Privacy]
 : Configure your site to help comply with regional privacy regulations.
@@ -77,6 +77,9 @@ weight: 20
 
 ## Asset pipelines
 
+[CSS processing]
+: Bundle, tree shake, minify, create source maps, perform SRI hashing, and integrate with PostCSS.
+
 [Image processing]
 : Convert, resize, crop, rotate, adjust colors, apply filters, overlay text and images, and extract EXIF data.
 
@@ -101,36 +104,37 @@ weight: 20
 : Minify HTML, CSS, and JavaScript to reduce file size, bandwidth consumption, and loading times.
 
 [Multilingual]: /content-management/multilingual/
-[Multiplatform]: /installation/
-[Output formats]: /configuration/output-formats/
-[Templates]: /templates/introduction/
+[Multiplatform]: /docs/installation/
+[Output formats]: /docs/reference/configuration/output-formats/
+[Templates]: /docs/concepts/templating/
 [Themes]: https://themes.gohugo.io/
-[Modules]: /hugo-modules/
-[Privacy]: /configuration/privacy/
+[Modules]: /docs/concepts/modules/
+[Privacy]: /docs/reference/configuration/privacy/
 [Security]: /about/security/
 
-[Content formats]: /content-management/formats/
+[Content formats]: /docs/concepts/content-formats/
 [CommonMark]: https://spec.commonmark.org/current/
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
-[Markdown attributes]: /content-management/markdown-attributes/
-[Markdown extensions]: /configuration/markup/#extensions
-[Markdown render hooks]: /render-hooks/introduction/
+[Markdown attributes]: /docs/concepts/markdown-attributes/
+[Markdown extensions]: /docs/reference/configuration/markup/#extensions
+[Markdown render hooks]: /docs/concepts/markdown-render-hooks/
 [Diagrams]: /content-management/diagrams/
 [Mathematics]: /content-management/mathematics/
-[Syntax highlighting]: /content-management/syntax-highlighting/
-[Shortcodes]: /content-management/shortcodes/
+[Syntax highlighting]: /docs/concepts/syntax-highlighting/
+[Shortcodes]: /docs/concepts/shortcodes/
 
 [Content adapters]: /content-management/content-adapters/
 [Taxonomies]: /content-management/taxonomies/
-[Data]: /content-management/data-sources/
+[Data]: /docs/concepts/data-sources/
 [Menus]: /content-management/menus/
-[URL management]: /content-management/urls/
+[URL management]: /docs/concepts/url-management/
 
+[CSS processing]: content/en/docs/reference/functions/css/PostCSS.md
 [Image processing]: /content-management/image-processing/
-[JavaScript bundling]: /functions/js/build/
-[Sass processing]: /functions/css/Sass/
-[Tailwind CSS processing]: /functions/css/tailwindcss/
+[JavaScript bundling]: /docs/reference/functions/js/build/
+[Sass processing]: /docs/reference/functions/css/Sass/
+[Tailwind CSS processing]: /docs/reference/functions/css/tailwindcss/
 
-[Caching]: /functions/partials/includecached/
-[Segmentation]: /configuration/segments/
-[Minification]: /configuration/minify/
+[Caching]: /docs/reference/functions/partials/includecached/
+[Segmentation]: /docs/reference/configuration/segments/
+[Minification]: /docs/reference/configuration/minify/

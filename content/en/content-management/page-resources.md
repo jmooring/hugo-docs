@@ -278,7 +278,10 @@ This approach reduces build times, storage requirements, bandwidth consumption, 
 >
 > In its default configuration, Hugo automatically uses the [embedded link render hook] and the [embedded image render hook] for multilingual single-host sites, specifically when the [duplication of shared page resources] feature is disabled. This is the default behavior for such sites. If custom link or image render hooks are defined by your project, modules, or themes, these will be used instead.
 >
-> You can also configure Hugo to `always` use the embedded link or image render hook, use it only as a `fallback`, or `never` use it. See&nbsp;[details](/configuration/markup/#renderhookslinkuseembedded).
+> You can also configure Hugo to `always` use the embedded link or image render hook, use it only as a `fallback`, or `never` use it. See&nbsp;details:
+>
+> - [`renderHooks.link.useEmbedded`](/docs/reference/configuration/markup/#renderhookslinkuseembedded)
+> - [`renderHooks.image.useEmbedded`](/docs/reference/configuration/markup/#renderhooksimageuseembedded)
 
 Although duplicating shared page resources is inefficient, you can enable this feature in your site configuration if desired:
 
@@ -287,13 +290,13 @@ Although duplicating shared page resources is inefficient, you can enable this f
 duplicateResourceFiles = true
 {{< /code-toggle >}}
 
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Resource`]: /methods/resource
-[`Resources.ByType`]: /methods/page/resources#bytype
-[`Resources.Get`]: /methods/page/resources/#get
-[`Resources.GetMatch`]: /methods/page/resources#getmatch
-[`Resources.Match`]: /methods/page/resources#match
-[content formats]: /content-management/formats/
-[duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
-[embedded image render hook]: /render-hooks/images/#embedded
-[embedded link render hook]: /render-hooks/links/#embedded
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Resource`]: /docs/reference/methods/resource
+[`Resources.ByType`]: /docs/reference/methods/page/resources#bytype
+[`Resources.Get`]: /docs/reference/methods/page/resources#get
+[`Resources.GetMatch`]: /docs/reference/methods/page/resources#getmatch
+[`Resources.Match`]: /docs/reference/methods/page/resources#match
+[content formats]: /docs/concepts/content-formats/
+[duplication of shared page resources]: /docs/reference/configuration/markup/#duplicateresourcefiles
+[embedded image render hook]: /docs/reference/markdown-render-hooks/images/#embedded
+[embedded link render hook]: /docs/reference/markdown-render-hooks/links/#embedded
