@@ -78,7 +78,7 @@ When taxonomies are used---and [taxonomy templates] are provided---Hugo will aut
 
 ## Configuration
 
-See [configure taxonomies](/configuration/taxonomies/).
+See [configure taxonomies](/docs/reference/configuration/taxonomies/).
 
 ## Assign terms to content
 
@@ -119,7 +119,7 @@ wikipedia: "https://en.wikipedia.org/wiki/Bruce_Willis"
 
 [content section]: /content-management/sections/
 [content type]: /content-management/types/
-[documentation on archetypes]: /content-management/archetypes/
-[front matter]: /content-management/front-matter/
-[taxonomy templates]: /templates/types/#taxonomy
+[documentation on archetypes]: /docs/concepts/archetypes/
+[front matter]: /docs/concepts/front-matter/
+[taxonomy templates]: /docs/concepts/template-types/#taxonomy
 [site configuration]: /configuration/
