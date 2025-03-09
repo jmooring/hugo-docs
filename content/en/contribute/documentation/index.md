@@ -3,7 +3,6 @@ title: Documentation
 description: Help us to improve the documentation by identifying issues and suggesting changes.
 categories: []
 keywords: []
-aliases: [/contribute/docs/]
 ---
 
 ## Introduction
@@ -12,6 +11,24 @@ We welcome corrections and improvements to the documentation. The documentation 
 
 - For corrections and improvements to existing documentation, submit issues and pull requests to the [documentation repository][].
 - For documentation of new features, include the documentation changes in your pull request to the [project repository][].
+
+## Approach
+
+In June 2026 we began transitioning to the [Diátaxis][] documentation model.
+
+![Diagram of Diataxis approach to documentation](diataxis.webp)
+{class="border-1 border-gray-300"}
+
+These quadrants match the [Tutorials][], [Guides][], [Concepts][], and [Reference][] sections of this documentation.
+
+The initial phase of the transition was primarily focused on regorganizing existing content rather than rewriting or creating new content. Consequently, some pages may cross quarant boundaries more than expected. This will improve over time.
+
+[The Good Docs Project][] provides a useful, open-source [template repository][] that supports the Diátaxis model:
+
+- [Concept template][]
+- [Guide template][]
+- [Reference template][]
+- [Tutorial template][]
 
 ## Guidelines
 
@@ -569,7 +586,17 @@ Step 9
 [^1]: The field is required, but its data is not.
 
 [ATX]: https://spec.commonmark.org/current/#atx-headings
-[Glossary]: /quick-reference/glossary/
+[Concept template]: https://gitlab.com/tgdp/templates/-/tree/main/concept
+[Concepts]: /docs/concepts/
+[Diátaxis]: https://diataxis.fr
+[Glossary]: /docs/reference/glossary/
+[Guide template]: https://gitlab.com/tgdp/templates/-/tree/main/how-to
+[Guides]: /docs/guides
+[Reference template]: https://gitlab.com/tgdp/templates/-/tree/main/reference
+[Reference]: /docs/reference
+[The Good Docs Project]: https://www.thegooddocsproject.dev/
+[Tutorial template]: https://gitlab.com/tgdp/templates/-/tree/main/tutorial
+[Tutorials]: /docs/tutorials
 [basic english]: https://simple.wikipedia.org/wiki/Basic_English
 [collapsed link references]: https://discourse.gohugo.io/t/55714
 [details]: https://github.com/gohugoio/hugoDocs/blob/master/layouts/_partials/layouts/blocks/feature-state.html
@@ -584,3 +611,4 @@ Step 9
 [raw HTML]: https://spec.commonmark.org/current/#raw-html
 [related content]: /content-management/related-content/
 [setext]: https://spec.commonmark.org/current/#setext-heading
+[template repository]: https://gitlab.com/tgdp/templates/-/tree/main

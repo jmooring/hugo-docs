@@ -9,7 +9,7 @@ keywords: []
 
 Hugo natively supports [GoAT][] diagrams with an [embedded code block render hook][]. This means that this code block:
 
-````txt
+````text {file="content/example.md" copy=true}
 ```goat
       .               .                .               .--- 1          .-- 1     / 1
      / \              |                |           .---+            .-+         +
@@ -147,7 +147,7 @@ sequenceDiagram
 
 Created from <https://arthursonzogni.com/Diagon/#Tree>
 
-```goat  {width=300 color="orange"}
+```goat {width=300 color="orange"}
 ───Linux─┬─Android
          ├─Debian─┬─Ubuntu─┬─Lubuntu
          │        │        ├─Kubuntu
@@ -256,5 +256,5 @@ Created from <https://arthursonzogni.com/Diagon/#Tree>
 ```
 
 [GoAT]: https://github.com/bep/goat
-[code block render hook]: /render-hooks/code-blocks/
+[code block render hook]: /docs/reference/markdown-render-hooks/code-blocks/
 [embedded code block render hook]: <{{% eturl render-codeblock-goat %}}>
