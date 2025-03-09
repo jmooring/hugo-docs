@@ -21,7 +21,7 @@ In this tutorial you will:
 Before you begin this tutorial you must:
 
 1. [Install Hugo] (extended or extended/deploy edition, {{% param "minVersion" %}} or later)
-1. [Install Git]
+1. [Install Git][]
 
 You must also be comfortable working from the command line.
 
@@ -34,9 +34,9 @@ You must also be comfortable working from the command line.
 >
 > - Do not use the Command Prompt
 > - Do not use Windows PowerShell
-> - Run these commands from [PowerShell] or a Linux terminal such as WSL or Git > Bash
+> - Run these commands from [PowerShell][] or a Linux terminal such as WSL or Git > Bash
 >
-> PowerShell and Windows PowerShell [are different applications].
+> PowerShell and Windows PowerShell [are different applications][].
 
 Verify that you have installed Hugo {{% param "minVersion" %}} or later.
 
@@ -44,7 +44,7 @@ Verify that you have installed Hugo {{% param "minVersion" %}} or later.
 hugo version
 ```
 
-Run these commands to create a Hugo site with the [Ananke] theme. The next section provides an explanation of each command.
+Run these commands to create a Hugo site with the [Ananke][] theme. The next section provides an explanation of each command.
 
 ```text
 hugo new site quickstart
@@ -59,7 +59,7 @@ View your site at the URL displayed in your terminal. Press `Ctrl + C` to stop H
 
 ### Explanation of commands
 
-Create the [directory structure] for your project in the `quickstart` directory.
+Create the [directory structure][] for your project in the `quickstart` directory.
 
 ```text
 hugo new site quickstart
@@ -77,7 +77,7 @@ Initialize an empty Git repository in the current directory.
 git init
 ```
 
-Clone the [Ananke] theme into the `themes` directory, adding it to your project as a [Git submodule].
+Clone the [Ananke][] theme into the `themes` directory, adding it to your project as a [Git submodule][].
 
 ```text
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
@@ -115,9 +115,9 @@ draft = true
 +++
 ```
 
-Notice the `draft` value in the [front matter] is `true`. By default, Hugo does not publish draft content when you build the site. Learn more about [draft, future, and expired content].
+Notice the `draft` value in the [front matter][] is `true`. By default, Hugo does not publish draft content when you build the site. Learn more about [draft, future, and expired content][].
 
-Add some [Markdown] to the body of the post, but do not change the `draft` value.
+Add some [Markdown][] to the body of the post, but do not change the `draft` value.
 
 ```text
 +++
@@ -144,11 +144,11 @@ View your site at the URL displayed in your terminal. Keep the development serve
 When satisfied with your new content, set the front matter `draft` parameter to `false`.
 
 > [!note]
-> Hugo's rendering engine conforms to the CommonMark [specification] for Markdown. The CommonMark organization provides a useful [live testing tool] powered by the reference implementation.
+> Hugo's rendering engine conforms to the CommonMark [specification][] for Markdown. The CommonMark organization provides a useful [live testing tool][] powered by the reference implementation.
 
 ## Configure the site
 
-With your editor, open the [site configuration] file (`hugo.toml`) in the root of your project.
+With your editor, open the [site configuration][] file (`hugo.toml`) in the root of your project.
 
 ```text
 baseURL = 'https://example.org/'
@@ -172,7 +172,7 @@ hugo server -D
 > [!note]
 > Most theme authors provide configuration guidelines and options. Make sure to visit your theme's repository or documentation site for details.
 >
-> [The New Dynamic], authors of the Ananke theme, provide [documentation] for configuration and usage. They also provide a [demonstration site].
+> [The New Dynamic][], authors of the Ananke theme, provide [documentation][] for configuration and usage. They also provide a [demonstration site][].
 
 ## Publish the site
 
@@ -180,21 +180,21 @@ In this step you will _publish_ your site, but you will not _deploy_ it.
 
 When you _publish_ your site, Hugo creates the entire static site in the `public` directory in the root of your project. This includes the HTML files, and assets such as images, CSS files, and JavaScript files.
 
-When you publish your site, you typically do _not_ want to include [draft, future, or expired content]. The command is simple.
+When you publish your site, you typically do _not_ want to include [draft, future, or expired content][]. The command is simple.
 
 ```text
 hugo
 ```
 
-To learn how to _deploy_ your site, see the [host and deploy] section.
+To learn how to _deploy_ your site, see the [host and deploy][] section.
 
 ## Ask for help
 
-Hugo's [forum] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help] before asking your first question.
+Hugo's [forum][] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help][] before asking your first question.
 
 ## Other resources
 
-For other resources to help you learn Hugo, including books and video tutorials, see the [external learning resources](/getting-started/external-learning-resources/) page.
+For other resources to help you learn Hugo, including books and video tutorials, see the [external learning resources](/docs/tutorials/external-learning-resources/) page.
 
 [Ananke]: https://github.com/theNewDynamic/gohugo-theme-ananke
 [are different applications]: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.3
@@ -204,15 +204,15 @@ For other resources to help you learn Hugo, including books and video tutorials,
 [draft, future, and expired content]: /getting-started/usage/#draft-future-and-expired-content
 [draft, future, or expired content]: /getting-started/usage/#draft-future-and-expired-content
 [forum]: https://discourse.gohugo.io/
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/concepts/front-matter/
 [Git submodule]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
-[host and deploy]: /host-and-deploy/
+[host and deploy]: /docs/guides/host-and-deploy/
 [Install Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[Install Hugo]: /installation/
+[Install Hugo]: /docs/installation/
 [live testing tool]: https://spec.commonmark.org/dingus/
 [Markdown]: https://daringfireball.net/projects/markdown
 [PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 [requesting help]: https://discourse.gohugo.io/t/requesting-help/9132
-[site configuration]: /configuration/
-[specification]: https://spec.commonmark.org/
+[site configuration]: /docs/reference/configuration/
+[specification]: https://spec.commonmark.org/current/
 [The New Dynamic]: https://www.thenewdynamic.com/

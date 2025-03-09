@@ -7,7 +7,7 @@ keywords: []
 
 ## GoAT diagrams (ASCII)
 
-Hugo natively supports [GoAT] diagrams with an [embedded code block render hook]. This means that this code block:
+Hugo natively supports [GoAT][] diagrams with an [embedded code block render hook][]. This means that this code block:
 
 ````txt
 ```goat
@@ -255,6 +255,6 @@ Created from <https://arthursonzogni.com/Diagon/#Tree>
 └────────────────────────────────────────────────┘
 ```
 
-[code block render hook]: /render-hooks/code-blocks/
+[code block render hook]: /docs/reference/markdown-render-hooks/code-blocks/
 [embedded code block render hook]: <{{% eturl render-codeblock-goat %}}>
 [GoAT]: https://github.com/bep/goat
