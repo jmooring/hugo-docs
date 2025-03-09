@@ -1,13 +1,7 @@
 {{ define "main" }}
-  {{ $pages := "" }}
-  {{ if .IsPage }}
-    {{/* We currently have a slightly odd content structure with no top level /docs section. */}}
-    {{ $pages = .CurrentSection.Pages }}
-  {{ else }}
-    {{ $pages = .Pages }}
-    {{ if eq .Section "news" }}
-      {{ $pages = $pages.ByPublishDate.Reverse }}
-    {{ end }}
+  {{ $pages := .Pages }}
+  {{ if eq .Section "news" }}
+    {{ $pages = $pages.ByPublishDate.Reverse }}
   {{ end }}
 
 
