@@ -78,7 +78,7 @@ When taxonomies are used Hugo will automatically create both a page listing all 
 
 ## Configuration
 
-See [configure taxonomies](/configuration/taxonomies/).
+See [configure taxonomies](/docs/reference/configuration/taxonomies/).
 
 ## Assign terms to content
 
@@ -178,3 +178,6 @@ Or create a _term_ template specific to the "authors" taxonomy:
 ```
 
 In the example above we display the author including their affiliation and portrait, then a list of associated content.
+
+[front matter]: /docs/concepts/front-matter/
+[taxonomy templates]: /docs/concepts/template-types/#taxonomy

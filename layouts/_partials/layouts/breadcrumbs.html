@@ -1,16 +1,9 @@
-{{ $documentation := site.GetPage "/documentation" }}
-
-
 <nav aria-label="breadcrumb" class="flex breadcrumbs">
   <ol class="inline-flex items-center flex-wrap tracking-tight">
     {{ $currentSection := .CurrentSection }}
     {{ $ancestors := .Ancestors.Reverse }}
     {{ range $i, $p := $ancestors }}
       {{ $isCurrentSection := eq $p $currentSection }}
-      {{/* We currently have a slightly odd structure. */}}
-      {{ if eq $p site.Home }}
-        {{ $p = $documentation }}
-      {{ end }}
       <li class="flex items-center">
         {{ $isLast := eq $i (sub (len $ancestors) 1) }}
         <a
@@ -20,20 +13,17 @@
           {{ end }}"
           >{{ $p.LinkTitle }}</a
         >
-        {{ if ne $ $documentation }}
-          {{ template "breadcrumbs-arrow" . }}
-        {{ end }}
+        {{ template "breadcrumbs-arrow" . }}
       </li>
     {{ end }}
-    {{ if ne $ $documentation }}
-      {{ $isCurrentSection := eq $ $currentSection }}
-      <li
-        class="truncate text-gray-700 dark:text-gray-300 {{ if $isCurrentSection }}
-          current-section
-        {{ end }}">
-        {{ $.LinkTitle }}
-      </li>
-    {{ end }}
+
+    {{ $isCurrentSection := eq $ $currentSection }}
+    <li
+      class="truncate text-gray-700 dark:text-gray-300 {{ if $isCurrentSection }}
+        current-section
+      {{ end }}">
+      {{ $.LinkTitle }}
+    </li>
   </ol>
 </nav>
 

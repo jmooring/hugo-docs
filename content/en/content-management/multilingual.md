@@ -9,7 +9,7 @@ aliases: [/content/multilingual/,/tutorials/create-a-multilingual-site/]
 
 ## Configuration
 
-See [configure languages](/configuration/languages/).
+See [configure languages](/docs/reference/configuration/languages/).
 
 ## Translate your content
 
@@ -408,22 +408,22 @@ hugo new content content/en/post/test.md
 hugo new content content/de/post/test.md
 ```
 
-[`absLangURL`]: /functions/urls/abslangurl/
-[`lang.Translate`]: /functions/lang/translate
-[`relLangURL`]: /functions/urls/rellangurl/
-[`slug`]: /content-management/urls/#slug
-[`time.Format`]: /functions/time/format/
-[`url`]: /content-management/urls/#url
+[`absLangURL`]: /docs/reference/functions/urls/abslangurl/
+[`lang.Translate`]: /docs/reference/functions/lang/translate
+[`relLangURL`]: /docs/reference/functions/urls/rellangurl/
+[`slug`]: /docs/concepts/url-management/#slug
+[`time.Format`]: /docs/reference/functions/time/format/
+[`url`]: /docs/concepts/url-management/#url
 [automatically]: /content-management/menus/#define-automatically
-[config]: /configuration/
-[configuration directory]: /configuration/introduction/#configuration-directory
+[config]: /docs/reference/configuration/
+[configuration directory]: /docs/reference/configuration/introduction/#configuration-directory
 [example menu template]: /templates/menu/#example
-[i18func]: /functions/lang/translate/
+[i18func]: /docs/reference/functions/lang/translate/
 [in front matter]: /content-management/menus/#define-in-front-matter
 [in site configuration]: /content-management/menus/#define-in-site-configuration
-[lang.FormatAccounting]: /functions/lang/formataccounting/
-[lang.FormatCurrency]: /functions/lang/formatcurrency/
-[lang.FormatNumber]: /functions/lang/formatnumber/
-[lang.FormatNumberCustom]: /functions/lang/formatnumbercustom/
-[lang.FormatPercent]: /functions/lang/formatpercent/
-[lang.Merge]: /functions/lang/merge/
+[lang.FormatAccounting]: /docs/reference/functions/lang/formataccounting/
+[lang.FormatCurrency]: /docs/reference/functions/lang/formatcurrency/
+[lang.FormatNumber]: /docs/reference/functions/lang/formatnumber/
+[lang.FormatNumberCustom]: /docs/reference/functions/lang/formatnumbercustom/
+[lang.FormatPercent]: /docs/reference/functions/lang/formatpercent/
+[lang.Merge]: /docs/reference/functions/lang/merge/
