@@ -93,6 +93,6 @@ layouts
 [^type]: The `type` set in front matter will effectively replace the `section` folder in [Page path][] when doing lookups.
 
 [Hugo v0.146.0]: https://github.com/gohugoio/hugo/releases/tag/v0.146.0
-[Page kinds]: https://gohugo.io/methods/page/kind/
-[Page path]: https://gohugo.io/methods/page/path/
-[template types]: /templates/types/
+[Page kinds]: /docs/reference/methods/page/kind/
+[Page path]: /docs/reference/methods/page/path/
+[template types]: /docs/concepts/template-types.md

@@ -1,6 +1,6 @@
 <a href="https://gohugo.io/"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565"></a>
 
-A fast and flexible static site generator built with love by [bep], [spf13], and [friends] in [Go].
+A fast and flexible static site generator built with love by [bep][], [spf13][], and [friends][] in [Go][].
 
 ---
 
@@ -9,13 +9,13 @@ A fast and flexible static site generator built with love by [bep], [spf13], and
 
 This is the repository for the [Hugo](https://github.com/gohugoio/hugo) documentation site.
 
-Please see the [contributing] section for guidelines, examples, and process.
+Please see the [contributing][] section for guidelines, examples, and process.
 
 [bep]: https://github.com/bep
 [spf13]: https://github.com/spf13
 [friends]: https://github.com/gohugoio/hugo/graphs/contributors
 [go]: https://go.dev/
-[contributing]: https://gohugo.io/contribute/documentation
+[contributing]: /docs/contribute/documentation/
 
 # Install
 

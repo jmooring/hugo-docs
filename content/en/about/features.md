@@ -106,35 +106,35 @@ weight: 20
 [Minification][]
 : Minify HTML, CSS, and JavaScript to reduce file size, bandwidth consumption, and loading times.
 
-[CSS Processing]: /functions/css/build/
-[Caching]: /functions/partials/includecached/
+[CSS processing]: /docs/reference/functions/css/build/
+[Caching]: /docs/reference/functions/partials/includecached/
 [CommonMark]: https://spec.commonmark.org/current/
 [Content adapters]: /content-management/content-adapters/
-[Content formats]: /content-management/formats/
-[Data]: /content-management/data-sources/
+[Content formats]: /docs/concepts/content-formats/
+[Data]: /docs/concepts/data-sources/
 [Diagrams]: /content-management/diagrams/
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
 [Image processing]: /content-management/image-processing/
-[JavaScript bundling]: /functions/js/build/
-[Markdown attributes]: /content-management/markdown-attributes/
-[Markdown extensions]: /configuration/markup/#extensions
-[Markdown render hooks]: /render-hooks/introduction/
+[JavaScript bundling]: /docs/reference/functions/js/build/
+[Markdown attributes]: /docs/concepts/markdown-attributes/
+[Markdown extensions]: /docs/reference/configuration/markup/#extensions
+[Markdown render hooks]: /docs/concepts/markdown-render-hooks/
 [Mathematics]: /content-management/mathematics/
 [Menus]: /content-management/menus/
-[Minification]: /configuration/minify/
-[Modules]: /hugo-modules/
-[Multidimensional content model]: /quick-reference/glossary/#sites-matrix
+[Minification]: /docs/reference/configuration/minify/
+[Modules]: /docs/concepts/modules/
+[Multidimensional content model]: /docs/reference/glossary/#sites-matrix
 [Multilingual]: /content-management/multilingual/
-[Multiplatform]: /installation/
-[Output formats]: /configuration/output-formats/
-[Privacy]: /configuration/privacy/
-[Sass processing]: /functions/css/sass/
+[Multiplatform]: /docs/installation/
+[Output formats]: /docs/reference/configuration/output-formats/
+[Privacy]: /docs/reference/configuration/privacy/
+[Sass processing]: /docs/reference/functions/css/Sass/
 [Security]: /about/security/
-[Segmentation]: /configuration/segments/
-[Shortcodes]: /content-management/shortcodes/
-[Syntax highlighting]: /content-management/syntax-highlighting/
-[Tailwind CSS processing]: /functions/css/tailwindcss/
+[Segmentation]: /docs/reference/configuration/segments/
+[Shortcodes]: /docs/concepts/shortcodes/
+[Syntax highlighting]: /docs/concepts/syntax-highlighting/
+[Tailwind CSS processing]: /docs/reference/functions/css/tailwindcss/
 [Taxonomies]: /content-management/taxonomies/
-[Templates]: /templates/introduction/
+[Templates]: /docs/concepts/templating/
 [Themes]: https://themes.gohugo.io/
-[URL management]: /content-management/urls/
+[URL management]: /docs/concepts/url-management/

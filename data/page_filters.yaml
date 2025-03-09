@@ -7,87 +7,87 @@
 #   - layouts/_shortcodes/render-table-of-pages-in-section.html
 
 functions_fmt_logging:
-  - /functions/fmt/errorf
-  - /functions/fmt/erroridf
-  - /functions/fmt/warnf
-  - /functions/fmt/warnidf
+- /docs/reference/functions/fmt/errorf
+- /docs/reference/functions/fmt/erroridf
+- /docs/reference/functions/fmt/warnf
+- /docs/reference/functions/fmt/warnidf
 functions_images_no_filters:
-  - /functions/images/filter
-  - /functions/images/config
+- /docs/reference/functions/images/filter
+- /docs/reference/functions/images/config
 methods_site_multilingual:
-  - /methods/site/ismultilingual
-  - /methods/site/language
-  - /methods/site/languageprefix
-  - /methods/site/languages
+- /docs/reference/methods/site/ismultilingual
+- /docs/reference/methods/site/language
+- /docs/reference/methods/site/languageprefix
+- /docs/reference/methods/site/languages
 methods_site_page_collections:
-  - /methods/site/allpages
-  - /methods/site/pages
-  - /methods/site/regularpages
-  - /methods/site/sections
+- /docs/reference/methods/site/allpages
+- /docs/reference/methods/site/pages
+- /docs/reference/methods/site/regularpages
+- /docs/reference/methods/site/sections
 methods_page_dates:
-  - /methods/page/date
-  - /methods/page/expirydate
-  - /methods/page/lastmod
-  - /methods/page/publishdate
+- /docs/reference/methods/page/date
+- /docs/reference/methods/page/expirydate
+- /docs/reference/methods/page/lastmod
+- /docs/reference/methods/page/publishdate
 methods_page_menu:
-  - /methods/page/hasmenucurrent
-  - /methods/page/ismenucurrent
+- /docs/reference/methods/page/hasmenucurrent
+- /docs/reference/methods/page/ismenucurrent
 methods_page_multilingual:
-  - /methods/page/alltranslations
-  - /methods/page/istranslated
-  - /methods/page/language
-  - /methods/page/translationkey
-  - /methods/page/translations
-methods_page_page_collections:
-  - /methods/page/pages
-  - /methods/page/regularpages
-  - /methods/page/regularpagesrecursive
-  - /methods/page/sections
-methods_page_parameters:
-  - /methods/page/param
-  - /methods/page/params
-methods_page_sections:
-  - /methods/page/ancestors
-  - /methods/page/currentsection
-  - /methods/page/firstsection
-  - /methods/page/insection
-  - /methods/page/isancestor
-  - /methods/page/isdescendant
-  - /methods/page/parent
-  - /methods/page/sections
-  - /methods/page/section
-methods_pages_sort:
-  - /methods/pages/bydate
-  - /methods/pages/byexpirydate
-  - /methods/pages/bylanguage
-  - /methods/pages/bylastmod
-  - /methods/pages/bylength
-  - /methods/pages/bylinktitle
-  - /methods/pages/byparam
-  - /methods/pages/bypublishdate
-  - /methods/pages/bytitle
-  - /methods/pages/byweight
-  - /methods/pages/reverse
-methods_pages_group:
-  - /methods/pages/groupby
-  - /methods/pages/groupbydate
-  - /methods/pages/groupbyexpirydate
-  - /methods/pages/groupbylastmod
-  - /methods/pages/groupbyparam
-  - /methods/pages/groupbyparamdate
-  - /methods/pages/groupbypublishdate
-methods_pages_navigation:
-  - /methods/pages/next
-  - /methods/pages/prev
+- /docs/reference/methods/page/alltranslations
+- /docs/reference/methods/page/istranslated
+- /docs/reference/methods/page/language
+- /docs/reference/methods/page/translationkey
+- /docs/reference/methods/page/translations
 methods_page_navigation:
-  - /methods/page/next
-  - /methods/page/nextinsection
-  - /methods/page/prev
-  - /methods/page/previnsection
+- /docs/reference/methods/page/next
+- /docs/reference/methods/page/nextinsection
+- /docs/reference/methods/page/prev
+- /docs/reference/methods/page/previnsection
+methods_page_page_collections:
+- /docs/reference/methods/page/pages
+- /docs/reference/methods/page/regularpages
+- /docs/reference/methods/page/regularpagesrecursive
+- /docs/reference/methods/page/sections
+methods_page_parameters:
+- /docs/reference/methods/page/param
+- /docs/reference/methods/page/params
+methods_page_sections:
+- /docs/reference/methods/page/ancestors
+- /docs/reference/methods/page/currentsection
+- /docs/reference/methods/page/firstsection
+- /docs/reference/methods/page/insection
+- /docs/reference/methods/page/isancestor
+- /docs/reference/methods/page/isdescendant
+- /docs/reference/methods/page/parent
+- /docs/reference/methods/page/sections
+- /docs/reference/methods/page/section
+methods_pages_sort:
+- /docs/reference/methods/pages/bydate
+- /docs/reference/methods/pages/byexpirydate
+- /docs/reference/methods/pages/bylanguage
+- /docs/reference/methods/pages/bylastmod
+- /docs/reference/methods/pages/bylength
+- /docs/reference/methods/pages/bylinktitle
+- /docs/reference/methods/pages/byparam
+- /docs/reference/methods/pages/bypublishdate
+- /docs/reference/methods/pages/bytitle
+- /docs/reference/methods/pages/byweight
+- /docs/reference/methods/pages/reverse
+methods_pages_group:
+- /docs/reference/methods/pages/groupby
+- /docs/reference/methods/pages/groupbydate
+- /docs/reference/methods/pages/groupbyexpirydate
+- /docs/reference/methods/pages/groupbylastmod
+- /docs/reference/methods/pages/groupbyparam
+- /docs/reference/methods/pages/groupbyparamdate
+- /docs/reference/methods/pages/groupbypublishdate
+methods_pages_navigation:
+- /docs/reference/methods/pages/next
+- /docs/reference/methods/pages/prev
 methods_resource_image_processing:
-  - /methods/resource/crop
-  - /methods/resource/fill
-  - /methods/resource/filter
-  - /methods/resource/fit
-  - /methods/resource/fit
-  - /methods/resource/resize
+- /docs/reference/methods/resource/crop
+- /docs/reference/methods/resource/fill
+- /docs/reference/methods/resource/filter
+- /docs/reference/methods/resource/fit
+- /docs/reference/methods/resource/fit
+- /docs/reference/methods/resource/resize

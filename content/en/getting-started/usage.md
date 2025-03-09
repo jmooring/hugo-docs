@@ -139,12 +139,12 @@ Most of our users deploy their sites to a [CI/CD](g) platform, where a push[^1] 
 [^1]: The Git repository contains the entire project directory, typically excluding the `public` directory because the site is built _after_ the push.
 
 [LiveReload]: https://github.com/livereload/livereload-js
-[`--destination`]: /commands/hugo/#options
-[`cascade`]: /content-management/front-matter/#cascade
-[`hugo build`]: /commands/hugo/
-[`hugo server`]: /commands/hugo_server/
-[`publishDir`]: /configuration/all/#publishdir
+[`--destination`]: /docs/reference/commands/hugo/#options
+[`cascade`]: /docs/reference/front-matter/#cascade
+[`hugo build`]: /docs/reference/commands/hugo_build/
+[`hugo server`]: /docs/reference/commands/hugo_server/
+[`publishDir`]: /docs/reference/configuration/all/#publishdir
 [build options]: /content-management/build-options/
-[front matter]: /content-management/front-matter/
-[host and deploy]: /host-and-deploy/
-[installing]: /installation/
+[front matter]: /docs/reference/front-matter/
+[host and deploy]: /docs/guides/host-and-deploy/
+[installing]: /docs/installation/

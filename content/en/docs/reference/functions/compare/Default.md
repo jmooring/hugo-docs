@@ -1,0 +1,46 @@
+---
+title: compare.Default
+description: Returns the second argument if set, else the first argument.
+keywords: []
+params:
+  functions_and_methods:
+    aliases: [default]
+    returnType: any
+    signatures: [compare.Default DEFAULT INPUT]
+---
+
+The `default` function returns the second argument if set, else the first argument.
+
+> [!NOTE]
+> When the second argument is the boolean `false` value, the `default` function returns `false`. All _other_ falsy values are considered unset.
+>
+> The falsy values are `false`, `0`, any `nil` pointer or interface value, any array, slice, map, or string of length zero, and zero `time.Time` values.
+>
+> Everything else is truthy.
+>
+> To set a default value based on truthiness, use the [`or`][] operator instead.
+
+The `default` function returns the second argument if set:
+
+```go-html-template
+{{ 1             | default 42 }} → 1
+{{ "foo"         | default 42 }} → foo
+{{ dict "k" "v"  | default 42 }} → map[k:v]
+{{ slice "a" "b" | default 42 }} → [a b]
+{{ true          | default 42 }} → true
+
+<!-- As noted above, the boolean "false" is considered set -->
+{{ false         | default 42 }} → false
+```
+
+The `default` function returns the first argument if the second argument is not set:
+
+```go-html-template
+{{ 0     | default 42 }} → 42
+{{ ""    | default 42 }} → 42
+{{ dict  | default 42 }} → 42
+{{ slice | default 42 }} → 42
+{{ nil   | default 42 }} → 42
+```
+
+[`or`]: /docs/reference/functions/go-template/or/
