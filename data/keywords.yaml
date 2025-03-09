@@ -7,11 +7,15 @@
 # will decrease over time, though the initial implementation will require some
 # effort.
 
+- content adapter
 - decorator
 - filter
 - highlight
 - menu
 - metadata
+- module
+- mount
 - process
 - random
-- resource
+- render hook
+- shortcode
