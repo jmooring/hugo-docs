@@ -66,7 +66,7 @@ disableAliases = true
           block  = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
     [markup.goldmark.parser]
-      autoDefinitionTermID = true
+      autoDefinitionTermID               = true
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
@@ -156,26 +156,31 @@ disableAliases = true
 
 [menus]
   [[menus.global]]
-    identifier = 'news'
-    name       = 'News'
-    pageRef    = '/news/'
-    weight     = 1
+    identifier = 'about'
+    name       = 'About'
+    pageRef    = '/about/'
+    weight     = 10
   [[menus.global]]
     identifier = 'docs'
     name       = 'Docs'
-    url        = '/documentation/'
-    weight     = 5
+    url        = '/docs/'
+    weight     = 20
+  [[menus.global]]
+    identifier = 'news'
+    name       = 'News'
+    pageRef    = '/news/'
+    weight     = 30
   [[menus.global]]
     identifier = 'themes'
     name       = 'Themes'
     url        = 'https://themes.gohugo.io/'
-    weight     = 10
+    weight     = 40
   [[menus.global]]
     identifier = 'community'
     name       = 'Community'
     post       = 'external'
     url        = 'https://discourse.gohugo.io/'
-    weight     = 150
+    weight     = 50
   [[menus.global]]
     identifier = 'github'
     name       = 'GitHub'
