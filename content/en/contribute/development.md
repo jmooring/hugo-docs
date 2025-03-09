@@ -140,7 +140,7 @@ Step 10
 [commit message guidelines]: https://github.com/gohugoio/hugo/blob/master/CONTRIBUTING.md#git-commit-message-guidelines
 [create a proposal]: https://github.com/gohugoio/hugo/issues/new?labels=Proposal%2C+NeedsTriage&template=feature_request.md
 [documentation repository]: https://github.com/gohugoio/hugoDocs
-[documentation]: /documentation
+[documentation]: /docs/
 [forum]: https://discourse.gohugo.io
 [issue queue]: https://github.com/gohugoio/hugo/issues
 [issues]: https://github.com/gohugoio/hugo/issues
