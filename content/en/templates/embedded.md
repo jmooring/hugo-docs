@@ -12,11 +12,11 @@ aliases: [/templates/internal]
 ## Disqus
 
 > [!note]
-> To override Hugo's embedded Disqus template, copy the [source code](<{{% eturl disqus %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`] function:
+> To override Hugo's embedded Disqus template, copy the [source code](<{{% eturl disqus %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`][] function:
 >
 > `{{ partial "disqus.html" . }}`
 
-Hugo includes an embedded template for [Disqus], a popular commenting system for both static and dynamic websites. To effectively use Disqus, secure a Disqus "shortname" by [signing up] for the free service.
+Hugo includes an embedded template for [Disqus][], a popular commenting system for both static and dynamic websites. To effectively use Disqus, secure a Disqus "shortname" by [signing up][] for the free service.
 
 To include the embedded template:
 
@@ -57,11 +57,11 @@ disable
 ## Google Analytics
 
 > [!note]
-> To override Hugo's embedded Google Analytics template, copy the [source code](<{{% eturl google_analytics %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`] function:
+> To override Hugo's embedded Google Analytics template, copy the [source code](<{{% eturl google_analytics %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`][] function:
 >
 > `{{ partial "google_analytics.html" . }}`
 
-Hugo includes an embedded template supporting [Google Analytics 4].
+Hugo includes an embedded template supporting [Google Analytics 4][].
 
 To include the embedded template:
 
@@ -95,7 +95,7 @@ respectDoNotTrack
 ## Open Graph
 
 > [!note]
-> To override Hugo's embedded Open Graph template, copy the [source code](<{{% eturl opengraph %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`] function:
+> To override Hugo's embedded Open Graph template, copy the [source code](<{{% eturl opengraph %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`][] function:
 >
 > `{{ partial "opengraph.html" . }}`
 
@@ -110,7 +110,7 @@ To include the embedded template:
 
 ### Configuration {#configuration-open-graph}
 
-Hugo's Open Graph template is configured using a mix of configuration settings and [front matter](/content-management/front-matter/) on individual pages.
+Hugo's Open Graph template is configured using a mix of configuration settings and [front matter](/docs/concepts/front-matter/) on individual pages.
 
 {{< code-toggle file=hugo >}}
 [params]
@@ -149,16 +149,16 @@ If using YouTube this will produce a og:video tag like `<meta property="og:video
 
 ## Pagination
 
-See&nbsp;[details](/templates/pagination/).
+See [details](/docs/concepts/pagination/).
 
 ## Schema
 
 > [!note]
-> To override Hugo's embedded Schema template, copy the [source code](<{{% eturl schema %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`] function:
+> To override Hugo's embedded Schema template, copy the [source code](<{{% eturl schema %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`][] function:
 >
 > `{{ partial "schema.html" . }}`
 
-Hugo includes an embedded template to render [microdata] `meta` elements within the `head` element of your templates.
+Hugo includes an embedded template to render [microdata][] `meta` elements within the `head` element of your templates.
 
 To include the embedded template:
 
@@ -169,7 +169,7 @@ To include the embedded template:
 ## X (Twitter) Cards
 
 > [!note]
-> To override Hugo's embedded Twitter Cards template, copy the [source code](<{{% eturl twitter_cards %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`] function:
+> To override Hugo's embedded Twitter Cards template, copy the [source code](<{{% eturl twitter_cards %}}>) to a file with the same name in the `layouts/_partials` directory, then call it from your templates using the [`partial`][] function:
 >
 > `{{ partial "twitter_cards.html" . }}`
 
@@ -184,7 +184,7 @@ To include the embedded template:
 
 ### Configuration {#configuration-x-cards}
 
-Hugo's X (Twitter) Card template is configured using a mix of configuration settings and [front-matter](/content-management/front-matter/) values on individual pages.
+Hugo's X (Twitter) Card template is configured using a mix of configuration settings and [front-matter](/docs/concepts/front-matter/) values on individual pages.
 
 {{< code-toggle file=hugo >}}
 [params]
@@ -199,7 +199,7 @@ images = ["post-cover.png"]
 {{</ code-toggle >}}
 
 If [page bundles](/content-management/page-bundles/) are used and the `images` array is empty or undefined, images with file names matching `*feature*`, `*cover*`, or `*thumbnail*` are used for image metadata.
-If no image resources with those names are found, the images defined in the [site config](/configuration/) are used instead.
+If no image resources with those names are found, the images defined in the [site config](/docs/reference/configuration/) are used instead.
 If no images are found at all, then an image-less Twitter `summary` card is used instead of `summary_large_image`.
 
 Hugo uses the page title and description for the card's title and description fields. The page summary is used if no description is given.
@@ -217,7 +217,7 @@ NOTE: The `@` will be added for you
 <meta name="twitter:site" content="@GoHugoIO"/>
 ```
 
-[`partial`]: /functions/partials/include/
+[`partial`]: /docs/reference/functions/partials/include/
 [Disqus]: https://disqus.com
 [Google Analytics 4]: https://support.google.com/analytics/answer/10089681
 [microdata]: https://html.spec.whatwg.org/multipage/microdata.html#microdata
