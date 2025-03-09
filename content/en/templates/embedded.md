@@ -180,7 +180,7 @@ For article pages, Hugo also emits:
 
 For image metadata, Hugo emits up to 6 `og:image` tags.
 
-{{% include "/_common/embedded-get-page-images.md" %}}
+{{% include "/docs/_common/embedded-get-page-images.md" %}}
 
 `audio` and `videos` are `[]string` front matter parameters. Hugo emits up to 6 `og:audio` and `og:video` tags, passing each value through `absURL`, which converts relative paths to absolute URLs. Unlike `images`, Hugo does not search page resources or global resources for these values.
 
@@ -258,7 +258,7 @@ Hugo emits the following microdata:
 
 For image metadata, Hugo emits up to 6 `image` tags.
 
-{{% include "/_common/embedded-get-page-images.md" %}}
+{{% include "/docs/_common/embedded-get-page-images.md" %}}
 
 For keyword metadata, Hugo uses the following order of precedence:
 
@@ -304,7 +304,7 @@ images = ["post-cover.png"]
 
 If an image is found, Hugo sets `twitter:card` to `summary_large_image` and emits a `twitter:image` tag using the first image found. If no image is found, Hugo sets `twitter:card` to `summary` and omits the image tag.
 
-{{% include "/_common/embedded-get-page-images.md" %}}
+{{% include "/docs/_common/embedded-get-page-images.md" %}}
 
 Hugo also emits the following metadata:
 
@@ -325,8 +325,8 @@ Hugo also emits the following metadata:
 [Google Analytics 4]: https://support.google.com/analytics/answer/10089681
 [Open Graph protocol]: https://ogp.me/
 [X (Twitter) Cards]: https://developer.x.com/en/docs/twitter-for-websites/cards/overview/abouts-cards
-[`partial`]: /functions/partials/include/
-[front matter]: /content-management/front-matter/
+[`partial`]: /docs/reference/functions/partials/include/
+[front matter]: /docs/reference/front-matter/
 [microdata]: https://html.spec.whatwg.org/multipage/microdata.html#microdata
-[pagination]: /templates/pagination/
+[pagination]: /docs/concepts/pagination/
 [signing up]: https://disqus.com/profile/signup/

@@ -6,7 +6,7 @@ keywords: []
 aliases: [/content/related/,/related/,/content-management/related/]
 ---
 
-Hugo uses a set of factors to identify a page's related content based on front matter parameters. This can be tuned to the desired set of indices and parameters.
+Hugo uses a set of factors to identify a page's related content based on front matter parameters. This can be tuned to the desired set of indices and parameters or left to Hugo's default [related content configuration][configuration].
 
 ## List related content
 
@@ -97,8 +97,8 @@ weight      = 80
 
 ## Configuration
 
-See [configure related content][].
+See [configure related content][configuration].
 
-[`keyVals`]: /functions/collections/keyvals/
-[configure related content]: /configuration/related-content/
+[`keyVals`]: /docs/reference/functions/collections/keyvals/
+[configuration]: /docs/reference/configuration/related-content/
 [this blog article]: https://regisphilibert.com/blog/2018/04/hugo-optmized-relashionships-with-related-content/

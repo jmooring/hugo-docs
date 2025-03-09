@@ -81,8 +81,7 @@ Use these methods within a content adapter.
   ```
 
   > [!NOTE]
-  > The `Site` object is not fully initialized while Hugo executes a content adapter.
-  > Methods that depend on built pages, such as `Site.Pages`, are unavailable at this stage and return an error.
+  > The `Site` object is not fully initialized while Hugo executes a content adapter. Methods that depend on built pages, such as `Site.Pages`, are unavailable at this stage and return an error.
 
 `Store`
 : (`maps.Scratch`) Returns a persistent data structure for storing and manipulating keyed values. The main use case for this is to transfer values between executions when [EnableAllLanguages](#enablealllanguages) is set. See [examples][].
@@ -340,9 +339,9 @@ If the content adapter also creates `books/the-hunchback-of-notre-dame`, the con
 
 To detect page collisions, use the `--printPathWarnings` flag when building your project.
 
-[content formats]: /content-management/formats/#classification
-[examples]: /methods/page/store/
-[front matter field]: /content-management/front-matter/#fields
+[content formats]: /docs/concepts/content-formats/#classification
+[examples]: /docs/reference/methods/page/store/
+[front matter field]: /docs/reference/front-matter/#fields
 [media type]: https://en.wikipedia.org/wiki/Media_type
-[syntax]: /templates/introduction/
-[template functions]: /functions/
+[syntax]: /docs/concepts/templating/
+[template functions]: /docs/reference/functions/
