@@ -8,7 +8,7 @@ weight: 90
 
 The [term](g) template below inherits the site's shell from the [base template], and renders a list of pages associated with the current term.
 
-[base template]: /templates/types/
+[base template]: /docs/concepts/template-types/
 
 ```go-html-template {file="layouts/_default/term.html"}
 {{ define "main" }}
@@ -22,7 +22,7 @@ The [term](g) template below inherits the site's shell from the [base template],
 
 Review the [template lookup order] to select a template path that provides the desired level of specificity.
 
-[template lookup order]: /templates/lookup-order/#taxonomy-templates
+[template lookup order]: /docs/reference/miscellaneous/template-lookup-order/#taxonomy-templates
 
 In the example above, the term will be capitalized if its respective page is not backed by a file. You can disable this in your site configuration:
 

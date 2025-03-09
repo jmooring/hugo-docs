@@ -194,7 +194,7 @@ Hugo's [forum] is an active community of users and developers who answer questio
 
 ## Other resources
 
-For other resources to help you learn Hugo, including books and video tutorials, see the [external learning resources](/getting-started/external-learning-resources/) page.
+For other resources to help you learn Hugo, including books and video tutorials, see the [external learning resources](/docs/tutorials/external-learning-resources/) page.
 
 [Ananke]: https://github.com/theNewDynamic/gohugo-theme-ananke
 [are different applications]: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.3
@@ -204,15 +204,15 @@ For other resources to help you learn Hugo, including books and video tutorials,
 [draft, future, and expired content]: /getting-started/usage/#draft-future-and-expired-content
 [draft, future, or expired content]: /getting-started/usage/#draft-future-and-expired-content
 [forum]: https://discourse.gohugo.io/
-[front matter]: /content-management/front-matter/
+[front matter]: /docs/concepts/front-matter/
 [Git submodule]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
-[host and deploy]: /host-and-deploy/
+[host and deploy]: /docs/guides/host-and-deploy/
 [Install Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[Install Hugo]: /installation/
+[Install Hugo]: /docs/installation/
 [live testing tool]: https://spec.commonmark.org/dingus/
 [Markdown]: https://daringfireball.net/projects/markdown
 [PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 [requesting help]: https://discourse.gohugo.io/t/requesting-help/9132
-[site configuration]: /configuration/
+[site configuration]: /docs/reference/configuration/
 [specification]: https://spec.commonmark.org/
 [The New Dynamic]: https://www.thenewdynamic.com/
