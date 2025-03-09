@@ -23,7 +23,7 @@ A home page template is used to render your site's home page, and is the only te
 {{ end }}
 ```
 
-{{% include "/_common/filter-sort-group.md" %}}
+{{% include "/docs/_common/filter-sort-group.md" %}}
 
 ## Lookup order
 
@@ -58,4 +58,4 @@ The home page template below inherits the site's shell from the base template, r
 {{ end }}
 ```
 
-[template lookup order]: /templates/lookup-order/#home-templates
+[template lookup order]: /docs/reference/miscellaneous/template-lookup-order/#home-templates

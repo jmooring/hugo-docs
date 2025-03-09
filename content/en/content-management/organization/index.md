@@ -132,7 +132,7 @@ A default content type is determined by the section in which a content item is s
 
 ### `slug`
 
-The `slug` is the last segment of the URL path, defined by the file name and optionally overridden by a `slug` value in front matter. See [URL Management](/content-management/urls/#slug) for details.
+The `slug` is the last segment of the URL path, defined by the file name and optionally overridden by a `slug` value in front matter. See [URL Management](/docs/concepts/url-management/#slug) for details.
 
 ### `path`
 
@@ -143,9 +143,9 @@ A content's `path` is determined by the section's path to the file. The file `pa
 
 ### `url`
 
-The `url` is the entire URL path, defined by the file path and optionally overridden by a `url` value in front matter. See [URL Management](/content-management/urls/#slug) for details.
+The `url` is the entire URL path, defined by the file path and optionally overridden by a `url` value in front matter. See [URL Management](/docs/concepts/url-management/#slug) for details.
 
-[config]: /configuration/
-[pretty]: /content-management/urls/#appearance
+[config]: /docs/reference/configuration/
+[pretty]: /docs/concepts/url-management/#appearance
 [sections]: /content-management/sections/
-[single template]: /templates/types/#single
+[single template]: /docs/concepts/template-types/#single

@@ -15,7 +15,7 @@ Three factors determine how to render a menu:
 
 1. The method used to define the menu entries: [automatic], [in front matter], or [in site configuration]
 1. The menu structure: flat or nested
-1. The method used to [localize the menu entries]: site configuration or translation tables
+1. The method used to [localize the menu entries]: site configuration or [translation tables](g)
 
 The example below handles every combination.
 
@@ -122,6 +122,6 @@ Hugo provides two methods to localize your menu entries. See [multilingual].
 [in site configuration]: /content-management/menus/#define-in-site-configuration
 [localize the menu entries]: /content-management/multilingual/#menus
 [menu entry defined in front matter]: /content-management/menus/#example
-[menu entry defined in site configuration]: /configuration/menus
-[menu methods]: /methods/menu/
+[menu entry defined in site configuration]: /docs/reference/configuration/menus
+[menu methods]: /docs/reference/methods/menu/
 [multilingual]: /content-management/multilingual/#menus
