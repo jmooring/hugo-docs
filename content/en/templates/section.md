@@ -16,7 +16,7 @@ To effectively leverage section templates, you should first understand Hugo's [c
 
 ## Section template lookup order
 
-See [Template Lookup](/templates/lookup-order/).
+See [Template Lookup](/docs/reference/miscellaneous/template-lookup-order/).
 
 ## Example: creating a default section template
 
@@ -79,6 +79,6 @@ Which then returns the following:
 ```
 
 [contentorg]: /content-management/organization/
-[lookup]: /templates/lookup-order/
-[`where`]: /functions/collections/where/
+[lookup]: /docs/reference/miscellaneous/template-lookup-order/
+[`where`]: /docs/reference/functions/collections/where/
 [sections]: /content-management/sections/
