@@ -1,0 +1,10 @@
+---
+title: primary output format
+details: /docs/reference/configuration/outputs/
+---
+
+A _primary output format_ defines the default URL returned by the [`Permalink`][] and [`RelPermalink`][] methods for a given [page kind](g). It is specified as the first entry within the [outputs configuration][] for that page kind.
+
+[`Permalink`]: /docs/reference/methods/page/permalink/
+[`RelPermalink`]: /docs/reference/methods/page/relpermalink/
+[outputs configuration]: /docs/reference/configuration/outputs/

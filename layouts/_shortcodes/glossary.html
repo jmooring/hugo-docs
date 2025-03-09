@@ -11,7 +11,7 @@ shortcode.
 
 @example {{% glossary %}}
 */ -}}
-{{- $path := "/quick-reference/glossary" }}
+{{- $path := "/docs/glossary" }}
 {{- with site.GetPage $path }}
 
   {{- /* Build and render alphabetical index. */}}
@@ -40,6 +40,9 @@ shortcode.
         {{- else }}
           {{- with site.GetPage $u.Path }}
             {{- $destination = .RelPermalink }}
+            {{- if $u.Fragment  }}
+              {{- $destination = printf "%s#%s" .RelPermalink $u.Fragment }}
+            {{- end }}
           {{- else }}
             {{- errorf "The %q shortcode was unable to find the reference link %s: see %s" $.Name . $p.String }}
           {{- end }}

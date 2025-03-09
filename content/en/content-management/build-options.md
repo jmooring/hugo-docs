@@ -29,10 +29,10 @@ list
   - `never`: Do not include the page in _any_ page collection.
 
 publishResources
-: Applicable to [page bundles], determines whether to publish the associated [page resources]. Specify one of:
+: Applicable to [page bundles][], determines whether to publish the associated [page resources][]. Specify one of:
 
   - `true`: Always publish resources. This is the default value.
-  - `false`: Only publish a resource when invoking its [`Permalink`], [`RelPermalink`], or [`Publish`] method within a template.
+  - `false`: Only publish a resource when invoking its [`Permalink`][], [`RelPermalink`][], or [`Publish`][] method within a template.
 
 render
 : When to render the page. Specify one of:
@@ -42,7 +42,7 @@ render
   - `never`: Never render the page to disk, and exclude it from all page collections.
 
 > [!note]
-> Any page, regardless of its build options, will always be available by using the [`.Page.GetPage`] or [`.Site.GetPage`] method.
+> Any page, regardless of its build options, will always be available by using the [`.Page.GetPage`][] or [`.Site.GetPage`][] method.
 
 ## Example -- headless page
 
@@ -91,7 +91,7 @@ public/
 In the example above, note that:
 
 1. Hugo did not publish an HTML file for the page.
-1. Despite setting `publishResources` to `false` in front matter, Hugo published the [page resources] because we invoked the [`RelPermalink`] method on each resource. This is the expected behavior.
+1. Despite setting `publishResources` to `false` in front matter, Hugo published the [page resources][] because we invoked the [`RelPermalink`][] method on each resource. This is the expected behavior.
 
 ## Example -- headless section
 
@@ -155,7 +155,7 @@ public/
 In the example above, note that:
 
 1. Hugo did not publish an HTML file for the page.
-1. Despite setting `publishResources` to `false` in front matter, Hugo correctly published the [page resources] because we invoked the [`RelPermalink`] method on each resource. This is the expected behavior.
+1. Despite setting `publishResources` to `false` in front matter, Hugo correctly published the [page resources][] because we invoked the [`RelPermalink`][] method on each resource. This is the expected behavior.
 
 ## Example -- list without publishing
 
@@ -294,10 +294,10 @@ public/
 └── index.html
 ```
 
-[`.Page.GetPage`]: /methods/page/getpage/
-[`.Site.GetPage`]: /methods/site/getpage/
-[`Permalink`]: /methods/resource/permalink/
-[`Publish`]: /methods/resource/publish/
-[`RelPermalink`]: /methods/resource/relpermalink/
+[`.Page.GetPage`]: /docs/reference/methods/page/getpage/
+[`.Site.GetPage`]: /docs/reference/methods/site/getpage/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`Publish`]: /docs/reference/methods/resource/publish/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
 [page bundles]: /content-management/page-bundles/
 [page resources]: /content-management/page-resources/
