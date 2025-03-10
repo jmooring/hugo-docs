@@ -13,6 +13,7 @@
 'twitter_cards' = '_partials/twitter_cards.html'
 
 # Render hooks
+'render-codeblock-d2' = '_markup/render-codeblock-d2.html'
 'render-codeblock-goat' = '_markup/render-codeblock-goat.html'
 'render-image' = '_markup/render-image.html'
 'render-link' = '_markup/render-link.html'
