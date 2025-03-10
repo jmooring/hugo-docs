@@ -1,0 +1,26 @@
+{{/* prettier-ignore-start */ -}}
+{{/*
+Renders an unordered list of D2 themes in the given catalog.
+
+@param {string} catalog The D2 theme catalog, either light or dark.
+
+@returns {template.HTML}
+
+@example {{< list-d2-themes catagog=light
+>}}
+*/}}
+{{/* prettier-ignore-end */ -}}
+{{- $catalogs := slice "dark" "light" }}
+{{- with .Get "catalog" }}
+  {{- if in $catalogs . }}
+    <ul>
+      {{- range index site.Data.docs.diagrams.d2.themes . }}
+        <li>{{ . }}</li>
+      {{- end }}
+    </ul>
+  {{- else }}
+    {{- errorf "The 'catalog' argument passed to the %q shortcode must be one . See %s" $.Name (delimit $catalogs ", " " or ") $.Position }}
+  {{- end }}
+{{- else }}
+  {{- errorf "The %q shortcode requires a 'catalog' argument. See %s" .Name .Position }}
+{{- end }}
