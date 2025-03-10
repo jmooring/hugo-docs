@@ -312,6 +312,16 @@ This is the default configuration.
 
 {{% include "/_common/syntax-highlighting-options.md" %}}
 
+## Diagrams
+
+{{< new-in 0.153.0 />}}
+
+This is the default configuration for rendering [D2 diagrams] with the [`diagrams.D2`] template function:
+
+{{< code-toggle config=markup.diagrams />}}
+
+{{% include "/_common/diagram-d2-options.md" %}}
+
 ## Table of contents
 
 This is the default configuration for the table of contents, applicable to Goldmark and Asciidoctor:
@@ -327,6 +337,7 @@ endLevel
 ordered
 : (`bool`) Whether to generates an ordered list instead of an unordered list. Default is `false`.
 
+[`diagrams.D2`]: /functions/diagrams/d2/
 [`Fragments.Identifiers`]: /methods/page/fragments/#identifiers
 [`TableOfContents`]: /methods/page/tableofcontents/
 [anchorize]: /functions/urls/anchorize
@@ -334,6 +345,7 @@ ordered
 [asciidoctor-diagram]: https://asciidoctor.org/docs/asciidoctor-diagram/
 [attributes]: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#attributes-and-substitutions
 [CommonMark]: https://spec.commonmark.org/current/
+[D2 diagrams]: https://d2lang.com/
 [deleted text]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del
 [duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
 [Emacs Org Mode]: https://orgmode.org/
