@@ -18,6 +18,7 @@
 'twitter_cards' = 'twitter_cards.html'
 
 # Render hooks
+'render-codeblock-d2' = '_default/_markup/render-codeblock-d2.html'
 'render-codeblock-goat' = '_default/_markup/render-codeblock-goat.html'
 'render-image' = '_default/_markup/render-image.html'
 'render-link' = '_default/_markup/render-link.html'
@@ -33,8 +34,6 @@
 'qr' = 'shortcodes/qr.html'
 'ref' = 'shortcodes/ref.html'
 'relref' = 'shortcodes/relref.html'
-'twitter' = 'shortcodes/twitter.html'
-'twitter_simple' = 'shortcodes/twitter_simple.html'
 'vimeo' = 'shortcodes/vimeo.html'
 'vimeo_simple' = 'shortcodes/vimeo_simple.html'
 'x' = 'shortcodes/x.html'
