@@ -1220,6 +1220,16 @@ config:
       verbose: false
       workingFolderCurrent: false
     defaultMarkdownHandler: goldmark
+    diagrams:
+      d2:
+        center: false
+        darkTheme: Dark Flagship Terrastruct
+        layoutEngine: dagre
+        lightTheme: Neutral Default
+        minify: true
+        padding: 0
+        scale: 1
+        sketch: false
     goldmark:
       duplicateResourceFiles: false
       extensions:
@@ -2034,6 +2044,30 @@ config_helpers:
       _merge: none
     taxonomies:
       _merge: none
+diagrams:
+  d2:
+    themes:
+      dark:
+      - Dark Flagship Terrastruct
+      - Dark Mauve
+      light:
+      - Aubergine
+      - Buttered Toast
+      - Colorblind Clear
+      - Cool Classics
+      - Earth Tones
+      - Everglade Green
+      - Flagship Terrastruct
+      - Grape Soda
+      - Mixed Berry Blue
+      - Neutral Default
+      - Neutral Grey
+      - Orange Creamsicle
+      - Origami
+      - Shirley Temple
+      - Terminal
+      - Terminal Grayscale
+      - Vanilla Nitro Cola
 output:
   layouts: {}
 tpl:
@@ -2604,6 +2638,11 @@ tpl:
         Description: ""
         Examples: null
     diagrams:
+      D2:
+        Aliases: null
+        Args: null
+        Description: ""
+        Examples: null
       Goat:
         Aliases: null
         Args: null
