@@ -286,6 +286,16 @@ This is the default configuration.
 
 {{% include "/_common/syntax-highlighting-options.md" %}}
 
+## Diagrams
+
+{{< new-in 0.147.0 />}}
+
+This is the default configuration for rendering [D2 diagrams] with the [`diagrams.D2`] template function:
+
+{{< code-toggle config=markup.diagrams />}}
+
+{{% include "/_common/diagram-d2-options.md" %}}
+
 ## Table of contents
 
 This is the default configuration for the table of contents, applicable to Goldmark and Asciidoctor:
@@ -301,11 +311,26 @@ endLevel
 ordered
 : (`bool`) Whether to generates an ordered list instead of an unordered list. Default is `false`.
 
+[CommonMark]: https://spec.commonmark.org/current/
+[D2 diagrams]: https://d2lang.com/
+[GitHub Flavored Markdown: Autolinks]: https://github.github.com/gfm/#autolinks-extension-
+[GitHub Flavored Markdown: Strikethrough]: https://github.github.com/gfm/#strikethrough-extension-
+[GitHub Flavored Markdown: Tables]: https://github.github.com/gfm/#tables-extension-
+[GitHub Flavored Markdown: Task list items]: https://github.github.com/gfm/#task-list-items-extension-
+[GitHub Flavored Markdown]: https://github.github.com/gfm/
+[Goldmark Extensions: CJK]: https://github.com/yuin/goldmark?tab=readme-ov-file#cjk-extension
+[Goldmark Extensions: Typographer]: https://github.com/yuin/goldmark?tab=readme-ov-file#typographer-extension
+[Goldmark]: https://github.com/yuin/goldmark/
+[Hugo Goldmark Extensions: Extras]: https://github.com/gohugoio/hugo-goldmark-extensions?tab=readme-ov-file#extras-extension
+[Hugo Goldmark Extensions: Passthrough]: https://github.com/gohugoio/hugo-goldmark-extensions?tab=readme-ov-file#passthrough-extension
+[Markdown attributes]: /content-management/markdown-attributes/
+[PHP Markdown Extra: Definition lists]: https://michelf.ca/projects/php-markdown/extra/#def-list
+[PHP Markdown Extra: Footnotes]: https://michelf.ca/projects/php-markdown/extra/#footnotes
 [`Fragments.Identifiers`]: /methods/page/fragments/#identifiers
 [`TableOfContents`]: /methods/page/tableofcontents/
+[`diagrams.D2`]: /functions/diagrams/d2/
 [asciidoctor-diagram]: https://asciidoctor.org/docs/asciidoctor-diagram/
 [attributes]: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#attributes-and-substitutions
-[CommonMark]: https://spec.commonmark.org/current/
 [deleted text]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del
 [duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
 [duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
@@ -313,25 +338,12 @@ ordered
 [embedded image render hook]: /render-hooks/images/#default
 [embedded link render hook]: /render-hooks/links/#default
 [embedded link render hook]: /render-hooks/links/#default
-[GitHub Flavored Markdown]: https://github.github.com/gfm/
-[GitHub Flavored Markdown: Autolinks]: https://github.github.com/gfm/#autolinks-extension-
-[GitHub Flavored Markdown: Strikethrough]: https://github.github.com/gfm/#strikethrough-extension-
-[GitHub Flavored Markdown: Tables]: https://github.github.com/gfm/#tables-extension-
-[GitHub Flavored Markdown: Task list items]: https://github.github.com/gfm/#task-list-items-extension-
-[Goldmark]: https://github.com/yuin/goldmark/
-[Goldmark Extensions: CJK]: https://github.com/yuin/goldmark?tab=readme-ov-file#cjk-extension
-[Goldmark Extensions: Typographer]: https://github.com/yuin/goldmark?tab=readme-ov-file#typographer-extension
-[Hugo Goldmark Extensions: Extras]: https://github.com/gohugoio/hugo-goldmark-extensions?tab=readme-ov-file#extras-extension
-[Hugo Goldmark Extensions: Passthrough]: https://github.com/gohugoio/hugo-goldmark-extensions?tab=readme-ov-file#passthrough-extension
 [image render hook]: /render-hooks/images/
 [includes]: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#includes
 [inserted text]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
 [mark text]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
-[Markdown attributes]: /content-management/markdown-attributes/
 [mathematics in Markdown]: content-management/mathematics/
 [multilingual page resources]: /content-management/page-resources/#multilingual
-[PHP Markdown Extra: Definition lists]: https://michelf.ca/projects/php-markdown/extra/#def-list
-[PHP Markdown Extra: Footnotes]: https://michelf.ca/projects/php-markdown/extra/#footnotes
 [security policy]: /configuration/security/
 [subscript]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
 [superscript]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
