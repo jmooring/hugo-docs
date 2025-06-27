@@ -89,11 +89,62 @@ layouts
         └── list.html
 ```
 
+## Pages in content root
+
+Consider this content structure:
+
+```text
+content/
+├── _index.md
+├── about.md
+└── contact.md
+```
+
+To create unique templates for both `about.md` and `contact.md`, use the template structure below:
+
+```text
+layouts/
+├── about/
+│   └── page.html  <-- renders content/about.md
+├── contact/
+│   └── page.html  <-- renders content/contact.md
+├── baseof.html
+├── home.html      <-- renders content/_index_.md
+├── page.html
+├── section.html
+├── taxonomy.html
+└── term.html
+```
+
+Alternatively, you may specify `layout` in front matter:
+
+{{< code-toggle file=content/about.md fm=true >}}
+title: About
+layout: about
+{{< /code-toggle >}}
+
+{{< code-toggle file=content/content.md fm=true >}}
+title: Content
+layout: content
+{{< /code-toggle >}}
+
+```text
+layouts/
+├── about.html    <-- renders content/about.md
+├── contact.html  <-- renders content/contact.md
+├── baseof.html
+├── home.html     <-- renders content/_index_.md
+├── page.html
+├── section.html
+├── taxonomy.html
+└── term.html
+```
+
 [^type]: The `type` set in front matter will effectively replace the `section` folder in [Page path] when doing lookups.
 [^internal]: The old way of doing it made it very hard/impossible to, e.g., override `_internal/disqus.html` in a theme. Now you can just create a partial with the same name.
 
 [Example folder structure]: #example-folder-structure
 [Hugo v0.146.0]: https://github.com/gohugoio/hugo/releases/tag/v0.146.0
-[Page kinds]: https://gohugo.io/methods/page/kind/
-[Page path]: https://gohugo.io/methods/page/path/
+[Page kinds]: /methods/page/kind/
+[Page path]: /methods/page/path/
 [template types]: /templates/types/

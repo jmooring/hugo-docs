@@ -1,14 +1,106 @@
 ---
 title: Template lookup order
 linkTitle: Lookup order
-description: Hugo uses the rules below to select a template for a given page, starting from the most specific.
+description: Hugo selects templates by prioritizing the most specific match for each page, considering various factors to make that choice.
 categories: []
 keywords: []
 weight: 20
 ---
 
-{{< newtemplatesystem >}}
+> [!note]
+> Hugo [v0.146.0][] introduced a fully revised template system, with significant updates to:
+>
+> - File names
+> - Directory structure
+> - Lookup order
+>
+> When upgrading a site, theme, or module, please consult the [summary of changes][] for important migration details.
 
+## File names
+
+The file name of each template in the `layouts` directory consists of two or more of the following identifiers separated by a dot:
+
+Identifier|Description|Example file name
+:--|:--|:--
+base&nbsp;layout|Limited to [`baseof`][]|`baseof.html`
+custom&nbsp;layout|The value of the [`layout`][] front matter field, if any|`foo.html`
+page&nbsp;kind|One of [`home`][], [`page`][], [`section`][], [`taxonomy`][], or [`term`][]|`home.html`
+standard&nbsp;layout|Either [`list`][] or [`single`][]|`list.html`
+output&nbsp;format|The name of a configured [output format][]|`section.rss.xml`
+fallback&nbsp;layout|Limited to [`all`][]|`all.html`
+language|The key associated with a configured [language][]|`page.en.html`
+suffix|A configured suffix of the [media type][] associated with the output format  |`section.rss.xml`
+designator|An arbitrary string, without dots, applicable to [partial], [shortcode], [content&nbsp;view][content view], and [render&nbsp;hook][render hook] templates.|`my-shortcode.html`
+
+Notes:
+
+1. The first identifier must be the base layout or designator, if applicable. The last identifier must be the suffix. The order of the other identifiers within the name is irrelevant.
+
+
+1. Always include a suffix.
+1. For base templates, the base layout identifier mucs
+1. Never include more than one of the page kind, standard layout, or fallback layout identifiers. For example, `home.html` is a valid file name, but `home.single.all.html` is not.
+1. In some cases the output format and suffix may have the same value. For example, the primary suffix of the `text/html` media type is `html`, and the `text/html` media type is associated with the `html` output format. In these cases you may provide one or both of the identifiers. For example, either `page.html.html` or `page.html` is correct. If both are provided, Hugo will choose the shortest file name.
+1. File names with invalid identifiers are not considered during template selection. For example, a template named `page.foo.bar.html` contains an invalid identifier, and will not be considered during template selection. While both `foo` and `bar` are valid custom layout identifiers, the file name may only contain _one_ custom layout identifier.
+
+Template file names follow this pattern, with a minimum of two identifiers, where the `designator` is only applicable to partial, shortcode, content view, and render hook templates:
+
+```text
+[designator].[page kind]|[standard layout]|[fallback layout].[custom layout].[language].[output format].[suffix]
+```
+
+Examples:
+
+- `all.html.html`
+- `list.html.html`
+- `page.html.html`
+- `mylayout.html.html`
+- `mylayout.en.html.html`
+- `page.mylayout.html.html`
+- `page.mylayout.en.html.html`
+- `page.en.html.html`
+
+As noted earlier, when the output format and suffix have the same value, you may omit the output format identifier. For example, the list above is equivalent to:
+
+- `all.html`
+- `list.html`
+- `page.html`
+- `mylayout.html`
+- `mylayout.en.html`
+- `page.mylayout.html`
+- `page.mylayout.en.html`
+- `page.en.html`
+
+[`all`]: /templates/types/#all
+[`baseof`]: /templates/types/#base
+[`home`]: /templates/types/#home
+[`layout`]: /content-management/front-matter/#layout
+[`list`]: /templates/types/#list
+[`page`]: /templates/types/#page
+[`section`]: /templates/types/#section
+[`single`]: /templates/types/#single
+[`taxonomy`]: /templates/types/#taxonomy
+[`term`]: /templates/types/#term
+[content view]: /templates/types/#content-view
+[language]: /configuration/languages/
+[media type]: /configuration/media-types/
+[output format]: /configuration/output-formats/
+[partial]: /templates/types/#partial
+[render hook]: /templates/types/#render-hook
+[shortcode]: /templates/types/#shortcode
+[summary of changes]: /templates/new-templatesystem-overview/
+[v0.146.0]: https://github.com/gohugoio/hugo/releases/tag/v0.146.0
+
+## Directory structure
+
+
+Symetricals
+
+
+
+
+
+<!--
 ## Lookup rules
 
 Hugo takes the parameters listed below into consideration when choosing a template for a given page. The templates are ordered by specificity. This should feel natural, but look at the table below for concrete examples of the different parameter variations.
@@ -93,3 +185,5 @@ layouts/
     └── contact.html  <-- renders contact.md
     └── single.html   <-- renders about.md
 ```
+
+-->

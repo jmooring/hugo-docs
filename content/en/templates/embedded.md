@@ -7,8 +7,6 @@ weight: 180
 aliases: [/templates/internal]
 ---
 
-{{< newtemplatesystem >}}
-
 ## Disqus
 
 > [!note]
