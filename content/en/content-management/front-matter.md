@@ -74,7 +74,7 @@ lastmod
 : (`string`) The date that the page was last modified. Note that the TOML format also supports unquoted date/time values. See the [dates](#dates) section for examples. Access this value from a template using the [`Lastmod`] method on a `Page` object.
 
 layout
-: (`string`) Provide a template name to [target a specific template],  overriding the default [template lookup order]. Set the value to the base file name of the template, excluding its extension. Access this value from a template using the [`Layout`] method on a `Page` object.
+: (`string`) A custom layout name to target a specific template. For example, set the value to `foo` to use `layouts/foo.html` when rendering the current page. Access this value from a template using the [`Layout`] method on a `Page` object.
 
 linkTitle
 : (`string`) Typically a shorter version of the `title`. Access this value from a template using the [`LinkTitle`] method on a `Page` object.
