@@ -1,7 +1,7 @@
 ---
 title: Template lookup order
 linkTitle: Lookup order
-description: Hugo uses the rules below to select a template for a given page, starting from the most specific.
+description: Hugo selects templates by prioritizing the most specific match for each page, considering various factors to make that choice.
 categories: []
 keywords: []
 weight: 20
@@ -9,6 +9,7 @@ weight: 20
 
 {{< newtemplatesystem >}}
 
+<!--
 ## Lookup rules
 
 Hugo takes the parameters listed below into consideration when choosing a template for a given page. The templates are ordered by specificity. This should feel natural, but look at the table below for concrete examples of the different parameter variations.
@@ -93,3 +94,5 @@ layouts/
     └── contact.html  <-- renders contact.md
     └── single.html   <-- renders about.md
 ```
+
+-->
