@@ -18,7 +18,7 @@ If the key is not found in the translation table for the current language, the `
 If the key is not found in the translation table for the `defaultContentLanguage`, the `lang.Translate` function returns an empty string.
 
 > [!note]
-> To list missing and fallback translations, use the `--printI18nWarnings` flag when building your site.
+> To list missing and fallback translations, set [`printI18nWarnings`][] to `true` in your site configuration, or use the `--printI18nWarnings` flag when building your site.
 >
 > To render placeholders for missing and fallback translations, set [`enableMissingTranslationPlaceholders`][] to `true` in your site configuration.
 
@@ -238,6 +238,7 @@ Then in your templates:
 
 [`defaultContentLanguage`]: /configuration/all/#defaultcontentlanguage
 [`enableMissingTranslationPlaceholders`]: /configuration/all/#enablemissingtranslationplaceholders
+[`printI18nWarnings`]: /configuration/all/#printi18nwarnings
 [CLDR]: https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html
 [go-i18n]: https://github.com/nicksnyder/go-i18n
 [language key]: /configuration/languages/#language-keys
