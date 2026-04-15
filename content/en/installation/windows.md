@@ -21,18 +21,18 @@ You can also install Hugo using one of the following package managers.
 
 ### Chocolatey
 
-[Chocolatey][] is a free and open-source package manager for Windows. To install the extended edition of Hugo:
+[Chocolatey][] is a free and open-source package manager for Windows. To install the standard edition:
 
 ```sh
-choco install hugo-extended
+choco install hugo
 ```
 
 ### Scoop
 
-[Scoop][] is a free and open-source package manager for Windows. To install the extended edition of Hugo:
+[Scoop][] is a free and open-source package manager for Windows. To install the standard edition:
 
 ```sh
-scoop install hugo-extended
+scoop install hugo
 ```
 
 ### WinGet
