@@ -139,7 +139,7 @@ i18nDir
 : (`string`) The designated directory for translation tables. Default is `i18n`. {{% module-mounts-note %}}
 
 ignoreCache
-: (`bool`) Whether to ignore the cache directory. Default is `false`.
+: (`bool`) Whether to ignore the configured file caches. Default is `false`.
 
 ignoreFiles
 : (`[]string`) A slice of [regular expressions](g) used to exclude specific files from a build. These expressions are matched against the absolute file path and apply to files within the `content`, `data`, and `i18n` directories. For more advanced file exclusion options, see the section on [module mounts][].
