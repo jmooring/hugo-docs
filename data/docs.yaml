@@ -2036,10 +2036,12 @@ config:
       urls:
       - (?i)^https?://[a-z]
       - '! (?i)localhost'
-      - '! @'
+      - '! (?i)^https?://[^/?#]*@'
     node:
       permissions:
         allowAddons:
+        - tailwindcss
+        allowChildProcess:
         - tailwindcss
         allowRead:
         - .
