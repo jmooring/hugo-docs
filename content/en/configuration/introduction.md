@@ -55,12 +55,14 @@ Combine two or more configuration files, with left-to-right precedence:
 hugo build --config a.toml,b.yaml,c.json
 ```
 
+Hugo recursively overwrites keys of the same name from left to right. This is not the same as [merging configuration settings](#merge-configuration-settings) from themes and modules: the `_merge` setting has no effect when combining configuration files with `--config`.
+
 > [!NOTE]
 > See the specifications for each file format: [TOML][], [YAML][], and [JSON][].
 
 ## Configuration directory
 
-Instead of a single project configuration file, split your configuration by [environment](g), root configuration key, and language. For example:
+Instead of a single project configuration file, split your configuration by [environment](g), root configuration key, and language. As with combining files using `--config`, Hugo recursively overwrites keys of the same name; the `_merge` setting described below has no effect on this process. For example:
 
 ```tree
 my-project/
@@ -198,7 +200,7 @@ To satisfy these requirements, configure your site as follows:
 
 ## Merge configuration settings
 
-Hugo merges configuration settings from themes and modules, prioritizing the project's own settings. Given this simplified project structure with two themes:
+Hugo merges configuration settings from themes and modules, prioritizing the project's own settings. This is distinct from combining configuration files with `--config`, or splitting configuration across a [configuration directory](#configuration-directory), both of which always recursively overwrite keys of the same name regardless of `_merge`. Given this simplified project structure with two themes:
 
 ```tree
 project/
