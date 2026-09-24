@@ -27,16 +27,16 @@ Please refer to the relevant documentation for installation instructions:
 - [Go][go install]
 - [Dart Sass][dart sass install]
 
-[Cloudflare]: /host-and-deploy/host-on-cloudflare/
+[Cloudflare]: /host-and-deploy/deploy-to-cloudflare/
 [Dart Sass]: https://sass-lang.com/dart-sass
-[GitHub Pages]: /host-and-deploy/host-on-github-pages/
-[GitLab Pages]: /host-and-deploy/host-on-gitlab-pages/
+[GitHub Pages]: /host-and-deploy/deploy-to-github-pages/
+[GitLab Pages]: /host-and-deploy/deploy-to-gitlab-pages/
 [Git]: https://git-scm.com/
 [Go]: https://go.dev/
 [Hugo modules]: /hugo-modules/
-[Netlify]: /host-and-deploy/host-on-netlify/
-[Render]: /host-and-deploy/host-on-render/
-[Vercel]: /host-and-deploy/host-on-vercel/
+[Netlify]: /host-and-deploy/deploy-to-netlify/
+[Render]: /host-and-deploy/deploy-to-render/
+[Vercel]: /host-and-deploy/deploy-to-vercel/
 [commit information]: /methods/page/GitInfo/
 [dart sass install]: /functions/css/sass/#dart-sass
 [git install]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git

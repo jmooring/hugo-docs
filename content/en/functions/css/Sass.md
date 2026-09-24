@@ -332,17 +332,17 @@ For examples of how to install Dart Sass in a production environment, see these 
 
 [^1]: In 2023, the Sass team deprecated Embedded Dart Sass in favor of Dart Sass.
 
-[Cloudflare]: /host-and-deploy/host-on-cloudflare/
+[Cloudflare]: /host-and-deploy/deploy-to-cloudflare/
 [Dart Sass]: https://sass-lang.com/dart-sass/
-[GitHub Pages]: /host-and-deploy/host-on-github-pages/
-[GitLab Pages]: /host-and-deploy/host-on-gitlab-pages/
+[GitHub Pages]: /host-and-deploy/deploy-to-github-pages/
+[GitLab Pages]: /host-and-deploy/deploy-to-gitlab-pages/
 [LibSass]: https://sass-lang.com/libsass
-[Netlify]: /host-and-deploy/host-on-netlify/
-[Render]: /host-and-deploy/host-on-render/
+[Netlify]: /host-and-deploy/deploy-to-netlify/
+[Render]: /host-and-deploy/deploy-to-render/
 [SCSS]: https://sass-lang.com/documentation/syntax#scss
 [Snap package]: https://snapcraft.io/hugo
-[SourceHut]: /host-and-deploy/host-on-sourcehut-pages/
-[Vercel]: /host-and-deploy/host-on-vercel/
+[SourceHut]: /host-and-deploy/deploy-to-sourcehut-pages/
+[Vercel]: /host-and-deploy/deploy-to-vercel/
 [`css.Quoted`]: /functions/css/quoted/
 [`css.Unquoted`]: /functions/css/unquoted/
 [`publishDir`]: /configuration/all/#publishdir
