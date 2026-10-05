@@ -47,4 +47,4 @@ This template creates a robots.txt file with a `Disallow` directive for each pag
 > Remember that Hugo copies everything in the `static` directory to the root of the `public` directory when you build your project.
 
 [embedded template]: <{{% eturl robots %}}>
-[multihost]: /configuration/languages/#multihost
+[multihost]: /docs/reference/configuration/languages/#multihost

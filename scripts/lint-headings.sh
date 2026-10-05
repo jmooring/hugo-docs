@@ -171,14 +171,14 @@ main() {
   # Directories, relative to the project root, whose Markdown files must
   # contain the standard level 2 headings. Add to this list as needed.
   declare -ra sections=(
-    "content/en/functions"
-    "content/en/methods"
+    "content/en/docs/reference/functions"
+    "content/en/docs/reference/methods"
   )
 
   # Paths, relative to the project root, to exclude from the standard level
   # 2 heading check. Add to this list as needed.
   declare -ra exclusions=(
-    "content/en/functions/js/Batch.md"
+    "content/en/docs/reference/functions/js/Batch.md"
   )
 
   # Matches the permitted sequences of level 2 headings, one per line.

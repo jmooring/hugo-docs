@@ -50,14 +50,14 @@ In essence, Hugo prioritizes secure output by establishing a clear trust boundar
 See [configure security][].
 
 [Go modules]: https://go.dev/wiki/Modules#modules
-[Hugo modules]: /hugo-modules/
+[Hugo modules]: /docs/concepts/modules/
 [OWASP]: https://en.wikipedia.org/wiki/OWASP
-[`safe.HTML`]: /functions/safe/html/
-[`safe`]: /functions/safe/
-[configuration settings]: /configuration/security/
-[configure security]: /configuration/security/
-[configured to sanitize]: /configuration/markup/#rendererunsafe
-[content adapters]: /content-management/content-adapters/
-[inline shortcodes]: /content-management/shortcodes/#inline
-[security policy]: /configuration/security/
+[`safe.HTML`]: /docs/reference/functions/safe/html/
+[`safe`]: /docs/reference/functions/safe
+[configuration settings]: /docs/reference/configuration/security
+[configure security]:/docs/reference/configuration/security
+[configured to sanitize]: /docs/reference/configuration/markup/#rendererunsafe
+[content adapters]: /docs/concepts/content-adapters/
+[inline shortcodes]: /docs/concepts/shortcodes/#inline
+[security policy]: /docs/reference/configuration/security/
 [tamper with your project's dependencies]: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/

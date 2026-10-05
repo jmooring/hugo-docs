@@ -60,7 +60,7 @@ The configuration key in the examples above is `menus`. The `menu` (singular) co
 
 Use these properties when defining menu entries in front matter:
 
-{{% include "/_common/menu-entry-properties.md" %}}
+{{% include "/docs/_common/menu-entry-properties.md" %}}
 
 ### Example
 
@@ -92,7 +92,7 @@ Hugo provides two methods to localize your menu entries. See [multilingual][].
 
 See [menu templates][].
 
-[configure menus]: /configuration/menus/
+[configure menus]: /docs/reference/configuration/menus/
 [menu templates]: /templates/menu/
 [multilingual]: /content-management/multilingual/#menus
 [template]: /templates/menu/

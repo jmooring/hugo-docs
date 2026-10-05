@@ -4,5 +4,7 @@ linkTitle: Contribute
 description: Contribute to development, documentation, and themes.
 categories: []
 keywords: []
-weight: 10
+weight: 80
+params:
+  label: dev
 ---

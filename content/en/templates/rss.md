@@ -73,4 +73,4 @@ layouts/
 RSS templates receive a `Page` object in context.
 
 [embedded RSS template]: <{{% eturl rss %}}>
-[template lookup order]: /templates/lookup-order/
+[template lookup order]: /docs/reference/template-lookup-order/
