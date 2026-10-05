@@ -37,7 +37,8 @@ config:
   MD021: true
   MD022: true
   MD023: true
-  MD024: true
+  MD024:
+    siblings_only: true
   MD025: true
   MD026: true
   MD027: true
@@ -77,7 +78,7 @@ config:
     collapsed: true
     full: true
     inline: true
-    shortcut: true
+    shortcut: false
     url_inline: false
   MD055:
     style: consistent

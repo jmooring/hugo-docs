@@ -11,6 +11,24 @@ We welcome corrections and improvements to the documentation. The documentation 
 - For corrections and improvements to existing documentation, submit issues and pull requests to the [documentation repository][].
 - For documentation of new features, include the documentation changes in your pull request to the [project repository][].
 
+## Approach
+
+In June 2026 we began transitioning to the [Diátaxis][] documentation model.
+
+![Diagram of Diataxis approach to documentation](diataxis.webp)
+{class="border-1 border-gray-300"}
+
+These quadrants match the [Tutorials][], [Guides][], [Concepts][], and [Reference][] sections of this documentation.
+
+The initial phase of the transition was primarily focused on regorganizing existing content rather than rewriting or creating new content. Consequently, some pages may cross quarant boundaries more than expected. This will improve over time.
+
+[The Good Docs Project][] provides a useful, open-source [template repository][] that supports the Diátaxis model:
+
+- [Concept template][]
+- [Guide template][]
+- [Reference template][]
+- [Tutorial template][]
+
 ## Guidelines
 
 Follow Google's [developer documentation style guide][] where practical. If this guide conflicts with Google's, follow this guide.
@@ -80,8 +98,8 @@ Adhere to these Markdown conventions:
   ```md {file="content/example.md"}
   See the [front matter][] and [aliases][] documentation.
 
-  [front matter]: /content-management/front-matter/
-  [aliases]: /content-management/front-matter/#aliases
+  [front matter]: /docs/reference/front-matter/
+  [aliases]: /docs/reference/front-matter/#aliases
   ```
 
 - Use [inline links][] to link to fragments on the same page. For example:
@@ -602,7 +620,7 @@ Comparing `string` and `template.HTML` input, showing the raw HTML output:
 
 ## Shortcode pages
 
-Shortcode pages describe Hugo's embedded shortcodes. They follow specific conventions for the front matter description and the page structure. To use a shortcode within this documentation, see [shortcodes](#shortcodes).
+Shortcode pages are reference pages that describe Hugo's embedded shortcodes. They follow specific conventions for the front matter description and the page structure. To use a shortcode within this documentation, see [shortcodes](#shortcodes).
 
 ### Descriptions {#shortcode-descriptions}
 
@@ -856,7 +874,7 @@ _comment: Do not remove front matter.
 Use the `include` shortcode to insert the snippet into a page. Specify the path relative to the `content` directory, including the leading slash and the file extension:
 
 ```md {file="content/example.md"}
-{{%/* include "/_common/gitignore-public.md" */%}}
+{{%/* include gitignore-public.md" */%}}
 ```
 
 ## Shortcodes
@@ -942,7 +960,7 @@ Use the `glossary-term` shortcode to insert the definition of the given glossary
 Use the `include` shortcode to include content from another page. Call this shortcode using the `{{%/* */%}}` notation.
 
 ```md {file="content/example.md"}
-{{%/* include "/_common/content-format-table.md" */%}}
+{{%/* include content-format-table.md" */%}}
 ```
 
 See [shared content](#shared-content) for guidance on when and how to create a snippet in the `_common` directory.
@@ -1023,11 +1041,20 @@ Step 9
 : A project maintainer will review your PR and may request changes. You may delete your branch after the maintainer merges your PR.
 
 [ATX]: https://spec.commonmark.org/current/#atx-headings
-[Glossary]: /quick-reference/glossary/
-[`aliases`]: /content-management/front-matter/#aliases
-[`layout`]: /content-management/front-matter/#layout
-[layout_method]: /methods/page/layout/
 [Basic English]: https://simple.wikipedia.org/wiki/Basic_English
+[Concept template]: https://gitlab.com/tgdp/templates/-/tree/main/concept
+[Concepts]: /docs/concepts/
+[Diátaxis]: https://diataxis.fr
+[Glossary]: /docs/reference/glossary/
+[Guide template]: https://gitlab.com/tgdp/templates/-/tree/main/how-to
+[Guides]: /docs/guides
+[Reference template]: https://gitlab.com/tgdp/templates/-/tree/main/reference
+[Reference]: /docs/reference
+[The Good Docs Project]: https://www.thegooddocsproject.dev/
+[Tutorial template]: https://gitlab.com/tgdp/templates/-/tree/main/tutorial
+[Tutorials]: /docs/tutorials
+[`aliases`]: /docs/reference/front-matter/#aliases
+[`layout`]: /docs/reference/front-matter/#layout
 [collapsed link references]: https://discourse.gohugo.io/t/55714
 [details]: https://github.com/gohugoio/hugoDocs/blob/master/layouts/_partials/layouts/blocks/feature-state.html
 [developer documentation style guide]: https://developers.google.com/style
@@ -1036,9 +1063,11 @@ Step 9
 [indented code blocks]: https://spec.commonmark.org/current/#indented-code-blocks
 [inline links]: https://discourse.gohugo.io/t/55714
 [issues]: https://github.com/gohugoio/hugoDocs/issues
+[layout_method]: /docs/reference/methods/page/layout/
 [list items]: https://spec.commonmark.org/current/#list-items
 [project repository]: https://github.com/gohugoio/hugo
 [raw HTML]: https://spec.commonmark.org/current/#raw-html
 [related content]: /content-management/related-content/
 [setext]: https://spec.commonmark.org/current/#setext-heading
-[template lookup order]: /templates/lookup-order/
+[template lookup order]: /docs/reference/template-lookup-order/
+[template repository]: https://gitlab.com/tgdp/templates

@@ -1,0 +1,11 @@
+---
+title: PrevInSection
+description: Returns the previous regular page in a section, relative to the given page.
+keywords: []
+params:
+  functions_and_methods:
+    returnType: page.Page
+    signatures: [PAGE.PrevInSection]
+---
+
+{{% include "/docs/_common/page-nextinsection-previnsection.md" %}}
