@@ -52,7 +52,17 @@ in the output.
 {{- $statusCode := "301" }}
 {{- $sources := newScratch }}
 {{- $pageURLs := newScratch }}
-{{- $rules := slice }}
+{{- $rules := slice
+  (dict "source" "/commands/*" "destination" "/docs/reference/commands/:splat" "status" "301")
+  (dict "source" "/configuration/*" "destination" "/docs/reference/configuration/:splat" "status" "301")
+  (dict "source" "/functions/*" "destination" "/docs/reference/functions/:splat" "status" "301")
+  (dict "source" "/host-and-deploy/*" "destination" "/docs/guides/host-and-deploy/:splat" "status" "301")
+  (dict "source" "/installation/*" "destination" "/docs/installation/:splat" "status" "301")
+  (dict "source" "/methods/*" "destination" "/docs/reference/methods/:splat" "status" "301")
+  (dict "source" "/render-hooks/*" "destination" "/docs/reference/markdown-render-hooks/:splat" "status" "301")
+  (dict "source" "/shortcodes/*" "destination" "/docs/guides/embedded-shortcodes/:splat" "status" "301")
+  (dict "source" "/troubleshooting/*" "destination" "/docs/troubleshooting/:splat" "status" "301")
+}}
 
 {{- /* Record the RelPermalink of each page, used to validate sources and destinations. */}}
 {{- range site.Pages }}
