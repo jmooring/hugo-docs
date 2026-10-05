@@ -319,31 +319,31 @@ Hugo does not recognize a role or version name without the prefix. You can combi
 
 [Template file names][] use the same identifiers.
 
-[Template file names]: /templates/lookup-order/#file-names
-[`Ancestors`]: /methods/page/ancestors/
-[`Page.GetPage`]: /methods/page/getpage/
-[`Page.Ref`]: /methods/page/ref/
-[`Page.RelRef`]: /methods/page/relref/
-[`Pages`]: /methods/page/pages/
-[`Parent`]: /methods/page/parent/
-[`Path`]: /methods/page/path/
-[`Permalink`]: /methods/page/permalink/
-[`RegularPagesRecursive`]: /methods/page/regularpagesrecursive/
-[`RelPermalink`]: /methods/page/relpermalink/
-[`Shortcode.Ref`]: /methods/shortcode/ref/
-[`Shortcode.RelRef`]: /methods/shortcode/relref/
-[`Site.GetPage`]: /methods/site/getpage/
-[`Sites`]: /methods/page/sites/
-[`disablePathToLower`]: /configuration/all/#disablepathtolower
-[`ref`]: /shortcodes/ref/
-[`relref`]: /shortcodes/relref/
-[`removePathAccents`]: /configuration/all/#removepathaccents
-[`slug`]: /content-management/urls/#slug
-[`type`]: /content-management/front-matter/#type
-[`url`]: /content-management/urls/#url
-[`urls.Ref`]: /functions/urls/ref/
-[`urls.RelRef`]: /functions/urls/relref/
-[embedded link render hook]: /render-hooks/links/#embedded
+[Template file names]: /docs/reference/template-lookup-order/#file-names
+[`Ancestors`]: /docs/reference/methods/page/ancestors/
+[`Page.GetPage`]: /docs/reference/methods/page/getpage/
+[`Page.Ref`]: /docs/reference/methods/page/ref/
+[`Page.RelRef`]: /docs/reference/methods/page/relref/
+[`Pages`]: /docs/reference/methods/page/pages/
+[`Parent`]: /docs/reference/methods/page/parent/
+[`Path`]: /docs/reference/methods/page/path/
+[`Permalink`]: /docs/reference/methods/page/permalink/
+[`RegularPagesRecursive`]: /docs/reference/methods/page/regularpagesrecursive/
+[`RelPermalink`]: /docs/reference/methods/page/relpermalink/
+[`Shortcode.Ref`]: /docs/reference/methods/shortcode/ref/
+[`Shortcode.RelRef`]: /docs/reference/methods/shortcode/relref/
+[`Site.GetPage`]: /docs/reference/methods/site/getpage/
+[`Sites`]: /docs/reference/methods/page/sites/
+[`disablePathToLower`]: /docs/reference/configuration/all/#disablepathtolower
+[`ref`]: /docs/guides/embedded-shortcodes/ref/
+[`relref`]: /docs/guides/embedded-shortcodes/relref/
+[`removePathAccents`]: /docs/reference/configuration/all/#removepathaccents
+[`slug`]: /docs/concepts/url-management/#slug
+[`type`]: /docs/reference/front-matter/#type
+[`url`]: /docs/concepts/url-management/#url
+[`urls.Ref`]: /docs/reference/functions/urls/ref/
+[`urls.RelRef`]: /docs/reference/functions/urls/relref/
+[embedded link render hook]: /docs/reference/markdown-render-hooks/links/#embedded
 [non-spacing marks]: https://www.compart.com/en/unicode/category/Mn
 [build options]: /content-management/build-options/#headless-page
-[permalinks]: /configuration/permalinks/
+[permalinks]: /docs/reference/configuration/permalinks/

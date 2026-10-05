@@ -280,11 +280,11 @@ public/
 └── index.html
 ```
 
-[`Page.GetPage`]: /methods/page/getpage/
-[`Permalink`]: /methods/resource/permalink/
-[`Publish`]: /methods/resource/publish/
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`resources.Publish`]: /functions/resources/publish/
-[`Site.GetPage`]: /methods/site/getpage/
+[`Page.GetPage`]: /docs/reference/methods/page/getpage/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`Publish`]: /docs/reference/methods/resource/publish/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Site.GetPage`]: /docs/reference/methods/site/getpage/
 [page bundles]: /content-management/organization/#page-bundles
 [page resources]: /content-management/page-resources/
+[`resources.Publish`]: /docs/reference/methods/resource/publish/

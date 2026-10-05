@@ -58,7 +58,7 @@ content/
 
 A content file in a leaf bundle, such as `snippet.md`, has resource type `page`. Hugo does not render it as a page, but you can render its content with the [`Content`][] method on the resource. Content files include Markdown, HTML, AsciiDoc, Pandoc, reStructuredText, and Emacs Org Mode files, as defined by the [`contentTypes`][] configuration. By default, the security policy denies the HTML and Emacs Org Mode [content formats][].
 
-{{% include "/_common/page-resource-front-matter.md" %}}
+{{% include "/docs/_common/page-resource-front-matter.md" %}}
 
 ## Publishing
 
@@ -259,27 +259,27 @@ To publish shared page resources once per language, enable duplication in your p
 duplicateResourceFiles = true
 {{< /code-toggle >}}
 
-[`ByType`]: /methods/page/resources/#bytype
-[`Content`]: /methods/resource/content/
-[`contentTypes`]: /configuration/content-types/
-[`Get`]: /methods/page/resources/#get
-[`GetMatch`]: /methods/page/resources/#getmatch
-[`GetPage`]: /methods/page/getpage/
-[`Match`]: /methods/page/resources/#match
-[`Name`]: /methods/resource/name/
-[`Params`]: /methods/resource/params/
-[`Permalink`]: /methods/resource/permalink/
-[`Publish`]: /methods/resource/publish/
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Resource`]: /methods/resource/
-[`resources`]: /functions/resources/
-[`resources.Publish`]: /functions/resources/publish/
-[`ResourceType`]: /methods/resource/resourcetype/
-[`Title`]: /methods/resource/title/
-[`useEmbedded`]: /configuration/markup/#renderhookslinkuseembedded
+[`ByType`]: /docs/reference/methods/page/resources/#bytype
+[`Content`]: /docs/reference/methods/resource/content/
+[`GetMatch`]: /docs/reference/methods/page/resources/#getmatch
+[`GetPage`]: /docs/reference/methods/page/getpage/
+[`Get`]: /docs/reference/methods/page/resources/#get
+[`Match`]: /docs/reference/methods/page/resources/#match
+[`Name`]: /docs/reference/methods/resource/name/
+[`Params`]: /docs/reference/methods/resource/params/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`Publish`]: /docs/reference/methods/resource/publish/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`ResourceType`]: /docs/reference/methods/resource/resourcetype/
+[`Resource`]: /docs/reference/methods/resource
+[`Title`]: /docs/reference/methods/resource/title/
+[`contentTypes`]: /docs/reference/configuration/content-types/
+[`resources.Publish`]: /docs/reference/functions/resources/publish/
+[`resources`]: /docs/reference/functions/resources/
+[`useEmbedded`]: /docs/reference/configuration/markup/#renderhookslinkuseembedded
 [build option]: /content-management/build-options/
-[content formats]: /content-management/formats/
-[duplication of shared page resources]: /configuration/markup/#duplicateresourcefiles
-[embedded image render hook]: /render-hooks/images/#embedded
-[embedded link render hook]: /render-hooks/links/#embedded
+[content formats]: /docs/concepts/content-formats/
+[duplication of shared page resources]: /docs/reference/configuration/markup/#duplicateresourcefiles
+[embedded image render hook]: /docs/reference/markdown-render-hooks/images/#embedded
+[embedded link render hook]: /docs/reference/markdown-render-hooks/links/#embedded
 [page bundle]: /content-management/organization/#page-bundles

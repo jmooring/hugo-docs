@@ -2,7 +2,6 @@
 title: Sitemap templates
 description: Hugo provides embedded sitemap templates.
 keywords: []
-weight: 130
 ---
 
 ## Overview
@@ -48,8 +47,8 @@ To disable sitemap generation, add this to your project configuration:
 disableKinds = ['sitemap']
 {{</ code-toggle >}}
 
-[configure sitemap]: /configuration/sitemap/
+[configure sitemap]: /docs/reference/configuration/sitemap
 [embedded sitemap template]: <{{% eturl sitemap %}}>
 [embedded sitemapindex template]: <{{% eturl sitemapindex %}}>
-[identifier]: /templates/lookup-order/#file-names
+[identifier]: /docs/reference/template-lookup-order/#file-names
 [sitemap protocol]: https://www.sitemaps.org/protocol.html
