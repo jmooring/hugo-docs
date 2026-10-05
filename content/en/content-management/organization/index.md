@@ -43,7 +43,7 @@ While Hugo supports content nested at any level, the top levels (i.e. `content/<
 
 Without any additional configuration, the following will automatically work:
 
-```txt
+```tree
 .
 └── content
     └── about
@@ -70,7 +70,7 @@ Access the content and metadata within an `_index.md` file by invoking the `GetP
 
 You can create one `_index.md` for your home page and one in each of your content sections, taxonomies, and terms. The following shows typical placement of an `_index.md` that would contain content and front matter for a `posts` section list page on a Hugo website:
 
-```txt
+```text
 .         url
 .       ⊢--^-⊣
 .        path    slug
@@ -82,8 +82,7 @@ content/posts/_index.md
 
 At build, this will output to the following destination with the associated values:
 
-```txt
-
+```text
                      url ("/posts/")
                     ⊢-^-⊣
        baseurl      section ("posts")
@@ -99,7 +98,7 @@ The [sections][] can be nested as deeply as you want. The important thing to und
 
 Single content files in each of your sections will be rendered by a [page template][]. Here is an example of a single `post` within `posts`:
 
-```txt
+```text
                    path ("posts/my-first-hugo-post.md")
 .       ⊢-----------^------------⊣
 .      section        slug
@@ -109,8 +108,7 @@ content/posts/my-first-hugo-post.md
 
 When Hugo builds your site, the content will be output to the following destination:
 
-```txt
-
+```text
                                url ("/posts/my-first-hugo-post/")
                    ⊢------------^----------⊣
        baseurl     section     slug
@@ -141,9 +139,9 @@ url
 
 [image processing]: /content-management/image-processing/
 [page resources]: /content-management/page-resources/
-[page template]: /templates/types/#page
-[pretty]: /content-management/urls/#appearance
-[project configuration]: /configuration/
+[page template]: /docs/concepts/template-types/#page
+[pretty]: /docs/concepts/url-management/#appearance
+[project configuration]: /docs/reference/configuration/
 [sections]: /content-management/sections/
-[slug]: /content-management/urls/#slug
-[url]: /content-management/urls/#url
+[slug]: /docs/concepts/url-management/#slug
+[url]: /docs/concepts/url-management/#url

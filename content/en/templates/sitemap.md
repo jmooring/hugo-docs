@@ -47,7 +47,7 @@ You may disable sitemap generation in your project configuration:
 disableKinds = ['sitemap']
 {{</ code-toggle >}}
 
-[configure sitemap]: /configuration/sitemap/
+[configure sitemap]: /docs/reference/configuration/sitemap
 [embedded sitemap template]: <{{% eturl sitemap %}}>
 [embedded sitemapindex template]: <{{% eturl sitemapindex %}}>
 [sitemap protocol]: https://www.sitemaps.org/protocol.html
