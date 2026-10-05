@@ -34,7 +34,7 @@ Then, in each of the movies, you would specify terms for each of these taxonomie
 
 To continue with the example of a movie site, the following demonstrates content relationships from the perspective of the taxonomy:
 
-```txt
+```text
 Actor                    <- Taxonomy
     Bruce Willis         <- Term
         The Sixth Sense  <- Value
@@ -48,7 +48,7 @@ Actor                    <- Taxonomy
 
 From the perspective of the content, the relationships would appear differently, although the data and labels used are the same:
 
-```txt
+```text
 Unbreakable                 <- Value
     Actors                  <- Taxonomy
         Bruce Willis        <- Term
@@ -149,7 +149,7 @@ Then call the partial from your base template. Hugo runs it once for each site.
 
 Assign a taxonomic weight using a front matter key named `[taxonomy_name]_weight`.
 
-{{< code-toggle file="content/courses/organic-chemistry.md" fm=true >}}
+{{< code-toggle file=content/courses/organic-chemistry.md fm=true >}}
 title = 'Organic Chemistry'
 weight = 10
 tags_weight = 1000
@@ -230,5 +230,5 @@ Or create a _term_ template specific to the `authors` taxonomy:
 In the example above we display the author including their affiliation and portrait, then a list of associated content.
 
 [URL path]: /content-management/organization/#url-paths
-[`slug`]: /content-management/urls/#slug
-[configure taxonomies]: /configuration/taxonomies/
+[`slug`]: /docs/concepts/url-management/#slug
+[configure taxonomies]: /docs/reference/configuration/taxonomies/

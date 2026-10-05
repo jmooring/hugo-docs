@@ -1,0 +1,29 @@
+---
+title: images.Grayscale
+description: Returns an image filter that produces a grayscale version of an image.
+keywords: []
+params:
+  functions_and_methods:
+    aliases: []
+    returnType: images.filter
+    signatures: [images.Grayscale]
+---
+
+## Usage
+
+The `images.Grayscale` function returns an image filter that produces a grayscale version of an image.
+
+## Examples
+
+```go-html-template
+{{ $filter := images.Grayscale }}
+```
+
+{{% include "/docs/_common/image-filter-apply.md" %}}
+
+{{< img
+  src="images/examples/zion-national-park.jpg"
+  alt="Zion National Park"
+  filter=`images.Grayscale`
+  example=true
+>}}

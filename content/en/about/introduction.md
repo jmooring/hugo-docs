@@ -26,7 +26,7 @@ Learn more about Hugo's [features][], [privacy protections][], and [security mod
 
 [Go]: https://go.dev
 [features]: /about/features/
-[modules]: /hugo-modules/
-[privacy protections]: /configuration/privacy/
+[modules]: /docs/concepts/modules/
+[privacy protections]: /docs/reference/configuration/privacy
 [security model]: /about/security/
 [static site generator]: https://en.wikipedia.org/wiki/Static_site_generator

@@ -3,7 +3,6 @@ title: robots.txt template
 linkTitle: robots.txt templates
 description: Hugo can generate a customized robots.txt in the same way as any other template.
 keywords: []
-weight: 190
 ---
 
 To generate a robots.txt file from a template, change your project configuration:
@@ -46,4 +45,4 @@ This template creates a robots.txt file with a `Disallow` directive for each pag
 > Remember that Hugo copies everything in the `static` directory to the root of the `public` directory when you build your project.
 
 [embedded template]: <{{% eturl robots %}}>
-[multihost]: /configuration/languages/#multihost
+[multihost]: /docs/reference/configuration/languages/#multihost

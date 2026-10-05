@@ -11,6 +11,24 @@ We welcome corrections and improvements to the documentation. The documentation 
 - For corrections and improvements to existing documentation, submit issues and pull requests to the [documentation repository][].
 - For documentation of new features, include the documentation changes in your pull request to the [project repository][].
 
+## Approach
+
+In June 2026 we began transitioning to the [Diátaxis][] documentation model.
+
+![Diagram of Diataxis approach to documentation](diataxis.webp)
+{class="border-1 border-gray-300"}
+
+These quadrants match the [Tutorials][], [Guides][], [Concepts][], and [Reference][] sections of this documentation.
+
+The initial phase of the transition was primarily focused on regorganizing existing content rather than rewriting or creating new content. Consequently, some pages may cross quarant boundaries more than expected. This will improve over time.
+
+[The Good Docs Project][] provides a useful, open-source [template repository][] that supports the Diátaxis model:
+
+- [Concept template][]
+- [Guide template][]
+- [Reference template][]
+- [Tutorial template][]
+
 ## Guidelines
 
 Follow Google's [developer documentation style guide][] where practical. If this guide conflicts with Google's, follow this guide.
@@ -80,8 +98,8 @@ Adhere to these Markdown conventions:
   ```md {file="content/example.md"}
   See the [front matter][] and [aliases][] documentation.
 
-  [front matter]: /content-management/front-matter/
-  [aliases]: /content-management/front-matter/#aliases
+  [front matter]: /docs/reference/front-matter/
+  [aliases]: /docs/reference/front-matter/#aliases
   ```
 
 - Use [inline links][] to link to fragments on the same page. For example:
@@ -176,7 +194,7 @@ Wrap shortcode names in backticks. Link to the shortcode page using the name as 
 ```md {file="content/example.md"}
 Use the [`highlight`][] shortcode to render syntax-highlighted code.
 
-[`highlight`]: /shortcodes/highlight/
+[`highlight`]: /docs/reference/embedded-shortcodes/highlight/
 ```
 
 ### Glossary
@@ -334,16 +352,18 @@ Field|Description|Required
 `aliases`|Previous URLs used to access this page|&nbsp;
 `expiryDate`|The expiration date|&nbsp;
 
-Use the `hugo new content` command to create a new page with the correct front matter. Hugo selects an archetype from the `archetypes` directory based on the top-level section, with dedicated archetypes for the `functions`, `methods`, and `news` sections. Specify the path relative to the `content/en` directory:
+Use the `hugo new content` command to create a new page with the correct front matter. Hugo selects an archetype from the `archetypes` directory based on the top-level section, with a dedicated archetype for the `news` section. Specify the path relative to the `content/en` directory.
+
+To create a function or method page, use the `--kind` flag to select the `functions` or `methods` archetype:
 
 ```sh
-hugo new content functions/strings/ToUpper.md
+hugo new content --kind functions docs/reference/functions/strings/ToUpper.md
 ```
 
 To create a glossary entry, use the `--kind` flag to select the `glossary` archetype:
 
 ```sh
-hugo new content --kind glossary quick-reference/glossary/page-kind.md
+hugo new content --kind glossary docs/reference/glossary/page-kind.md
 ```
 
 ### Page titles
@@ -359,7 +379,7 @@ Do not use formatting, such as backticks, bold, or italic, in the `description` 
 
 When writing the page `description`, use imperative present tense when possible. For example:
 
-{{< code-toggle file=content/en/functions/cast/_index.md fm=true >}}
+{{< code-toggle file=content/en/docs/reference/functions/cast/_index.md fm=true >}}
 title: Cast functions
 description: Use these functions to cast a value from one data type to another.
 {{< /code-toggle >}}
@@ -602,7 +622,7 @@ Comparing `string` and `template.HTML` input, showing the raw HTML output:
 
 ## Shortcode pages
 
-Shortcode pages describe Hugo's embedded shortcodes. They follow specific conventions for the front matter description and the page structure. To use a shortcode within this documentation, see [shortcodes](#shortcodes).
+Shortcode pages are reference pages that describe Hugo's embedded shortcodes. They follow specific conventions for the front matter description and the page structure. To use a shortcode within this documentation, see [shortcodes](#shortcodes).
 
 ### Descriptions {#shortcode-descriptions}
 
@@ -895,7 +915,7 @@ Use one of these three callout types. The callout type is case-insensitive.
 
 ## Shared content
 
-The `content/en/_common` directory contains Markdown snippets that appear on more than one page. Hugo does not render or publish these files as pages. Use the [`include`](#include) shortcode to insert a snippet into a page. When you update a snippet, the change appears on every page that includes it.
+The `content/en/docs/_common` directory contains Markdown snippets that appear on more than one page. Hugo does not render or publish these files as pages. Use the [`include`](#include) shortcode to insert a snippet into a page. When you update a snippet, the change appears on every page that includes it.
 
 A small amount of repeated text is acceptable. Create a snippet only when keeping the copies consistent becomes a maintenance burden:
 
@@ -913,7 +933,7 @@ Follow these conventions when you create a snippet:
 
 This snippet contains a callout that several deployment pages share:
 
-```md {file="content/en/_common/gitignore-public.md"}
+```md {file="content/en/docs/_common/gitignore-public.md"}
 ---
 _comment: Do not remove front matter.
 ---
@@ -925,7 +945,7 @@ _comment: Do not remove front matter.
 Use the `include` shortcode to insert the snippet into a page. Specify the path relative to the `content` directory, including the leading slash and the file extension:
 
 ```md {file="content/example.md"}
-{{%/* include "/_common/gitignore-public.md" */%}}
+{{%/* include "/docs/_common/gitignore-public.md" */%}}
 ```
 
 ## Shortcodes
@@ -974,7 +994,7 @@ You can also include details:
 
 ```md {file="content/example.md"}
 {{</* deprecated-in 0.144.0 */>}}
-Use the [`hugo.IsServer`](/functions/hugo/isserver/) function instead.
+Use the [`hugo.IsServer`](/docs/reference/functions/hugo/isserver/) function instead.
 {{</* /deprecated-in */>}}
 ```
 
@@ -1011,10 +1031,10 @@ Use the `glossary-term` shortcode to insert the definition of the given glossary
 Use the `include` shortcode to include content from another page. Call this shortcode using the `{{%/* */%}}` notation.
 
 ```md {file="content/example.md"}
-{{%/* include "/_common/content-format-table.md" */%}}
+{{%/* include "/docs/_common/content-format-table.md" */%}}
 ```
 
-Follow the [shared content](#shared-content) guidelines to decide when and how to create a snippet in the `_common` directory.
+Follow the [shared content](#shared-content) guidelines to decide when and how to create a snippet in the `content/en/docs/_common` directory.
 
 ### new-in
 
@@ -1092,11 +1112,20 @@ Step 9
 : Wait for a project maintainer to review your PR. The maintainer may request changes. After the maintainer merges your PR, you may delete your branch.
 
 [ATX]: https://spec.commonmark.org/current/#atx-headings
-[Glossary]: /quick-reference/glossary/
-[`aliases`]: /content-management/front-matter/#aliases
-[`layout`]: /content-management/front-matter/#layout
-[layout_method]: /methods/page/layout/
 [Basic English]: https://simple.wikipedia.org/wiki/Basic_English
+[Concept template]: https://gitlab.com/tgdp/templates/-/tree/main/concept
+[Concepts]: /docs/concepts/
+[Diátaxis]: https://diataxis.fr
+[Glossary]: /docs/reference/glossary/
+[Guide template]: https://gitlab.com/tgdp/templates/-/tree/main/how-to
+[Guides]: /docs/guides
+[Reference template]: https://gitlab.com/tgdp/templates/-/tree/main/reference
+[Reference]: /docs/reference
+[The Good Docs Project]: https://www.thegooddocsproject.dev/
+[Tutorial template]: https://gitlab.com/tgdp/templates/-/tree/main/tutorial
+[Tutorials]: /docs/tutorials
+[`aliases`]: /docs/reference/front-matter/#aliases
+[`layout`]: /docs/reference/front-matter/#layout
 [collapsed link references]: https://discourse.gohugo.io/t/55714
 [developer documentation style guide]: https://developers.google.com/style
 [documentation repository]: https://github.com/gohugoio/hugoDocs/
@@ -1104,10 +1133,12 @@ Step 9
 [indented code blocks]: https://spec.commonmark.org/current/#indented-code-blocks
 [inline links]: https://discourse.gohugo.io/t/55714
 [issues]: https://github.com/gohugoio/hugoDocs/issues
+[layout_method]: /docs/reference/methods/page/layout/
 [list items]: https://spec.commonmark.org/current/#list-items
 [predefined threshold]: https://github.com/gohugoio/hugoDocs/blob/master/layouts/_partials/layouts/blocks/feature-state.html
 [project repository]: https://github.com/gohugoio/hugo
 [raw HTML]: https://spec.commonmark.org/current/#raw-html
 [related content]: /content-management/related-content/
 [setext]: https://spec.commonmark.org/current/#setext-heading
-[template lookup order]: /templates/lookup-order/
+[template lookup order]: /docs/reference/template-lookup-order/
+[template repository]: https://gitlab.com/tgdp/templates

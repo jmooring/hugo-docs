@@ -6,7 +6,7 @@ keywords: []
 
 Hugo provides methods to transform images during the build process. While Hugo can manage any image format as a resource, only [processable images](g) can be transformed using the methods below. The results are cached to ensure subsequent builds remain fast.
 
-{{% include "/_common/image-processable-tip.md" %}}
+{{% include "/docs/_common/image-processable-tip.md" %}}
 
 ## Resources
 
@@ -101,7 +101,7 @@ Example 4: Skip rendering if there's problem accessing a remote resource.
 
 ## Image operations
 
-{{% include "/_common/image-reflection-functions.md" %}}
+{{% include "/docs/_common/image-reflection-functions.md" %}}
 
 ## Processing
 
@@ -118,7 +118,7 @@ To transform an image, apply a processing method to the image resource. Hugo gen
 Select a method from the table below for syntax and usage examples, depending on your specific transformation requirements:
 
 {{% render-table-of-pages-in-section
-  path=/methods/resource
+  path=/docs/reference/methods/resource
   filter=methods_resource_image_processing
   filterType=include
   headingColumn1=Method
@@ -159,10 +159,10 @@ If your source images are much larger than the maximum size you intend to publis
 
 See [configure imaging][].
 
-[`Height`]: /methods/resource/height/
-[`Permalink`]: /methods/resource/permalink/
-[`RelPermalink`]: /methods/resource/relpermalink/
-[`Width`]: /methods/resource/width/
-[configure imaging]: /configuration/imaging/
-[file cache]: /configuration/caches/
-[hosting guides]: /host-and-deploy/deployment-methods/#push-to-a-git-repository
+[`Height`]: /docs/reference/methods/resource/height/
+[`Permalink`]: /docs/reference/methods/resource/permalink/
+[`RelPermalink`]: /docs/reference/methods/resource/relpermalink/
+[`Width`]: /docs/reference/methods/resource/width/
+[configure imaging]: /docs/reference/configuration/imaging/
+[file cache]: /docs/reference/configuration/caches/
+[hosting guides]: /docs/guides/host-and-deploy/deployment-methods/#push-to-a-git-repository

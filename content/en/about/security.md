@@ -52,14 +52,14 @@ Hugo prioritizes secure output by establishing a clear trust boundary between de
 
 Adjust the security policy in your project configuration to allow or deny access to external executables, environment variables, remote resources, and more.
 
-[bugs]: https://github.com/gohugoio/hugo/issues
-[configured to sanitize]: /configuration/markup/#rendererunsafe
-[content adapters]: /content-management/content-adapters/
 [Go modules]: https://go.dev/ref/mod
-[inline shortcodes]: /templates/types/#inline-shortcode
-[Modules]: /hugo-modules/
+[Modules]: /docs/concepts/modules/
 [OWASP]: https://owasp.org/
-[`resources.ExecuteAsTemplate`]: /functions/resources/executeastemplate/
-[`safe`]: /functions/safe/
-[security policy]: /configuration/security/
+[`resources.ExecuteAsTemplate`]: /docs/reference/functions/resources/executeastemplate/
+[`safe`]: /docs/reference/functions/safe
+[bugs]: https://github.com/gohugoio/hugo/issues
+[configured to sanitize]: /docs/reference/configuration/markup/#rendererunsafe
+[content adapters]: /docs/concepts/content-adapters/
+[inline shortcodes]: /docs/concepts/template-types/#inline-shortcode
+[security policy]: /docs/reference/configuration/security/
 [tamper with your project's dependencies]: https://go.dev/ref/mod#authenticating

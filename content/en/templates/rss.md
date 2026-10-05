@@ -2,7 +2,6 @@
 title: RSS templates
 description: Use the embedded RSS template, or create your own.
 keywords: []
-weight: 140
 ---
 
 ## Configuration
@@ -72,4 +71,4 @@ layouts/
 RSS templates receive a `Page` object in context.
 
 [embedded RSS template]: <{{% eturl rss %}}>
-[template lookup order]: /templates/lookup-order/
+[template lookup order]: /docs/reference/template-lookup-order/

@@ -402,34 +402,34 @@ If there is more than one language defined, the `LanguagePrefix` method will ret
 If you organize content with translations in the same directory:
 
 ```sh
-hugo new content post/test.en.md
-hugo new content post/test.de.md
+hugo new content content/example.en.md
+hugo new content content/example.de.md
 ```
 
 If you organize content with translations in different directories:
 
 ```sh
-hugo new content content/en/post/test.md
-hugo new content content/de/post/test.md
+hugo new content content/en/example.md
+hugo new content content/de/example.md
 ```
 
-[`enableMissingTranslationPlaceholders`]: /configuration/all/#enablemissingtranslationplaceholders
-[`lang.Merge`]: /functions/lang/merge/
-[`lang.Translate`]: /functions/lang/translate/
-[`slug`]: /content-management/urls/#slug
-[`time.Format`]: /functions/time/format/
-[`translationKey`]: /content-management/front-matter/#translationkey
-[`url`]: /content-management/urls/#url
-[`urls.AbsLangURL`]: /functions/urls/abslangurl/
-[`urls.RelLangURL`]: /functions/urls/rellangurl/
+[`enableMissingTranslationPlaceholders`]: /docs/reference/configuration/all/#enablemissingtranslationplaceholders
+[`lang.Merge`]: /docs/reference/functions/lang/merge/
+[`lang.Translate`]: /docs/reference/functions/lang/translate
+[`slug`]: /docs/concepts/url-management/#slug
+[`time.Format`]: /docs/reference/functions/time/format/
+[`translationKey`]: /docs/reference/front-matter/#translationkey
+[`url`]: /docs/concepts/url-management/#url
+[`urls.AbsLangURL`]: /docs/reference/functions/urls/abslangurl/
+[`urls.RelLangURL`]: /docs/reference/functions/urls/rellangurl/
 [automatically]: /content-management/menus/#define-automatically
-[configuration directory]: /configuration/introduction/#configuration-directory
-[configure languages]: /configuration/languages/
+[configuration directory]: /docs/reference/configuration/introduction/#configuration-directory
+[configure languages]: /docs/reference/configuration/languages/
 [example menu template]: /templates/menu/#example
 [front matter]: /content-management/menus/#define-in-front-matter
-[lang.FormatAccounting]: /functions/lang/formataccounting/
-[lang.FormatCurrency]: /functions/lang/formatcurrency/
-[lang.FormatNumberCustom]: /functions/lang/formatnumbercustom/
-[lang.FormatNumber]: /functions/lang/formatnumber/
-[lang.FormatPercent]: /functions/lang/formatpercent/
+[lang.FormatAccounting]: /docs/reference/functions/lang/formataccounting/
+[lang.FormatCurrency]: /docs/reference/functions/lang/formatcurrency/
+[lang.FormatNumberCustom]: /docs/reference/functions/lang/formatnumbercustom/
+[lang.FormatNumber]: /docs/reference/functions/lang/formatnumber/
+[lang.FormatPercent]: /docs/reference/functions/lang/formatpercent/
 [project configuration]: /content-management/menus/#define-in-project-configuration
